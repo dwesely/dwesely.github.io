@@ -1,0 +1,188 @@
+<html>
+<head>
+	<title>Rival Stars Name Helper</title>
+	<link href="rival_style.css" rel="stylesheet">
+</head>
+<body onload="">
+<script type="text/javascript" src="rival_stars_map.json"></script>
+<script type="text/javascript" src="thesaurus.json"></script>
+<script type="text/javascript">
+
+	function get_good_combinations(good_words){
+		// Get all valid permutations of the given array of words
+		var good_names = [];
+		var partial_names = [];
+		if (good_words.length > 0) {
+			//alert(good_words);
+			for (first_idx in good_words){
+				var first_name = good_words[first_idx];
+				//alert(first_name);
+				for (suffix in rival_stars_map[first_name]['suf']){			
+					for (second_idx in good_words){
+						var second_name = good_words[second_idx];
+						var first_name_okay = rival_stars_map[first_name]['pos'].includes(0);
+						var second_name_okay = rival_stars_map[second_name]['pos'].includes(1);
+						if (first_name_okay && second_name_okay){
+							good_names.push(first_name + rival_stars_map[first_name]['suf'][suffix] + ' ' + second_name);								
+							//alert(good_names);
+						} else if (first_name_okay && !second_name_okay){
+							if (!partial_names.includes(first_name + rival_stars_map[first_name]['suf'][suffix] + ' ?')) {
+								partial_names.push(first_name + rival_stars_map[first_name]['suf'][suffix] + ' ?')
+							}
+						} else if (!first_name_okay && second_name_okay) {
+							if (!partial_names.includes('? ' + second_name)) {
+								partial_names.push('? ' + second_name)
+							}
+						}
+							
+					}
+				}
+			}
+		}
+		return good_names.concat(partial_names);
+	}
+
+	function check_valid_name(first, second) {
+		// check if the name is valid
+		if (!Object.keys(rival_stars_map).includes(first)){
+			return false;
+		}
+		if (!Object.keys(rival_stars_map).includes(second)){
+			return false;
+		}
+		if (rival_stars_map[first]['pos'].includes(0) && rival_stars_map[second]['pos'].includes(1)){
+			return true;
+		}
+		return false;
+	}
+	
+	function get_synonyms(test_word) {
+		// get all valid synonyms for the given word
+		if (!Object.keys(thesaurus).includes(test_word)){
+			return [];
+		}
+		return thesaurus[test_word];
+	}	
+
+	function onItemChanged(e){
+		// Check for valid names each time the text box changes
+		
+		if(e.value == "") return;
+		// get relevant items
+		var names = e.value.split(" ");
+		var first = names[0];
+		var second = names[names.length - 1];
+		if (check_valid_name(first, second)) {
+			// good, don't change
+			//alert('valid name');
+		}
+		else {
+			// look for synonyms and compile a list of "good" words
+			first_synonyms = get_synonyms(first);
+			second_synonyms = get_synonyms(second);
+			var good_words = first_synonyms.concat(second_synonyms);
+			if (Object.keys(rival_stars_map).includes(first)){
+				good_words.push(first);
+			}
+			if (Object.keys(rival_stars_map).includes(second)){
+				good_words.push(second);
+			}
+			//alert(good_words);
+			
+			// compile a list of all permutations with these words
+			var good_names = get_good_combinations(good_words);
+			var results_box = document.getElementById("results");	
+			if (good_names.length > 0){
+				//alert(good_names);
+
+				var htmlCode = [];
+
+				htmlCode.push("<table><tr><th>Suggested Name</th></tr>");
+				for (i = 0; i < good_names.length; i++) 
+				{
+					var this_name = good_names[i];
+					//console.log(i + " " + results[i]);
+					var row = "<tr id=\"row" + this_name + "\" >" +
+						"<td>" + this_name + "</td></tr>"
+					htmlCode.push(row);
+				}
+				htmlCode.push("</table>");
+				results_box.innerHTML = htmlCode.join('');
+			}
+			else {
+				results_box.innerHTML = '';
+			}
+		}
+
+	}
+
+	function generate_random_name(){
+		var random_first = '';
+		var random_second = '';
+		do {
+			random_first = Object.keys(rival_stars_map)[Math.floor(Object.keys(rival_stars_map).length * Math.random())];
+			random_second = Object.keys(rival_stars_map)[Math.floor(Object.keys(rival_stars_map).length * Math.random())];
+		}
+		while (!rival_stars_map[random_first]['pos'].includes(0) && !rival_stars_map[random_second]['pos'].includes(1));
+		
+		var suffix = 0;
+		if (Math.random() > 0.5) {
+			//alert(random_first);
+			//alert(rival_stars_map[random_first]['suf']);
+			suffix = rival_stars_map[random_first]['suf'].length - 1
+		}
+		return (random_first + rival_stars_map[random_first]['suf'][suffix] + ' ' + random_second)
+	}
+	
+	//alert("start");
+	var thesaurus = JSON.parse(thesaurus_data);
+	var rival_stars_map = JSON.parse(rival_stars_map_data);
+	//alert(thesaurus['zippy']);
+	//alert(generate_random_name());
+</script>
+<div id="header"><h1>Rival Stars Name Helper</h1></div>
+<div><span style="float:right; border:1px solid black;  padding:2px; margin:-2px; cursor: pointer;" onclick="this.parentElement.style.display='none'">X</span>
+<p>Rival Stars Horse Racing is a horse racing game. The announcer will call out the player's horse if it is an acceptable name. Enter your desired name in the text field below, and this tool uses the Princeton University WordNet dataset to suggest synonyms that exist in Rival Stars.</p>
+<p>The thesaurus is trimmed from the version at <a href="https://github.com/zaibacu/thesaurus">https://github.com/zaibacu/thesaurus</a>, which lists the following license:
+<pre>License and Commercial Use of WordNet
+
+WordNet® is unencumbered, and may be used in commercial applications in accordance with the following license agreement. An attorney representing the commercial interest should review this WordNet license with respect to the intended use.
+
+WordNet License
+
+This license is available as the file LICENSE in any downloaded version of WordNet.
+
+WordNet 3.0 license: (Download)
+
+WordNet Release 3.0 This software and database is being provided to you, the LICENSEE, 
+by Princeton University under the following license. By obtaining, using and/or copying 
+this software and database, you agree that you have read, understood, and will comply 
+with these terms and conditions.: Permission to use, copy, modify and distribute this 
+software and database and its documentation for any purpose and without fee or royalty 
+is hereby granted, provided that you agree to comply with the following copyright 
+notice and statements, including the disclaimer, and that the same appear on ALL copies 
+of the software, database and documentation, including modifications that you make for 
+internal use or for distribution. WordNet 3.0 Copyright 2006 by Princeton University. 
+All rights reserved. THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON 
+UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF 
+EXAMPLE, BUT NOT LIMITATION, PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR 
+WARRANTIES OF MERCHANT- ABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE 
+OF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY 
+PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS. The name of Princeton University or 
+Princeton may not be used in advertising or publicity pertaining to distribution of 
+the software and/or database. Title to copyright in this software, database and any 
+associated documentation shall at all times remain with Princeton University and 
+LICENSEE agrees to preserve same.
+</pre>
+</div>
+<div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
+<form name="basis">
+<input type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> 
+<hr />
+</form>
+</div>
+<div id="results" style="float:left; border:1px solid black;padding:10px;display: block;">
+</div>
+</body>
+</html>
+
