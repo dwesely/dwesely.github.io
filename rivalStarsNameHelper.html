@@ -22,7 +22,7 @@
 						var second_name = good_words[second_idx];
 						var first_name_okay = rival_stars_map[first_name]['pos'].includes(0);
 						var second_name_okay = rival_stars_map[second_name]['pos'].includes(1);
-						if (first_name_okay && second_name_okay){
+						if (first_name_okay && second_name_okay && first_name != second_name){
 							good_names.push(first_name + rival_stars_map[first_name]['suf'][suffix] + ' ' + second_name);								
 							//alert(good_names);
 						} else if (first_name_okay && !second_name_okay){
@@ -77,7 +77,7 @@
 		if (check_valid_name(first, second)) {
 			// good, don't change
 			//alert('valid name');
-			results_box.innerHTML = (first + ' ' + second);
+			results_box.innerHTML = ("<b>Entered name appears valid:</b></br>" + first + ' ' + second);
 		}
 		else {
 			// look for synonyms and compile a list of "good" words
@@ -99,7 +99,7 @@
 
 				var htmlCode = [];
 
-				htmlCode.push("<table><tr><th>Suggested Name</th></tr>");
+				htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
 				for (i = 0; i < good_names.length; i++) 
 				{
 					var this_name = good_names[i];
@@ -185,8 +185,25 @@ LICENSEE agrees to preserve same.
 <hr />
 </form>
 </div>
-<div id="results" style="float:left; border:1px solid black;padding:10px;display: block;">
+<div id="results" style="float:left;border:1px solid black;padding:10px;display: block;">
 </div>
+<div id="special" style="float:right;padding:10px;display: block;width:50%"><b>Please note</b>: The following options are special cases allowed in Rival Stars that are not handled properly yet in this tool:
+<div style="float:left;padding:10px;display: block;width:25%;">
+<ul>
+	<li>ace of</li>
+	<li>heart of</li>
+	<li>her majesty's / his majesty's</li>
+	<li>jack of</li>
+</ul></div><div style="float:left;padding:10px;display: block;width:25%;">
+<ul>
+	<li>king of / king of the</li>
+	<li>lord of / lord of the</li>
+	<li>queen of / queen of the</li>
+	<li>tears of</li>
+</ul></div>
+</div>
+
+<hr>
 </body>
 </html>
 
