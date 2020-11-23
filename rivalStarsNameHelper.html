@@ -66,15 +66,18 @@
 
 	function onItemChanged(e){
 		// Check for valid names each time the text box changes
-		
+
 		if(e.value == "") return;
 		// get relevant items
 		var names = e.value.split(" ");
 		var first = names[0];
 		var second = names[names.length - 1];
+		var results_box = document.getElementById("results");	
+
 		if (check_valid_name(first, second)) {
 			// good, don't change
 			//alert('valid name');
+			results_box.innerHTML = (first + ' ' + second);
 		}
 		else {
 			// look for synonyms and compile a list of "good" words
@@ -91,7 +94,6 @@
 			
 			// compile a list of all permutations with these words
 			var good_names = get_good_combinations(good_words);
-			var results_box = document.getElementById("results");	
 			if (good_names.length > 0){
 				//alert(good_names);
 
@@ -146,7 +148,9 @@
 <p>The thesaurus is trimmed from the version at <a href="https://github.com/zaibacu/thesaurus">https://github.com/zaibacu/thesaurus</a>, which lists the following license:
 <pre>License and Commercial Use of WordNet
 
-WordNet® is unencumbered, and may be used in commercial applications in accordance with the following license agreement. An attorney representing the commercial interest should review this WordNet license with respect to the intended use.
+WordNet® is unencumbered, and may be used in commercial applications in accordance 
+with the following license agreement. An attorney representing the commercial interest 
+should review this WordNet license with respect to the intended use.
 
 WordNet License
 
