@@ -1,1 +1,8090 @@
-rival_stars_map_data='{"aardvark": {"pos": [0, 1], "suf": [""]}, "abacus": {"pos": [0, 1], "suf": [""]}, "abandoned": {"pos": [0], "suf": [""]}, "abominable": {"pos": [0], "suf": [""]}, "abrasive": {"pos": [0], "suf": [""]}, "absent": {"pos": [0], "suf": [""]}, "absolute": {"pos": [0], "suf": [""]}, "abstract": {"pos": [0], "suf": [""]}, "absurd": {"pos": [0], "suf": [""]}, "academic": {"pos": [0], "suf": [""]}, "accident": {"pos": [0, 1], "suf": [""]}, "accidental": {"pos": [0], "suf": [""]}, "accordion": {"pos": [0, 1], "suf": [""]}, "accurate": {"pos": [0], "suf": [""]}, "ace": {"pos": [0, 1], "suf": [""]}, "acid": {"pos": [0], "suf": [""]}, "acorn": {"pos": [0, 1], "suf": [""]}, "acoustic": {"pos": [0], "suf": [""]}, "acrobatic": {"pos": [0], "suf": [""]}, "acrobat": {"pos": [0, 1], "suf": ["\'s"]}, "acrylic": {"pos": [0], "suf": [""]}, "action": {"pos": [0, 1], "suf": [""]}, "active": {"pos": [0], "suf": [""]}, "actual": {"pos": [0], "suf": [""]}, "adamant": {"pos": [0], "suf": [""]}, "adaptable": {"pos": [0], "suf": [""]}, "added": {"pos": [0], "suf": [""]}, "additional": {"pos": [0], "suf": [""]}, "adequate": {"pos": [0], "suf": [""]}, "adjustable": {"pos": [0], "suf": [""]}, "admiral": {"pos": [0, 1], "suf": [""]}, "adorable": {"pos": [0], "suf": [""]}, "advanced": {"pos": [0], "suf": [""]}, "adventure": {"pos": [0, 1], "suf": [""]}, "adventurous": {"pos": [0], "suf": [""]}, "aesthetic": {"pos": [0], "suf": [""]}, "affectionate": {"pos": [0], "suf": [""]}, "afternoon": {"pos": [0, 1], "suf": [""]}, "agile": {"pos": [0], "suf": [""]}, "aimless": {"pos": [0], "suf": [""]}, "air": {"pos": [0, 1], "suf": [""]}, "airbrushed": {"pos": [0], "suf": [""]}, "airy": {"pos": [0], "suf": [""]}, "alarming": {"pos": [0], "suf": [""]}, "albatross": {"pos": [0, 1], "suf": [""]}, "alert": {"pos": [0], "suf": [""]}, "alias": {"pos": [0, 1], "suf": [""]}, "alien": {"pos": [0], "suf": [""]}, "alleged": {"pos": [0], "suf": [""]}, "alligator": {"pos": [0, 1], "suf": [""]}, "almighty": {"pos": [0], "suf": [""]}, "almond": {"pos": [0, 1], "suf": [""]}, "aloe": {"pos": [0, 1], "suf": [""]}, "alphabet": {"pos": [0, 1], "suf": [""]}, "alpine": {"pos": [0], "suf": [""]}, "amateur": {"pos": [0], "suf": [""]}, "amazing": {"pos": [0], "suf": [""]}, "ambassador": {"pos": [0, 1], "suf": ["\'s"]}, "amber": {"pos": [0], "suf": [""]}, "ambient": {"pos": [0], "suf": [""]}, "ambiguous": {"pos": [0], "suf": [""]}, "amethyst": {"pos": [0, 1], "suf": [""]}, "ammonite": {"pos": [0, 1], "suf": [""]}, "amnesia": {"pos": [0, 1], "suf": [""]}, "amulet": {"pos": [0, 1], "suf": [""]}, "amused": {"pos": [0], "suf": [""]}, "amusing": {"pos": [0], "suf": [""]}, "ancestral": {"pos": [0], "suf": [""]}, "anchor": {"pos": [0, 1], "suf": [""]}, "anchovy": {"pos": [0, 1], "suf": [""]}, "ancient": {"pos": [0], "suf": [""]}, "android": {"pos": [0, 1], "suf": [""]}, "angel": {"pos": [0, 1], "suf": [""]}, "angelic": {"pos": [0], "suf": [""]}, "anger": {"pos": [0, 1], "suf": [""]}, "angry": {"pos": [0], "suf": [""]}, "animal": {"pos": [0, 1], "suf": [""]}, "animated": {"pos": [0], "suf": [""]}, "annoying": {"pos": [0], "suf": [""]}, "anonymous": {"pos": [0], "suf": [""]}, "anorak": {"pos": [0, 1], "suf": [""]}, "answering": {"pos": [0], "suf": [""]}, "ant": {"pos": [0], "suf": [""]}, "antarctic": {"pos": [0], "suf": [""]}, "antelope": {"pos": [0, 1], "suf": [""]}, "antique": {"pos": [0], "suf": [""]}, "antiseptic": {"pos": [0], "suf": [""]}, "anxious": {"pos": [0], "suf": [""]}, "apologetic": {"pos": [0], "suf": [""]}, "appealing": {"pos": [0], "suf": [""]}, "apple": {"pos": [0, 1], "suf": [""]}, "apricot": {"pos": [0, 1], "suf": [""]}, "apron": {"pos": [0, 1], "suf": [""]}, "aquarium": {"pos": [0, 1], "suf": [""]}, "aquatic": {"pos": [0], "suf": [""]}, "arch": {"pos": [0, 1], "suf": [""]}, "archaic": {"pos": [0], "suf": [""]}, "architectural": {"pos": [0], "suf": [""]}, "arctic": {"pos": [0], "suf": [""]}, "aristocratic": {"pos": [0], "suf": [""]}, "aristocrat": {"pos": [0, 1], "suf": ["\'s"]}, "armchair": {"pos": [0, 1], "suf": [""]}, "army": {"pos": [0, 1], "suf": [""]}, "aroma": {"pos": [0, 1], "suf": [""]}, "arrogant": {"pos": [0], "suf": [""]}, "arrow": {"pos": [0, 1], "suf": [""]}, "art": {"pos": [0, 1], "suf": [""]}, "artefact": {"pos": [0, 1], "suf": [""]}, "artificial": {"pos": [0], "suf": [""]}, "artisan": {"pos": [0], "suf": [""]}, "artist": {"pos": [0, 1], "suf": [""]}, "artistic": {"pos": [0], "suf": [""]}, "ash": {"pos": [0, 1], "suf": [""]}, "aspiring": {"pos": [0], "suf": [""]}, "assassin": {"pos": [0, 1], "suf": ["\'s"]}, "assertive": {"pos": [0], "suf": [""]}, "asterisk": {"pos": [0, 1], "suf": [""]}, "asteroid": {"pos": [0, 1], "suf": [""]}, "astonishing": {"pos": [0], "suf": [""]}, "astronaut": {"pos": [0, 1], "suf": ["\'s"]}, "atlas": {"pos": [0, 1], "suf": [""]}, "atmospheric": {"pos": [0], "suf": [""]}, "atom": {"pos": [0, 1], "suf": [""]}, "atrocious": {"pos": [0], "suf": [""]}, "attack": {"pos": [0, 1], "suf": [""]}, "aunt": {"pos": [0, 1], "suf": [""]}, "auspicious": {"pos": [0], "suf": [""]}, "austere": {"pos": [0], "suf": [""]}, "authentic": {"pos": [0], "suf": [""]}, "automatic": {"pos": [0], "suf": [""]}, "autumn": {"pos": [0, 1], "suf": [""]}, "available": {"pos": [0], "suf": [""]}, "avalanche": {"pos": [0, 1], "suf": [""]}, "avenging": {"pos": [0], "suf": [""]}, "average": {"pos": [0], "suf": [""]}, "avocado": {"pos": [0, 1], "suf": [""]}, "awesome": {"pos": [0], "suf": [""]}, "awful": {"pos": [0], "suf": [""]}, "awkward": {"pos": [0], "suf": [""]}, "baby": {"pos": [0, 1], "suf": [""]}, "backbone": {"pos": [0, 1], "suf": [""]}, "bad": {"pos": [0], "suf": [""]}, "badger": {"pos": [0, 1], "suf": [""]}, "badminton": {"pos": [0, 1], "suf": [""]}, "baffled": {"pos": [0], "suf": [""]}, "baffling": {"pos": [0], "suf": [""]}, "bagel": {"pos": [0, 1], "suf": [""]}, "baggage": {"pos": [0, 1], "suf": [""]}, "bagpipe": {"pos": [0, 1], "suf": [""]}, "balanced": {"pos": [0], "suf": [""]}, "balancing": {"pos": [0], "suf": [""]}, "balderdash": {"pos": [0, 1], "suf": [""]}, "ball": {"pos": [0, 1], "suf": [""]}, "ballerina": {"pos": [0, 1], "suf": ["\'s"]}, "balloon": {"pos": [0, 1], "suf": [""]}, "bamboo": {"pos": [0, 1], "suf": [""]}, "bamboozled": {"pos": [0], "suf": [""]}, "banal": {"pos": [0], "suf": [""]}, "banana": {"pos": [0, 1], "suf": [""]}, "band": {"pos": [0, 1], "suf": [""]}, "bang": {"pos": [0, 1], "suf": [""]}, "banjo": {"pos": [0, 1], "suf": [""]}, "banquet": {"pos": [0, 1], "suf": [""]}, "barcode": {"pos": [0, 1], "suf": [""]}, "bargain": {"pos": [0, 1], "suf": [""]}, "baritone": {"pos": [0, 1], "suf": [""]}, "barnacle": {"pos": [0, 1], "suf": [""]}, "barometer": {"pos": [0, 1], "suf": [""]}, "baron": {"pos": [0, 1], "suf": [""]}, "baroness": {"pos": [0, 1], "suf": [""]}, "baronet": {"pos": [0, 1], "suf": [""]}, "baroque": {"pos": [0], "suf": [""]}, "barracuda": {"pos": [0, 1], "suf": [""]}, "barrel": {"pos": [0, 1], "suf": [""]}, "barrister": {"pos": [0, 1], "suf": [""]}, "basic": {"pos": [0], "suf": [""]}, "basket": {"pos": [0, 1], "suf": [""]}, "bassoon": {"pos": [0, 1], "suf": [""]}, "battle": {"pos": [0, 1], "suf": [""]}, "bauble": {"pos": [0, 1], "suf": [""]}, "beach": {"pos": [0, 1], "suf": [""]}, "beagle": {"pos": [0, 1], "suf": [""]}, "beaming": {"pos": [0], "suf": [""]}, "bear": {"pos": [0, 1], "suf": [""]}, "beard": {"pos": [0, 1], "suf": [""]}, "bearded": {"pos": [0], "suf": [""]}, "beast": {"pos": [0, 1], "suf": [""]}, "beastly": {"pos": [0], "suf": [""]}, "beatnik": {"pos": [0, 1], "suf": [""]}, "beautiful": {"pos": [0], "suf": [""]}, "beauty": {"pos": [0, 1], "suf": ["\'s"]}, "beeswax": {"pos": [0, 1], "suf": [""]}, "beetle": {"pos": [0, 1], "suf": [""]}, "begonia": {"pos": [0, 1], "suf": [""]}, "behemoth": {"pos": [0, 1], "suf": [""]}, "belfry": {"pos": [0, 1], "suf": [""]}, "belief": {"pos": [0, 1], "suf": [""]}, "bell": {"pos": [0, 1], "suf": [""]}, "beloved": {"pos": [0], "suf": [""]}, "bemused": {"pos": [0], "suf": [""]}, "benefit": {"pos": [0, 1], "suf": [""]}, "bequest": {"pos": [0, 1], "suf": [""]}, "berry": {"pos": [0, 1], "suf": [""]}, "bespoke": {"pos": [0], "suf": [""]}, "bestseller": {"pos": [0, 1], "suf": [""]}, "bet": {"pos": [0, 1], "suf": [""]}, "bewildered": {"pos": [0], "suf": [""]}, "bias": {"pos": [0, 1], "suf": [""]}, "big": {"pos": [0], "suf": [""]}, "bingo": {"pos": [0, 1], "suf": [""]}, "bionic": {"pos": [0], "suf": [""]}, "bird": {"pos": [0], "suf": ["\'s"]}, "biscuit": {"pos": [0, 1], "suf": [""]}, "bishop": {"pos": [0, 1], "suf": [""]}, "bistro": {"pos": [0, 1], "suf": [""]}, "bitter": {"pos": [0], "suf": [""]}, "bittersweet": {"pos": [0], "suf": [""]}, "bivalve": {"pos": [0, 1], "suf": [""]}, "bizarre": {"pos": [0], "suf": [""]}, "blackberry": {"pos": [0, 1], "suf": [""]}, "blackbird": {"pos": [0, 1], "suf": [""]}, "blackmail": {"pos": [0, 1], "suf": [""]}, "blade": {"pos": [0, 1], "suf": [""]}, "blank": {"pos": [0], "suf": [""]}, "blast": {"pos": [0, 1], "suf": [""]}, "blatant": {"pos": [0], "suf": [""]}, "blaze": {"pos": [0, 1], "suf": [""]}, "blazing": {"pos": [0], "suf": [""]}, "blemish": {"pos": [0, 1], "suf": [""]}, "blended": {"pos": [0], "suf": [""]}, "blessed": {"pos": [0], "suf": [""]}, "blessing": {"pos": [0, 1], "suf": [""]}, "blinding": {"pos": [0], "suf": [""]}, "blistering": {"pos": [0], "suf": [""]}, "blitz": {"pos": [0, 1], "suf": [""]}, "blizzard": {"pos": [0, 1], "suf": [""]}, "blog": {"pos": [0, 1], "suf": [""]}, "blood": {"pos": [0, 1], "suf": [""]}, "blooming": {"pos": [0], "suf": [""]}, "blossom": {"pos": [0, 1], "suf": [""]}, "blot": {"pos": [0, 1], "suf": [""]}, "blueberry": {"pos": [0, 1], "suf": [""]}, "bluebird": {"pos": [0, 1], "suf": [""]}, "blueprint": {"pos": [0, 1], "suf": [""]}, "bluff": {"pos": [0, 1], "suf": [""]}, "blur": {"pos": [0, 1], "suf": [""]}, "blush": {"pos": [0, 1], "suf": [""]}, "blushing": {"pos": [0], "suf": [""]}, "bobbin": {"pos": [0, 1], "suf": [""]}, "bobble": {"pos": [0, 1], "suf": [""]}, "bohemian": {"pos": [0], "suf": [""]}, "boiling": {"pos": [0], "suf": [""]}, "boisterous": {"pos": [0], "suf": [""]}, "bold": {"pos": [0], "suf": [""]}, "bonfire": {"pos": [0, 1], "suf": [""]}, "book": {"pos": [0, 1], "suf": [""]}, "boomerang": {"pos": [0, 1], "suf": [""]}, "booming": {"pos": [0], "suf": [""]}, "boost": {"pos": [0, 1], "suf": [""]}, "boot": {"pos": [0, 1], "suf": [""]}, "boring": {"pos": [0], "suf": [""]}, "borrowed": {"pos": [0], "suf": [""]}, "boss": {"pos": [0, 1], "suf": [""]}, "bosses": {"pos": [0], "suf": [""]}, "bottle": {"pos": [0, 1], "suf": [""]}, "boulder": {"pos": [0, 1], "suf": [""]}, "boutique": {"pos": [0, 1], "suf": [""]}, "bowtie": {"pos": [0, 1], "suf": [""]}, "bracken": {"pos": [0, 1], "suf": [""]}, "brain": {"pos": [0, 1], "suf": [""]}, "brainwave": {"pos": [0, 1], "suf": [""]}, "brainy": {"pos": [0], "suf": [""]}, "bramble": {"pos": [0, 1], "suf": [""]}, "brass": {"pos": [0, 1], "suf": [""]}, "brave": {"pos": [0], "suf": [""]}, "brawn": {"pos": [0, 1], "suf": [""]}, "break": {"pos": [0, 1], "suf": [""]}, "breath": {"pos": [0, 1], "suf": [""]}, "breathless": {"pos": [0], "suf": [""]}, "breathtaking": {"pos": [0], "suf": [""]}, "breeze": {"pos": [0, 1], "suf": [""]}, "breezy": {"pos": [0], "suf": [""]}, "brick": {"pos": [0, 1], "suf": [""]}, "bridge": {"pos": [0, 1], "suf": [""]}, "bridle": {"pos": [0, 1], "suf": [""]}, "bright": {"pos": [0], "suf": [""]}, "brilliant": {"pos": [0], "suf": [""]}, "brisk": {"pos": [0], "suf": [""]}, "broccoli": {"pos": [0, 1], "suf": [""]}, "broken": {"pos": [0], "suf": [""]}, "brontosaurus": {"pos": [0, 1], "suf": [""]}, "brooding": {"pos": [0], "suf": [""]}, "brush": {"pos": [0, 1], "suf": [""]}, "bubble": {"pos": [0, 1], "suf": [""]}, "bubbly": {"pos": [0], "suf": [""]}, "bucket": {"pos": [0, 1], "suf": [""]}, "buddy": {"pos": [0, 1], "suf": [""]}, "budget": {"pos": [0, 1], "suf": [""]}, "buffalo": {"pos": [0, 1], "suf": [""]}, "bumpy": {"pos": [0], "suf": [""]}, "bunny": {"pos": [0, 1], "suf": [""]}, "bunting": {"pos": [0, 1], "suf": [""]}, "burning": {"pos": [0], "suf": [""]}, "burrito": {"pos": [0, 1], "suf": [""]}, "burst": {"pos": [0, 1], "suf": [""]}, "busy": {"pos": [0], "suf": [""]}, "butler": {"pos": [0, 1], "suf": ["\'s"]}, "butter": {"pos": [0, 1], "suf": [""]}, "button": {"pos": [0, 1], "suf": [""]}, "buzz": {"pos": [0, 1], "suf": [""]}, "buzzword": {"pos": [0, 1], "suf": [""]}, "cabbage": {"pos": [0, 1], "suf": [""]}, "cackle": {"pos": [0, 1], "suf": [""]}, "cactus": {"pos": [0, 1], "suf": [""]}, "cafe": {"pos": [0, 1], "suf": [""]}, "caffeine": {"pos": [0, 1], "suf": [""]}, "cake": {"pos": [0, 1], "suf": [""]}, "calamity": {"pos": [0, 1], "suf": [""]}, "calico": {"pos": [0], "suf": [""]}, "calm": {"pos": [0], "suf": [""]}, "calorie": {"pos": [0, 1], "suf": [""]}, "camel": {"pos": [0, 1], "suf": [""]}, "camera": {"pos": [0, 1], "suf": [""]}, "canary": {"pos": [0, 1], "suf": [""]}, "candle": {"pos": [0, 1], "suf": [""]}, "candy": {"pos": [0, 1], "suf": [""]}, "cannon": {"pos": [0, 1], "suf": [""]}, "capable": {"pos": [0], "suf": [""]}, "caper": {"pos": [0, 1], "suf": [""]}, "cappuccino": {"pos": [0, 1], "suf": [""]}, "capsule": {"pos": [0, 1], "suf": [""]}, "captain": {"pos": [0, 1], "suf": [""]}, "caramel": {"pos": [0, 1], "suf": [""]}, "card": {"pos": [0, 1], "suf": [""]}, "cardboard": {"pos": [0], "suf": [""]}, "cardigan": {"pos": [0, 1], "suf": [""]}, "cardinal": {"pos": [0, 1], "suf": [""]}, "carefree": {"pos": [0], "suf": [""]}, "careful": {"pos": [0], "suf": [""]}, "careless": {"pos": [0], "suf": [""]}, "cargo": {"pos": [0, 1], "suf": [""]}, "carnival": {"pos": [0, 1], "suf": [""]}, "carnivorous": {"pos": [0], "suf": [""]}, "case": {"pos": [0, 1], "suf": [""]}, "cash": {"pos": [0, 1], "suf": [""]}, "cassock": {"pos": [0, 1], "suf": [""]}, "casual": {"pos": [0], "suf": [""]}, "cat": {"pos": [0, 1], "suf": [""]}, "catastrophic": {"pos": [0], "suf": [""]}, "catchphrase": {"pos": [0, 1], "suf": [""]}, "catchy": {"pos": [0], "suf": [""]}, "categorical": {"pos": [0], "suf": [""]}, "caterpillar": {"pos": [0, 1], "suf": [""]}, "cauliflower": {"pos": [0, 1], "suf": [""]}, "cautious": {"pos": [0], "suf": [""]}, "cavalier": {"pos": [0, 1], "suf": [""]}, "cavern": {"pos": [0, 1], "suf": [""]}, "celestial": {"pos": [0], "suf": [""]}, "center": {"pos": [0, 1], "suf": [""]}, "centipede": {"pos": [0, 1], "suf": [""]}, "central": {"pos": [0], "suf": [""]}, "ceremonial": {"pos": [0], "suf": [""]}, "certain": {"pos": [0], "suf": [""]}, "certified": {"pos": [0], "suf": [""]}, "chain": {"pos": [0, 1], "suf": [""]}, "chainmail": {"pos": [0], "suf": [""]}, "chameleon": {"pos": [0, 1], "suf": [""]}, "champagne": {"pos": [0, 1], "suf": [""]}, "champion": {"pos": [0], "suf": [""]}, "chance": {"pos": [0, 1], "suf": [""]}, "chancellor": {"pos": [0, 1], "suf": [""]}, "chandelier": {"pos": [0, 1], "suf": [""]}, "change": {"pos": [0, 1], "suf": [""]}, "changing": {"pos": [0], "suf": [""]}, "chant": {"pos": [0, 1], "suf": [""]}, "chaos": {"pos": [0, 1], "suf": [""]}, "chaotic": {"pos": [0], "suf": [""]}, "character": {"pos": [0, 1], "suf": [""]}, "charisma": {"pos": [0, 1], "suf": [""]}, "charismatic": {"pos": [0], "suf": [""]}, "charity": {"pos": [0, 1], "suf": [""]}, "charm": {"pos": [0, 1], "suf": [""]}, "charming": {"pos": [0], "suf": [""]}, "cheap": {"pos": [0], "suf": [""]}, "cheeky": {"pos": [0], "suf": [""]}, "cheerful": {"pos": [0], "suf": [""]}, "cheese": {"pos": [0, 1], "suf": [""]}, "cheesy": {"pos": [0], "suf": [""]}, "cheetah": {"pos": [0, 1], "suf": [""]}, "chemical": {"pos": [0, 1], "suf": [""]}, "cherub": {"pos": [0, 1], "suf": [""]}, "chic": {"pos": [0], "suf": [""]}, "chief": {"pos": [0, 1], "suf": [""]}, "chilly": {"pos": [0], "suf": [""]}, "chocolate": {"pos": [0, 1], "suf": [""]}, "choice": {"pos": [0, 1], "suf": [""]}, "choir": {"pos": [0, 1], "suf": [""]}, "choral": {"pos": [0], "suf": [""]}, "chorus": {"pos": [0, 1], "suf": [""]}, "christmas": {"pos": [0], "suf": [""]}, "chronicle": {"pos": [0, 1], "suf": [""]}, "chuckle": {"pos": [0, 1], "suf": [""]}, "chump": {"pos": [0, 1], "suf": [""]}, "chunk": {"pos": [0, 1], "suf": [""]}, "chunky": {"pos": [0], "suf": [""]}, "chutney": {"pos": [0, 1], "suf": [""]}, "cinder": {"pos": [0, 1], "suf": [""]}, "cinematic": {"pos": [0], "suf": [""]}, "cipher": {"pos": [0, 1], "suf": [""]}, "circle": {"pos": [0, 1], "suf": [""]}, "circular": {"pos": [0], "suf": [""]}, "circus": {"pos": [0, 1], "suf": [""]}, "citrus": {"pos": [0, 1], "suf": [""]}, "city": {"pos": [0, 1], "suf": [""]}, "clash": {"pos": [0, 1], "suf": [""]}, "classic": {"pos": [0], "suf": [""]}, "classical": {"pos": [0], "suf": [""]}, "claustrophobic": {"pos": [0], "suf": [""]}, "clear": {"pos": [0], "suf": [""]}, "clever": {"pos": [0], "suf": [""]}, "click": {"pos": [0, 1], "suf": [""]}, "clock": {"pos": [0, 1], "suf": [""]}, "close": {"pos": [0], "suf": [""]}, "closed": {"pos": [0], "suf": [""]}, "closing": {"pos": [0], "suf": [""]}, "cloud": {"pos": [0, 1], "suf": [""]}, "cloudy": {"pos": [0], "suf": [""]}, "clown": {"pos": [0], "suf": ["\'s"]}, "clueless": {"pos": [0], "suf": [""]}, "clumsy": {"pos": [0], "suf": [""]}, "coastal": {"pos": [0], "suf": [""]}, "cobble": {"pos": [0, 1], "suf": [""]}, "cockney": {"pos": [0], "suf": [""]}, "code": {"pos": [0, 1], "suf": [""]}, "coffee": {"pos": [0, 1], "suf": [""]}, "coffin": {"pos": [0, 1], "suf": [""]}, "coin": {"pos": [0, 1], "suf": [""]}, "coin-operated": {"pos": [0], "suf": [""]}, "cold": {"pos": [0], "suf": [""]}, "colonel": {"pos": [0, 1], "suf": [""]}, "colossal": {"pos": [0], "suf": [""]}, "colorful": {"pos": [0], "suf": [""]}, "comedy": {"pos": [0, 1], "suf": [""]}, "comet": {"pos": [0, 1], "suf": [""]}, "comfortable": {"pos": [0], "suf": [""]}, "comfy": {"pos": [0], "suf": [""]}, "comic": {"pos": [0], "suf": [""]}, "commander": {"pos": [0, 1], "suf": [""]}, "common": {"pos": [0], "suf": [""]}, "companion": {"pos": [0, 1], "suf": ["\'s"]}, "company": {"pos": [0, 1], "suf": [""]}, "competitive": {"pos": [0], "suf": [""]}, "complete": {"pos": [0], "suf": [""]}, "complex": {"pos": [0], "suf": [""]}, "complicated": {"pos": [0], "suf": [""]}, "computer": {"pos": [0, 1], "suf": [""]}, "concrete": {"pos": [0], "suf": [""]}, "confetti": {"pos": [0, 1], "suf": [""]}, "confident": {"pos": [0], "suf": [""]}, "confidential": {"pos": [0], "suf": [""]}, "confused": {"pos": [0], "suf": [""]}, "confusing": {"pos": [0], "suf": [""]}, "conqueror": {"pos": [0, 1], "suf": ["\'s"]}, "conspicuous": {"pos": [0], "suf": [""]}, "constant": {"pos": [0], "suf": [""]}, "contemporary": {"pos": [0], "suf": [""]}, "continental": {"pos": [0], "suf": [""]}, "control": {"pos": [0, 1], "suf": [""]}, "convenient": {"pos": [0], "suf": [""]}, "convincing": {"pos": [0], "suf": [""]}, "cookie": {"pos": [0, 1], "suf": [""]}, "cool": {"pos": [0], "suf": [""]}, "corduroy": {"pos": [0, 1], "suf": [""]}, "cosmic": {"pos": [0], "suf": [""]}, "countess": {"pos": [0, 1], "suf": [""]}, "courageous": {"pos": [0], "suf": [""]}, "courteous": {"pos": [0], "suf": [""]}, "cowboy": {"pos": [0], "suf": ["\'s"]}, "cream": {"pos": [0], "suf": [""]}, "creative": {"pos": [0], "suf": [""]}, "creature": {"pos": [0, 1], "suf": ["\'s"]}, "crescent": {"pos": [0, 1], "suf": [""]}, "crimson": {"pos": [0, 1], "suf": [""]}, "crispy": {"pos": [0], "suf": [""]}, "crocodile": {"pos": [0, 1], "suf": [""]}, "crocus": {"pos": [0, 1], "suf": [""]}, "cross": {"pos": [0], "suf": [""]}, "crow": {"pos": [0, 1], "suf": [""]}, "crown": {"pos": [0, 1], "suf": [""]}, "cruel": {"pos": [0], "suf": [""]}, "crunch": {"pos": [0, 1], "suf": [""]}, "crunchy": {"pos": [0], "suf": [""]}, "crush": {"pos": [0, 1], "suf": [""]}, "crushing": {"pos": [0], "suf": [""]}, "crypt": {"pos": [0, 1], "suf": [""]}, "cryptic": {"pos": [0], "suf": [""]}, "crystal": {"pos": [0, 1], "suf": [""]}, "cube": {"pos": [0, 1], "suf": [""]}, "cuddly": {"pos": [0], "suf": [""]}, "cunning": {"pos": [0], "suf": [""]}, "cupboard": {"pos": [0, 1], "suf": [""]}, "cupcake": {"pos": [0, 1], "suf": [""]}, "cupid": {"pos": [0], "suf": ["\'s"]}, "curiosity": {"pos": [0, 1], "suf": [""]}, "curious": {"pos": [0], "suf": [""]}, "curse": {"pos": [0, 1], "suf": [""]}, "cursed": {"pos": [0], "suf": [""]}, "curtain": {"pos": [0, 1], "suf": [""]}, "curve": {"pos": [0, 1], "suf": [""]}, "cushion": {"pos": [0, 1], "suf": [""]}, "custard": {"pos": [0, 1], "suf": [""]}, "customary": {"pos": [0], "suf": [""]}, "customer": {"pos": [0, 1], "suf": [""]}, "cute": {"pos": [0], "suf": [""]}, "daffodil": {"pos": [0, 1], "suf": [""]}, "dagger": {"pos": [0, 1], "suf": [""]}, "dainty": {"pos": [0], "suf": [""]}, "daisy": {"pos": [0, 1], "suf": [""]}, "damage": {"pos": [0, 1], "suf": [""]}, "damson": {"pos": [0, 1], "suf": [""]}, "dance": {"pos": [0, 1], "suf": [""]}, "dancing": {"pos": [0], "suf": [""]}, "danger": {"pos": [0, 1], "suf": [""]}, "dangerous": {"pos": [0], "suf": [""]}, "dapper": {"pos": [0], "suf": [""]}, "darkness": {"pos": [0, 1], "suf": [""]}, "darling": {"pos": [0, 1], "suf": [""]}, "dart": {"pos": [0, 1], "suf": [""]}, "dash": {"pos": [0, 1], "suf": [""]}, "dashing": {"pos": [0], "suf": [""]}, "data": {"pos": [0, 1], "suf": [""]}, "dawn": {"pos": [0, 1], "suf": [""]}, "day": {"pos": [0, 1], "suf": [""]}, "daydream": {"pos": [0, 1], "suf": [""]}, "daylight": {"pos": [0, 1], "suf": [""]}, "dazzled": {"pos": [0], "suf": [""]}, "dazzling": {"pos": [0], "suf": [""]}, "dead": {"pos": [0], "suf": [""]}, "deadline": {"pos": [0, 1], "suf": [""]}, "dear": {"pos": [0], "suf": [""]}, "death": {"pos": [0, 1], "suf": [""]}, "debut": {"pos": [0, 1], "suf": [""]}, "decadence": {"pos": [0, 1], "suf": [""]}, "decent": {"pos": [0], "suf": [""]}, "decorative": {"pos": [0], "suf": [""]}, "defiant": {"pos": [0], "suf": [""]}, "definite": {"pos": [0], "suf": [""]}, "deliberate": {"pos": [0], "suf": [""]}, "delicate": {"pos": [0], "suf": [""]}, "delicious": {"pos": [0], "suf": [""]}, "delightful": {"pos": [0], "suf": [""]}, "delivery": {"pos": [0, 1], "suf": [""]}, "deluxe": {"pos": [0], "suf": [""]}, "demonic": {"pos": [0], "suf": [""]}, "department": {"pos": [0, 1], "suf": [""]}, "deputy": {"pos": [0, 1], "suf": [""]}, "descending": {"pos": [0], "suf": [""]}, "design": {"pos": [0, 1], "suf": [""]}, "despair": {"pos": [0, 1], "suf": [""]}, "desperate": {"pos": [0], "suf": [""]}, "destiny": {"pos": [0, 1], "suf": [""]}, "detail": {"pos": [0, 1], "suf": [""]}, "detective": {"pos": [0, 1], "suf": [""]}, "determined": {"pos": [0], "suf": [""]}, "devil": {"pos": [0, 1], "suf": [""]}, "devious": {"pos": [0], "suf": [""]}, "diagonal": {"pos": [0], "suf": [""]}, "diagram": {"pos": [0, 1], "suf": [""]}, "diamond": {"pos": [0, 1], "suf": [""]}, "difference": {"pos": [0, 1], "suf": [""]}, "different": {"pos": [0], "suf": [""]}, "difficult": {"pos": [0], "suf": [""]}, "digital": {"pos": [0], "suf": [""]}, "dignified": {"pos": [0], "suf": [""]}, "dilemma": {"pos": [0, 1], "suf": [""]}, "dimension": {"pos": [0, 1], "suf": [""]}, "dimple": {"pos": [0, 1], "suf": [""]}, "dinner": {"pos": [0, 1], "suf": [""]}, "dinosaur": {"pos": [0, 1], "suf": [""]}, "diplomatic": {"pos": [0], "suf": [""]}, "diplomat": {"pos": [0, 1], "suf": ["\'s"]}, "disappointing": {"pos": [0], "suf": [""]}, "disco": {"pos": [0, 1], "suf": [""]}, "discovery": {"pos": [0, 1], "suf": [""]}, "disguise": {"pos": [0, 1], "suf": [""]}, "disgust": {"pos": [0, 1], "suf": [""]}, "display": {"pos": [0, 1], "suf": [""]}, "distant": {"pos": [0], "suf": [""]}, "distinguished": {"pos": [0], "suf": [""]}, "divine": {"pos": [0], "suf": [""]}, "doctor": {"pos": [0], "suf": [""]}, "dodo": {"pos": [0, 1], "suf": [""]}, "dog": {"pos": [0, 1], "suf": [""]}, "dollar": {"pos": [0, 1], "suf": [""]}, "dolphin": {"pos": [0, 1], "suf": [""]}, "domino": {"pos": [0, 1], "suf": [""]}, "donkey": {"pos": [0, 1], "suf": [""]}, "doom": {"pos": [0, 1], "suf": [""]}, "double": {"pos": [0], "suf": [""]}, "doubt": {"pos": [0, 1], "suf": [""]}, "doubtless": {"pos": [0], "suf": [""]}, "donut": {"pos": [0, 1], "suf": [""]}, "dove": {"pos": [0, 1], "suf": [""]}, "down": {"pos": [0, 1], "suf": [""]}, "dozing": {"pos": [0], "suf": [""]}, "dragon": {"pos": [0, 1], "suf": [""]}, "dragonfly": {"pos": [0, 1], "suf": [""]}, "drama": {"pos": [0, 1], "suf": [""]}, "dramatic": {"pos": [0], "suf": [""]}, "dreadful": {"pos": [0], "suf": [""]}, "dream": {"pos": [0, 1], "suf": [""]}, "dreamer": {"pos": [0, 1], "suf": ["\'s"]}, "dreamy": {"pos": [0], "suf": [""]}, "drift": {"pos": [0, 1], "suf": [""]}, "drifting": {"pos": [0], "suf": [""]}, "driving": {"pos": [0], "suf": [""]}, "dromedary": {"pos": [0], "suf": ["\'s"]}, "drop": {"pos": [0, 1], "suf": [""]}, "dubious": {"pos": [0], "suf": [""]}, "duchess": {"pos": [0, 1], "suf": [""]}, "duck": {"pos": [0, 1], "suf": [""]}, "duke": {"pos": [0, 1], "suf": ["\'s"]}, "dull": {"pos": [0], "suf": [""]}, "dusk": {"pos": [0, 1], "suf": [""]}, "dust": {"pos": [0, 1], "suf": [""]}, "duty": {"pos": [0, 1], "suf": [""]}, "dynamic": {"pos": [0], "suf": [""]}, "eager": {"pos": [0], "suf": [""]}, "eagle": {"pos": [0, 1], "suf": [""]}, "earl": {"pos": [0, 1], "suf": ["\'s"]}, "early": {"pos": [0], "suf": [""]}, "earnest": {"pos": [0], "suf": [""]}, "earthly": {"pos": [0], "suf": [""]}, "earthquake": {"pos": [0, 1], "suf": [""]}, "easygoing": {"pos": [0], "suf": [""]}, "eccentric": {"pos": [0], "suf": [""]}, "echo": {"pos": [0, 1], "suf": [""]}, "eclair": {"pos": [0, 1], "suf": [""]}, "eclipse": {"pos": [0, 1], "suf": [""]}, "edge": {"pos": [0, 1], "suf": [""]}, "eerie": {"pos": [0], "suf": [""]}, "egg": {"pos": [0, 1], "suf": [""]}, "elaborate": {"pos": [0], "suf": [""]}, "elastic": {"pos": [0], "suf": [""]}, "elbow": {"pos": [0, 1], "suf": [""]}, "electric": {"pos": [0], "suf": [""]}, "electron": {"pos": [0, 1], "suf": [""]}, "elegant": {"pos": [0], "suf": [""]}, "elephant": {"pos": [0, 1], "suf": [""]}, "elf": {"pos": [0], "suf": ["\'s"]}, "elite": {"pos": [0], "suf": [""]}, "eloquent": {"pos": [0], "suf": [""]}, "elusive": {"pos": [0], "suf": [""]}, "embarrassing": {"pos": [0], "suf": [""]}, "ember": {"pos": [0, 1], "suf": [""]}, "emerald": {"pos": [0, 1], "suf": [""]}, "emperor": {"pos": [0, 1], "suf": [""]}, "empire": {"pos": [0, 1], "suf": ["\'s"]}, "empress": {"pos": [0, 1], "suf": [""]}, "empty": {"pos": [0], "suf": [""]}, "enchanting": {"pos": [0], "suf": [""]}, "endless": {"pos": [0], "suf": [""]}, "energetic": {"pos": [0], "suf": [""]}, "enigma": {"pos": [0, 1], "suf": [""]}, "enigmatic": {"pos": [0], "suf": [""]}, "enquiry": {"pos": [0, 1], "suf": [""]}, "enthusiastic": {"pos": [0], "suf": [""]}, "ephemeral": {"pos": [0], "suf": [""]}, "episode": {"pos": [0, 1], "suf": [""]}, "equal": {"pos": [0], "suf": [""]}, "equation": {"pos": [0, 1], "suf": [""]}, "equine": {"pos": [0], "suf": [""]}, "erratic": {"pos": [0], "suf": [""]}, "espresso": {"pos": [0], "suf": [""]}, "essence": {"pos": [0, 1], "suf": [""]}, "estranged": {"pos": [0], "suf": [""]}, "eternal": {"pos": [0], "suf": [""]}, "euphoric": {"pos": [0], "suf": [""]}, "evening": {"pos": [0, 1], "suf": [""]}, "event": {"pos": [0, 1], "suf": [""]}, "evergreen": {"pos": [0], "suf": [""]}, "evidence": {"pos": [0, 1], "suf": [""]}, "evil": {"pos": [0], "suf": [""]}, "excellent": {"pos": [0], "suf": [""]}, "exciting": {"pos": [0], "suf": [""]}, "exotic": {"pos": [0], "suf": [""]}, "expensive": {"pos": [0], "suf": [""]}, "experimental": {"pos": [0], "suf": [""]}, "explanation": {"pos": [0, 1], "suf": [""]}, "express": {"pos": [0, 1], "suf": [""]}, "extinct": {"pos": [0], "suf": [""]}, "extra": {"pos": [0], "suf": [""]}, "extraordinary": {"pos": [0], "suf": [""]}, "extreme": {"pos": [0], "suf": [""]}, "fable": {"pos": [0, 1], "suf": [""]}, "fabulous": {"pos": [0], "suf": [""]}, "face": {"pos": [0, 1], "suf": [""]}, "fact": {"pos": [0, 1], "suf": [""]}, "faint": {"pos": [0], "suf": [""]}, "fairy": {"pos": [0], "suf": [""]}, "faithful": {"pos": [0], "suf": [""]}, "fake": {"pos": [0], "suf": [""]}, "falcon": {"pos": [0, 1], "suf": [""]}, "false": {"pos": [0], "suf": [""]}, "familiar": {"pos": [0], "suf": [""]}, "family": {"pos": [0], "suf": ["\'s"]}, "famous": {"pos": [0], "suf": [""]}, "fancy": {"pos": [0, 1], "suf": [""]}, "fantastic": {"pos": [0, 1], "suf": [""]}, "fantasy": {"pos": [0, 1], "suf": [""]}, "far": {"pos": [0], "suf": [""]}, "faraway": {"pos": [0], "suf": [""]}, "fashion": {"pos": [0, 1], "suf": [""]}, "fast": {"pos": [0], "suf": [""]}, "favorite": {"pos": [0], "suf": [""]}, "fear": {"pos": [0, 1], "suf": [""]}, "fearless": {"pos": [0], "suf": [""]}, "feast": {"pos": [0, 1], "suf": [""]}, "feather": {"pos": [0, 1], "suf": [""]}, "feature": {"pos": [0, 1], "suf": [""]}, "feeling": {"pos": [0, 1], "suf": [""]}, "ferocious": {"pos": [0], "suf": [""]}, "festival": {"pos": [0, 1], "suf": [""]}, "festive": {"pos": [0], "suf": [""]}, "fever": {"pos": [0, 1], "suf": [""]}, "fictional": {"pos": [0], "suf": [""]}, "fidgeting": {"pos": [0], "suf": [""]}, "fierce": {"pos": [0], "suf": [""]}, "fiery": {"pos": [0], "suf": [""]}, "fight": {"pos": [0, 1], "suf": [""]}, "fine": {"pos": [0], "suf": [""]}, "fingerprint": {"pos": [0, 1], "suf": [""]}, "fire": {"pos": [0, 1], "suf": [""]}, "firefly": {"pos": [0, 1], "suf": [""]}, "first": {"pos": [0], "suf": [""]}, "fish": {"pos": [0, 1], "suf": [""]}, "fixed": {"pos": [0], "suf": [""]}, "fizzy": {"pos": [0], "suf": [""]}, "fjord": {"pos": [0, 1], "suf": [""]}, "flag": {"pos": [0, 1], "suf": [""]}, "flagrant": {"pos": [0], "suf": [""]}, "flamboyant": {"pos": [0], "suf": [""]}, "flame": {"pos": [0, 1], "suf": [""]}, "flaming": {"pos": [0], "suf": [""]}, "flamingo": {"pos": [0, 1], "suf": [""]}, "flash": {"pos": [0, 1], "suf": [""]}, "flatfish": {"pos": [0, 1], "suf": [""]}, "flattery": {"pos": [0, 1], "suf": [""]}, "flatulent": {"pos": [0], "suf": [""]}, "flawless": {"pos": [0], "suf": [""]}, "flesh": {"pos": [0], "suf": [""]}, "flicker": {"pos": [0, 1], "suf": [""]}, "flickering": {"pos": [0], "suf": [""]}, "flight": {"pos": [0, 1], "suf": [""]}, "floating": {"pos": [0], "suf": [""]}, "flood": {"pos": [0, 1], "suf": [""]}, "flotsam": {"pos": [0, 1], "suf": [""]}, "flounder": {"pos": [0, 1], "suf": [""]}, "flower": {"pos": [0, 1], "suf": [""]}, "fluffy": {"pos": [0], "suf": [""]}, "fly": {"pos": [0, 1], "suf": [""]}, "flying": {"pos": [0], "suf": [""]}, "foam": {"pos": [0, 1], "suf": [""]}, "foggy": {"pos": [0], "suf": [""]}, "foghorn": {"pos": [0, 1], "suf": [""]}, "fool": {"pos": [0, 1], "suf": [""]}, "foolish": {"pos": [0], "suf": [""]}, "forbidden": {"pos": [0], "suf": [""]}, "forever": {"pos": [0], "suf": [""]}, "forgotten": {"pos": [0], "suf": [""]}, "formal": {"pos": [0], "suf": [""]}, "fortunate": {"pos": [0], "suf": [""]}, "fortune": {"pos": [0, 1], "suf": [""]}, "fossil": {"pos": [0, 1], "suf": [""]}, "fox": {"pos": [0], "suf": ["\'s"]}, "fragile": {"pos": [0], "suf": [""]}, "frankinsense": {"pos": [0], "suf": [""]}, "free": {"pos": [0], "suf": [""]}, "freezing": {"pos": [0], "suf": [""]}, "frequent": {"pos": [0], "suf": [""]}, "fresh": {"pos": [0], "suf": [""]}, "friday": {"pos": [0, 1], "suf": [""]}, "friendship": {"pos": [0, 1], "suf": [""]}, "fright": {"pos": [0, 1], "suf": [""]}, "frivolous": {"pos": [0], "suf": [""]}, "frizzy": {"pos": [0], "suf": [""]}, "frog": {"pos": [0, 1], "suf": [""]}, "frost": {"pos": [0, 1], "suf": [""]}, "frosted": {"pos": [0], "suf": [""]}, "frothy": {"pos": [0], "suf": [""]}, "frozen": {"pos": [0], "suf": [""]}, "fruit": {"pos": [0, 1], "suf": [""]}, "full": {"pos": [0], "suf": [""]}, "fun": {"pos": [0], "suf": [""]}, "funny": {"pos": [0], "suf": [""]}, "furious": {"pos": [0], "suf": [""]}, "fury": {"pos": [0, 1], "suf": [""]}, "fussy": {"pos": [0], "suf": [""]}, "future": {"pos": [0], "suf": [""]}, "fuzzy": {"pos": [0], "suf": [""]}, "gadget": {"pos": [0, 1], "suf": [""]}, "galactic": {"pos": [0], "suf": [""]}, "galaxy": {"pos": [0, 1], "suf": [""]}, "gallant": {"pos": [0], "suf": [""]}, "galleon": {"pos": [0, 1], "suf": [""]}, "galloping": {"pos": [0], "suf": [""]}, "gambler": {"pos": [0], "suf": ["\'s"]}, "gambling": {"pos": [0], "suf": [""]}, "geeky": {"pos": [0], "suf": [""]}, "general": {"pos": [0, 1], "suf": [""]}, "genius": {"pos": [0, 1], "suf": [""]}, "gentle": {"pos": [0], "suf": [""]}, "gentleman": {"pos": [0, 1], "suf": ["\'s"]}, "genuine": {"pos": [0], "suf": [""]}, "gherkin": {"pos": [0, 1], "suf": [""]}, "ghost": {"pos": [0, 1], "suf": [""]}, "giant": {"pos": [0, 1], "suf": [""]}, "gibberish": {"pos": [0, 1], "suf": [""]}, "giggle": {"pos": [0, 1], "suf": [""]}, "gingerbread": {"pos": [0, 1], "suf": [""]}, "giraffe": {"pos": [0, 1], "suf": [""]}, "gizmo": {"pos": [0, 1], "suf": [""]}, "glamorous": {"pos": [0], "suf": [""]}, "glamour": {"pos": [0, 1], "suf": [""]}, "glass-eyed": {"pos": [0], "suf": [""]}, "glistening": {"pos": [0], "suf": [""]}, "glitter": {"pos": [0, 1], "suf": [""]}, "gloomy": {"pos": [0], "suf": [""]}, "glorious": {"pos": [0], "suf": [""]}, "glory": {"pos": [0, 1], "suf": [""]}, "glowing": {"pos": [0], "suf": [""]}, "goat": {"pos": [0, 1], "suf": [""]}, "goddess": {"pos": [0], "suf": ["\'s"]}, "gold": {"pos": [0, 1], "suf": [""]}, "golden": {"pos": [0], "suf": [""]}, "goldfish": {"pos": [0, 1], "suf": [""]}, "good": {"pos": [0], "suf": [""]}, "gooseberry": {"pos": [0, 1], "suf": [""]}, "gorgeous": {"pos": [0], "suf": [""]}, "gossip": {"pos": [0, 1], "suf": [""]}, "gothic": {"pos": [0], "suf": [""]}, "graceful": {"pos": [0], "suf": [""]}, "gracious": {"pos": [0], "suf": [""]}, "grammar": {"pos": [0, 1], "suf": [""]}, "grand": {"pos": [0], "suf": [""]}, "great": {"pos": [0], "suf": [""]}, "groovy": {"pos": [0], "suf": [""]}, "grotesque": {"pos": [0], "suf": [""]}, "group": {"pos": [0, 1], "suf": [""]}, "grumpy": {"pos": [0], "suf": [""]}, "guaranteed": {"pos": [0], "suf": [""]}, "guide": {"pos": [0, 1], "suf": [""]}, "gust": {"pos": [0, 1], "suf": [""]}, "gusty": {"pos": [0], "suf": [""]}, "habit": {"pos": [0, 1], "suf": [""]}, "haggis": {"pos": [0, 1], "suf": [""]}, "hammer": {"pos": [0, 1], "suf": [""]}, "hamster": {"pos": [0, 1], "suf": [""]}, "handkerchief": {"pos": [0, 1], "suf": [""]}, "handsome": {"pos": [0], "suf": [""]}, "happy": {"pos": [0], "suf": [""]}, "harbor": {"pos": [0, 1], "suf": [""]}, "harlequin": {"pos": [0, 1], "suf": [""]}, "harmless": {"pos": [0], "suf": [""]}, "harmony": {"pos": [0, 1], "suf": [""]}, "hat": {"pos": [0, 1], "suf": [""]}, "hatbox": {"pos": [0, 1], "suf": [""]}, "hawk": {"pos": [0, 1], "suf": [""]}, "haystack": {"pos": [0, 1], "suf": [""]}, "healthy": {"pos": [0], "suf": [""]}, "heart": {"pos": [0, 1], "suf": [""]}, "hearty": {"pos": [0], "suf": [""]}, "heat": {"pos": [0, 1], "suf": [""]}, "heavenly": {"pos": [0], "suf": [""]}, "heavy": {"pos": [0], "suf": [""]}, "hectic": {"pos": [0], "suf": [""]}, "hedgehog": {"pos": [0, 1], "suf": [""]}, "her": {"pos": [0], "suf": ["\'s"]}, "heritage": {"pos": [0, 1], "suf": [""]}, "hexagon": {"pos": [0, 1], "suf": [""]}, "hidden": {"pos": [0], "suf": [""]}, "high": {"pos": [0], "suf": [""]}, "hilarious": {"pos": [0], "suf": [""]}, "hipster": {"pos": [0, 1], "suf": [""]}, "his": {"pos": [0], "suf": ["\'s"]}, "historic": {"pos": [0], "suf": [""]}, "holiday": {"pos": [0, 1], "suf": [""]}, "hollow": {"pos": [0], "suf": [""]}, "hollyhock": {"pos": [0, 1], "suf": [""]}, "holy": {"pos": [0], "suf": [""]}, "honors": {"pos": [0], "suf": [""]}, "hope": {"pos": [0, 1], "suf": [""]}, "horse": {"pos": [0, 1], "suf": [""]}, "hot": {"pos": [0], "suf": [""]}, "howling": {"pos": [0], "suf": [""]}, "humble": {"pos": [0], "suf": [""]}, "humor": {"pos": [0, 1], "suf": [""]}, "hungry": {"pos": [0], "suf": [""]}, "hunter": {"pos": [0, 1], "suf": ["\'s"]}, "hurricane": {"pos": [0, 1], "suf": [""]}, "hybrid": {"pos": [0], "suf": [""]}, "hypnotic": {"pos": [0], "suf": [""]}, "iceberg": {"pos": [0, 1], "suf": [""]}, "iced": {"pos": [0], "suf": [""]}, "icicle": {"pos": [0, 1], "suf": [""]}, "iconic": {"pos": [0], "suf": [""]}, "icy": {"pos": [0], "suf": [""]}, "idea": {"pos": [0, 1], "suf": [""]}, "ideal": {"pos": [0], "suf": [""]}, "identical": {"pos": [0], "suf": [""]}, "idle": {"pos": [0], "suf": [""]}, "illusion": {"pos": [0, 1], "suf": [""]}, "image": {"pos": [0, 1], "suf": [""]}, "imaginary": {"pos": [0], "suf": [""]}, "impatient": {"pos": [0], "suf": [""]}, "imperial": {"pos": [0], "suf": [""]}, "important": {"pos": [0], "suf": [""]}, "impossible": {"pos": [0], "suf": [""]}, "impressive": {"pos": [0], "suf": [""]}, "incredible": {"pos": [0], "suf": [""]}, "indigo": {"pos": [0], "suf": [""]}, "industry": {"pos": [0, 1], "suf": [""]}, "inevitable": {"pos": [0], "suf": [""]}, "infinite": {"pos": [0], "suf": [""]}, "infinity": {"pos": [0, 1], "suf": [""]}, "innocent": {"pos": [0], "suf": [""]}, "insistent": {"pos": [0], "suf": [""]}, "instant": {"pos": [0], "suf": [""]}, "instrument": {"pos": [0, 1], "suf": [""]}, "intelligent": {"pos": [0], "suf": [""]}, "intense": {"pos": [0], "suf": [""]}, "interesting": {"pos": [0], "suf": [""]}, "intergalactic": {"pos": [0], "suf": [""]}, "international": {"pos": [0], "suf": [""]}, "intricate": {"pos": [0], "suf": [""]}, "intriguing": {"pos": [0], "suf": [""]}, "invisible": {"pos": [0], "suf": [""]}, "iridescent": {"pos": [0], "suf": [""]}, "iron": {"pos": [0], "suf": [""]}, "ironic": {"pos": [0], "suf": [""]}, "island": {"pos": [0, 1], "suf": [""]}, "ivory": {"pos": [0], "suf": [""]}, "jack": {"pos": [0], "suf": [""]}, "jagged": {"pos": [0], "suf": [""]}, "jaunty": {"pos": [0], "suf": [""]}, "java": {"pos": [0], "suf": [""]}, "jazz": {"pos": [0, 1], "suf": [""]}, "jealous": {"pos": [0], "suf": [""]}, "jealousy": {"pos": [0, 1], "suf": [""]}, "jelly": {"pos": [0, 1], "suf": [""]}, "jellyfish": {"pos": [0, 1], "suf": [""]}, "jester": {"pos": [0, 1], "suf": ["\'s"]}, "jet": {"pos": [0], "suf": [""]}, "jewel": {"pos": [0], "suf": [""]}, "jingle": {"pos": [0, 1], "suf": [""]}, "joke": {"pos": [0, 1], "suf": [""]}, "joker": {"pos": [0, 1], "suf": ["\'s"]}, "jolly": {"pos": [0], "suf": [""]}, "journey": {"pos": [0, 1], "suf": [""]}, "joyful": {"pos": [0], "suf": [""]}, "joy": {"pos": [0, 1], "suf": ["\'s"]}, "jubilant": {"pos": [0], "suf": [""]}, "juice": {"pos": [0], "suf": [""]}, "jumping": {"pos": [0], "suf": [""]}, "junior": {"pos": [0], "suf": [""]}, "just": {"pos": [0], "suf": [""]}, "key": {"pos": [0], "suf": [""]}, "kick": {"pos": [0, 1], "suf": [""]}, "kicking": {"pos": [0], "suf": [""]}, "kilt": {"pos": [0, 1], "suf": [""]}, "kinetic": {"pos": [0], "suf": [""]}, "king": {"pos": [0, 1], "suf": [""]}, "knife": {"pos": [0, 1], "suf": [""]}, "knight": {"pos": [0], "suf": ["\'s"]}, "knitted": {"pos": [0], "suf": [""]}, "knowledge": {"pos": [0, 1], "suf": [""]}, "kumquat": {"pos": [0, 1], "suf": [""]}, "labyrinth": {"pos": [0, 1], "suf": [""]}, "lady": {"pos": [0], "suf": [""]}, "lake": {"pos": [0, 1], "suf": [""]}, "lament": {"pos": [0, 1], "suf": [""]}, "land": {"pos": [0, 1], "suf": [""]}, "language": {"pos": [0, 1], "suf": [""]}, "languid": {"pos": [0], "suf": [""]}, "last": {"pos": [0], "suf": [""]}, "late": {"pos": [0], "suf": [""]}, "laughter": {"pos": [0, 1], "suf": [""]}, "lava": {"pos": [0, 1], "suf": [""]}, "lawsuit": {"pos": [0, 1], "suf": [""]}, "lawyer": {"pos": [0, 1], "suf": ["\'s"]}, "lazy": {"pos": [0], "suf": [""]}, "leaves": {"pos": [0, 1], "suf": [""]}, "legendary": {"pos": [0], "suf": [""]}, "legitimate": {"pos": [0], "suf": [""]}, "lemon": {"pos": [0, 1], "suf": [""]}, "lentil": {"pos": [0, 1], "suf": [""]}, "leopard": {"pos": [0, 1], "suf": [""]}, "letter": {"pos": [0, 1], "suf": [""]}, "level": {"pos": [0, 1], "suf": [""]}, "liberty": {"pos": [0, 1], "suf": [""]}, "light": {"pos": [0, 1], "suf": [""]}, "lighthouse": {"pos": [0, 1], "suf": [""]}, "lightning": {"pos": [0, 1], "suf": [""]}, "likely": {"pos": [0], "suf": [""]}, "lilac": {"pos": [0], "suf": [""]}, "lime": {"pos": [0, 1], "suf": [""]}, "limited": {"pos": [0], "suf": [""]}, "limpet": {"pos": [0, 1], "suf": [""]}, "lion": {"pos": [0, 1], "suf": [""]}, "liquid": {"pos": [0, 1], "suf": [""]}, "little": {"pos": [0], "suf": [""]}, "lively": {"pos": [0], "suf": [""]}, "living": {"pos": [0], "suf": [""]}, "local": {"pos": [0], "suf": [""]}, "logical": {"pos": [0], "suf": [""]}, "lollipop": {"pos": [0, 1], "suf": [""]}, "lonesome": {"pos": [0], "suf": [""]}, "lord": {"pos": [0, 1], "suf": [""]}, "lost": {"pos": [0], "suf": [""]}, "loud": {"pos": [0], "suf": [""]}, "love": {"pos": [0, 1], "suf": [""]}, "lovely": {"pos": [0], "suf": [""]}, "low": {"pos": [0], "suf": [""]}, "luck": {"pos": [0, 1], "suf": [""]}, "lucky": {"pos": [0], "suf": [""]}, "lullaby": {"pos": [0, 1], "suf": [""]}, "luminous": {"pos": [0], "suf": [""]}, "lunar": {"pos": [0], "suf": [""]}, "lunch": {"pos": [0, 1], "suf": [""]}, "luxury": {"pos": [0], "suf": [""]}, "magic": {"pos": [0, 1], "suf": [""]}, "magical": {"pos": [0], "suf": [""]}, "magician": {"pos": [0, 1], "suf": ["\'s"]}, "magnetic": {"pos": [0], "suf": [""]}, "majestic": {"pos": [0], "suf": [""]}, "major": {"pos": [0], "suf": [""]}, "manifold": {"pos": [0], "suf": [""]}, "marble": {"pos": [0, 1], "suf": [""]}, "marine": {"pos": [0], "suf": [""]}, "marmalade": {"pos": [0, 1], "suf": [""]}, "marvellous": {"pos": [0], "suf": [""]}, "masquerade": {"pos": [0, 1], "suf": [""]}, "match": {"pos": [0, 1], "suf": [""]}, "matching": {"pos": [0], "suf": [""]}, "mathematical": {"pos": [0], "suf": [""]}, "matrix": {"pos": [0, 1], "suf": [""]}, "maximum": {"pos": [0], "suf": [""]}, "meadow": {"pos": [0, 1], "suf": [""]}, "mechanical": {"pos": [0], "suf": [""]}, "medium": {"pos": [0], "suf": [""]}, "meek": {"pos": [0], "suf": [""]}, "mega": {"pos": [0], "suf": [""]}, "melancholy": {"pos": [0], "suf": [""]}, "melodic": {"pos": [0], "suf": [""]}, "melody": {"pos": [0, 1], "suf": [""]}, "memory": {"pos": [0, 1], "suf": [""]}, "merchant": {"pos": [0, 1], "suf": ["\'s"]}, "merry": {"pos": [0], "suf": [""]}, "metal": {"pos": [0, 1], "suf": [""]}, "metallic": {"pos": [0], "suf": [""]}, "metaphor": {"pos": [0, 1], "suf": [""]}, "meteor": {"pos": [0, 1], "suf": [""]}, "method": {"pos": [0, 1], "suf": [""]}, "midnight": {"pos": [0, 1], "suf": [""]}, "mighty": {"pos": [0], "suf": [""]}, "military": {"pos": [0], "suf": [""]}, "millennial": {"pos": [0], "suf": [""]}, "millionaire": {"pos": [0, 1], "suf": ["\'s"]}, "mind": {"pos": [0], "suf": [""]}, "miniature": {"pos": [0], "suf": [""]}, "minimum": {"pos": [0], "suf": [""]}, "minty": {"pos": [0], "suf": [""]}, "minute": {"pos": [0, 1], "suf": [""]}, "miracle": {"pos": [0, 1], "suf": [""]}, "mirror": {"pos": [0, 1], "suf": [""]}, "miscellaneous": {"pos": [0], "suf": [""]}, "mischief": {"pos": [0, 1], "suf": ["\'s"]}, "missing": {"pos": [0], "suf": [""]}, "mist": {"pos": [0, 1], "suf": [""]}, "misty": {"pos": [0], "suf": [""]}, "mixed": {"pos": [0], "suf": [""]}, "moderate": {"pos": [0], "suf": [""]}, "modern": {"pos": [0], "suf": [""]}, "modest": {"pos": [0], "suf": [""]}, "monday": {"pos": [0, 1], "suf": [""]}, "money": {"pos": [0, 1], "suf": [""]}, "monkey": {"pos": [0, 1], "suf": [""]}, "monster": {"pos": [0, 1], "suf": [""]}, "monstrous": {"pos": [0], "suf": [""]}, "moon": {"pos": [0, 1], "suf": [""]}, "moonlight": {"pos": [0], "suf": [""]}, "morning": {"pos": [0, 1], "suf": [""]}, "motionless": {"pos": [0], "suf": [""]}, "mountain": {"pos": [0, 1], "suf": [""]}, "mouse": {"pos": [0], "suf": [""]}, "mouth": {"pos": [0, 1], "suf": [""]}, "muddy": {"pos": [0], "suf": [""]}, "muffin": {"pos": [0, 1], "suf": [""]}, "murder": {"pos": [0, 1], "suf": [""]}, "murky": {"pos": [0], "suf": [""]}, "muscle": {"pos": [0, 1], "suf": [""]}, "muscular": {"pos": [0], "suf": [""]}, "music": {"pos": [0, 1], "suf": [""]}, "musical": {"pos": [0], "suf": [""]}, "musician": {"pos": [0], "suf": ["\'s"]}, "mustache": {"pos": [0, 1], "suf": [""]}, "mysterious": {"pos": [0], "suf": [""]}, "mystery": {"pos": [0, 1], "suf": [""]}, "mystic": {"pos": [0], "suf": [""]}, "myth": {"pos": [0, 1], "suf": [""]}, "nail": {"pos": [0, 1], "suf": [""]}, "national": {"pos": [0], "suf": [""]}, "natural": {"pos": [0], "suf": [""]}, "nautical": {"pos": [0], "suf": [""]}, "near": {"pos": [0], "suf": [""]}, "nebula": {"pos": [0, 1], "suf": [""]}, "necessary": {"pos": [0], "suf": [""]}, "nectarine": {"pos": [0, 1], "suf": [""]}, "needle": {"pos": [0, 1], "suf": [""]}, "neon": {"pos": [0], "suf": [""]}, "nerve": {"pos": [0, 1], "suf": [""]}, "neutral": {"pos": [0], "suf": [""]}, "new": {"pos": [0], "suf": [""]}, "news": {"pos": [0, 1], "suf": [""]}, "nice": {"pos": [0], "suf": [""]}, "night": {"pos": [0, 1], "suf": [""]}, "nightmare": {"pos": [0, 1], "suf": [""]}, "noble": {"pos": [0], "suf": [""]}, "nocturnal": {"pos": [0], "suf": [""]}, "noise": {"pos": [0, 1], "suf": [""]}, "noisy": {"pos": [0], "suf": [""]}, "noodle": {"pos": [0, 1], "suf": [""]}, "noon": {"pos": [0, 1], "suf": ["\'s"]}, "normal": {"pos": [0], "suf": [""]}, "northern": {"pos": [0], "suf": [""]}, "nostril": {"pos": [0, 1], "suf": [""]}, "novelty": {"pos": [0], "suf": [""]}, "novice": {"pos": [0, 1], "suf": [""]}, "nurse": {"pos": [0, 1], "suf": ["\'s"]}, "oasis": {"pos": [0, 1], "suf": [""]}, "oblique": {"pos": [0], "suf": [""]}, "oblivion": {"pos": [0, 1], "suf": [""]}, "oblong": {"pos": [0], "suf": [""]}, "obscure": {"pos": [0], "suf": [""]}, "obvious": {"pos": [0], "suf": [""]}, "occasional": {"pos": [0], "suf": [""]}, "ocean": {"pos": [0, 1], "suf": [""]}, "octagon": {"pos": [0, 1], "suf": [""]}, "octopus": {"pos": [0, 1], "suf": [""]}, "office": {"pos": [0, 1], "suf": [""]}, "official": {"pos": [0, 1], "suf": [""]}, "old": {"pos": [0], "suf": [""]}, "ominous": {"pos": [0], "suf": [""]}, "onion": {"pos": [0, 1], "suf": [""]}, "open": {"pos": [0], "suf": [""]}, "opera": {"pos": [0, 1], "suf": [""]}, "opportunity": {"pos": [0, 1], "suf": [""]}, "opposite": {"pos": [0], "suf": [""]}, "optional": {"pos": [0], "suf": [""]}, "opulent": {"pos": [0], "suf": [""]}, "orange": {"pos": [0, 1], "suf": [""]}, "ordinary": {"pos": [0], "suf": [""]}, "organic": {"pos": [0], "suf": [""]}, "original": {"pos": [0], "suf": [""]}, "ostrich": {"pos": [0, 1], "suf": [""]}, "otter": {"pos": [0, 1], "suf": [""]}, "outlaw": {"pos": [0, 1], "suf": [""]}, "outrageous": {"pos": [0], "suf": [""]}, "outspoken": {"pos": [0], "suf": [""]}, "owl": {"pos": [0, 1], "suf": [""]}, "owner": {"pos": [0, 1], "suf": ["\'s"]}, "oyster": {"pos": [0, 1], "suf": [""]}, "pain": {"pos": [0, 1], "suf": [""]}, "painted": {"pos": [0], "suf": [""]}, "palace": {"pos": [0, 1], "suf": [""]}, "pale": {"pos": [0], "suf": [""]}, "pantomime": {"pos": [0, 1], "suf": [""]}, "paradise": {"pos": [0, 1], "suf": [""]}, "parallel": {"pos": [0], "suf": [""]}, "parsnip": {"pos": [0, 1], "suf": [""]}, "particular": {"pos": [0], "suf": [""]}, "party": {"pos": [0, 1], "suf": [""]}, "past": {"pos": [0, 1], "suf": [""]}, "paste": {"pos": [0, 1], "suf": [""]}, "pastel": {"pos": [0], "suf": [""]}, "pastoral": {"pos": [0], "suf": [""]}, "patient": {"pos": [0], "suf": [""]}, "patriot": {"pos": [0, 1], "suf": ["\'s"]}, "pawn": {"pos": [0, 1], "suf": [""]}, "peach": {"pos": [0, 1], "suf": [""]}, "peacock": {"pos": [0, 1], "suf": [""]}, "peak": {"pos": [0, 1], "suf": [""]}, "peculiar": {"pos": [0], "suf": [""]}, "pedantic": {"pos": [0], "suf": [""]}, "pedestrian": {"pos": [0], "suf": [""]}, "penguin": {"pos": [0, 1], "suf": [""]}, "peppermint": {"pos": [0, 1], "suf": [""]}, "perfect": {"pos": [0], "suf": [""]}, "perfection": {"pos": [0, 1], "suf": [""]}, "perfidious": {"pos": [0], "suf": [""]}, "perfume": {"pos": [0, 1], "suf": [""]}, "peril": {"pos": [0, 1], "suf": [""]}, "perky": {"pos": [0], "suf": [""]}, "personal": {"pos": [0], "suf": [""]}, "petal": {"pos": [0, 1], "suf": [""]}, "phantom": {"pos": [0, 1], "suf": [""]}, "pharaoh": {"pos": [0, 1], "suf": [""]}, "philosophical": {"pos": [0], "suf": [""]}, "phoenix": {"pos": [0, 1], "suf": [""]}, "physical": {"pos": [0], "suf": [""]}, "pickle": {"pos": [0, 1], "suf": [""]}, "pickled": {"pos": [0], "suf": [""]}, "picnic": {"pos": [0, 1], "suf": [""]}, "picture": {"pos": [0, 1], "suf": [""]}, "picturesque": {"pos": [0], "suf": [""]}, "pig": {"pos": [0, 1], "suf": [""]}, "pirate": {"pos": [0], "suf": [""]}, "pistol": {"pos": [0, 1], "suf": [""]}, "pixie": {"pos": [0], "suf": ["\'s"]}, "plain": {"pos": [0], "suf": [""]}, "planet": {"pos": [0, 1], "suf": [""]}, "planetary": {"pos": [0], "suf": [""]}, "plant": {"pos": [0, 1], "suf": [""]}, "plate": {"pos": [0, 1], "suf": [""]}, "platinum": {"pos": [0], "suf": [""]}, "platypus": {"pos": [0, 1], "suf": [""]}, "plausible": {"pos": [0], "suf": [""]}, "playful": {"pos": [0], "suf": [""]}, "pleasant": {"pos": [0], "suf": [""]}, "pleasure": {"pos": [0], "suf": [""]}, "plum": {"pos": [0, 1], "suf": [""]}, "plump": {"pos": [0], "suf": [""]}, "pocket": {"pos": [0, 1], "suf": [""]}, "poetic": {"pos": [0], "suf": [""]}, "poison": {"pos": [0, 1], "suf": [""]}, "poisonous": {"pos": [0], "suf": [""]}, "polar": {"pos": [0], "suf": [""]}, "polish": {"pos": [0, 1], "suf": [""]}, "polite": {"pos": [0], "suf": [""]}, "political": {"pos": [0], "suf": [""]}, "polka-dot": {"pos": [0], "suf": [""]}, "poltergeist": {"pos": [0, 1], "suf": [""]}, "pony": {"pos": [0, 1], "suf": [""]}, "popcorn": {"pos": [0, 1], "suf": [""]}, "popular": {"pos": [0], "suf": [""]}, "possible": {"pos": [0], "suf": [""]}, "posterity": {"pos": [0], "suf": ["\'s"]}, "potato": {"pos": [0, 1], "suf": [""]}, "powder": {"pos": [0, 1], "suf": [""]}, "power": {"pos": [0, 1], "suf": [""]}, "practical": {"pos": [0], "suf": [""]}, "prancing": {"pos": [0], "suf": [""]}, "prawn": {"pos": [0, 1], "suf": [""]}, "precious": {"pos": [0], "suf": [""]}, "premium": {"pos": [0], "suf": [""]}, "present": {"pos": [0, 1], "suf": [""]}, "pretend": {"pos": [0], "suf": [""]}, "priceless": {"pos": [0], "suf": [""]}, "pride": {"pos": [0, 1], "suf": [""]}, "primary": {"pos": [0], "suf": [""]}, "prince": {"pos": [0, 1], "suf": [""]}, "princess": {"pos": [0, 1], "suf": [""]}, "prize": {"pos": [0], "suf": [""]}, "probable": {"pos": [0], "suf": [""]}, "problem": {"pos": [0, 1], "suf": [""]}, "profound": {"pos": [0], "suf": [""]}, "promising": {"pos": [0], "suf": [""]}, "proud": {"pos": [0], "suf": [""]}, "public": {"pos": [0], "suf": [""]}, "pump": {"pos": [0], "suf": [""]}, "pumpkin": {"pos": [0, 1], "suf": [""]}, "purple": {"pos": [0], "suf": [""]}, "push": {"pos": [0, 1], "suf": [""]}, "puzzle": {"pos": [0, 1], "suf": [""]}, "puzzled": {"pos": [0], "suf": [""]}, "puzzling": {"pos": [0], "suf": [""]}, "quaint": {"pos": [0], "suf": [""]}, "quality": {"pos": [0, 1], "suf": [""]}, "queen": {"pos": [0, 1], "suf": [""]}, "questionable": {"pos": [0], "suf": [""]}, "quick": {"pos": [0], "suf": [""]}, "quiet": {"pos": [0], "suf": [""]}, "quirky": {"pos": [0], "suf": [""]}, "radiant": {"pos": [0], "suf": [""]}, "radish": {"pos": [0, 1], "suf": [""]}, "rain": {"pos": [0, 1], "suf": [""]}, "rainbow": {"pos": [0, 1], "suf": [""]}, "raindrop": {"pos": [0, 1], "suf": [""]}, "rainy": {"pos": [0], "suf": [""]}, "random": {"pos": [0], "suf": [""]}, "rare": {"pos": [0], "suf": [""]}, "raspberry": {"pos": [0, 1], "suf": [""]}, "rat": {"pos": [0], "suf": ["\'s"]}, "raven": {"pos": [0, 1], "suf": [""]}, "raw": {"pos": [0, 1], "suf": [""]}, "real": {"pos": [0], "suf": [""]}, "realistic": {"pos": [0], "suf": [""]}, "reckless": {"pos": [0], "suf": [""]}, "record": {"pos": [0, 1], "suf": [""]}, "red-hot": {"pos": [0], "suf": [""]}, "regal": {"pos": [0], "suf": [""]}, "regional": {"pos": [0], "suf": [""]}, "registered": {"pos": [0], "suf": [""]}, "regular": {"pos": [0], "suf": [""]}, "reliable": {"pos": [0], "suf": [""]}, "relish": {"pos": [0, 1], "suf": [""]}, "reluctant": {"pos": [0], "suf": [""]}, "remaining": {"pos": [0], "suf": [""]}, "remedy": {"pos": [0, 1], "suf": [""]}, "request": {"pos": [0, 1], "suf": [""]}, "required": {"pos": [0], "suf": [""]}, "respect": {"pos": [0, 1], "suf": [""]}, "responsible": {"pos": [0], "suf": [""]}, "return": {"pos": [0, 1], "suf": [""]}, "revenge": {"pos": [0, 1], "suf": [""]}, "reverse": {"pos": [0], "suf": [""]}, "rhubarb": {"pos": [0, 1], "suf": [""]}, "rhythm": {"pos": [0, 1], "suf": [""]}, "rich": {"pos": [0], "suf": [""]}, "riddle": {"pos": [0, 1], "suf": [""]}, "ridiculous": {"pos": [0], "suf": [""]}, "right": {"pos": [0], "suf": [""]}, "ripple": {"pos": [0, 1], "suf": [""]}, "risk": {"pos": [0, 1], "suf": [""]}, "risky": {"pos": [0], "suf": [""]}, "rival": {"pos": [0], "suf": [""]}, "river": {"pos": [0, 1], "suf": [""]}, "robot": {"pos": [0, 1], "suf": [""]}, "robotic": {"pos": [0], "suf": [""]}, "robust": {"pos": [0], "suf": [""]}, "rocket": {"pos": [0, 1], "suf": [""]}, "rockfish": {"pos": [0, 1], "suf": [""]}, "rodeo": {"pos": [0, 1], "suf": [""]}, "rogue": {"pos": [0, 1], "suf": [""]}, "romance": {"pos": [0, 1], "suf": [""]}, "rose": {"pos": [0, 1], "suf": [""]}, "rough": {"pos": [0], "suf": [""]}, "round": {"pos": [0], "suf": [""]}, "routine": {"pos": [0], "suf": [""]}, "royal": {"pos": [0], "suf": [""]}, "ruby": {"pos": [0, 1], "suf": [""]}, "ruler": {"pos": [0, 1], "suf": ["\'s"]}, "rumble": {"pos": [0, 1], "suf": [""]}, "rumbling": {"pos": [0], "suf": [""]}, "rush": {"pos": [0, 1], "suf": [""]}, "rustic": {"pos": [0], "suf": [""]}, "rusty": {"pos": [0], "suf": [""]}, "sacred": {"pos": [0], "suf": [""]}, "sad": {"pos": [0], "suf": [""]}, "safe": {"pos": [0], "suf": [""]}, "sailor": {"pos": [0, 1], "suf": [""]}, "salmon": {"pos": [0, 1], "suf": [""]}, "samurai": {"pos": [0, 1], "suf": [""]}, "sand": {"pos": [0, 1], "suf": [""]}, "sandwich": {"pos": [0, 1], "suf": [""]}, "sapphire": {"pos": [0, 1], "suf": [""]}, "sarcasm": {"pos": [0, 1], "suf": [""]}, "sarcastic": {"pos": [0], "suf": [""]}, "sardine": {"pos": [0, 1], "suf": [""]}, "satisfactory": {"pos": [0], "suf": [""]}, "scale": {"pos": [0, 1], "suf": [""]}, "scenic": {"pos": [0], "suf": [""]}, "sceptical": {"pos": [0], "suf": [""]}, "science": {"pos": [0, 1], "suf": [""]}, "scientific": {"pos": [0], "suf": [""]}, "sea": {"pos": [0, 1], "suf": [""]}, "search": {"pos": [0, 1], "suf": [""]}, "seasonal": {"pos": [0], "suf": [""]}, "second": {"pos": [0], "suf": [""]}, "secondary": {"pos": [0], "suf": [""]}, "secret": {"pos": [0], "suf": [""]}, "secretary": {"pos": [0, 1], "suf": [""]}, "self": {"pos": [0, 1], "suf": [""]}, "semaphore": {"pos": [0, 1], "suf": [""]}, "senior": {"pos": [0], "suf": [""]}, "sensational": {"pos": [0], "suf": [""]}, "sensible": {"pos": [0], "suf": [""]}, "separate": {"pos": [0], "suf": [""]}, "sequel": {"pos": [0, 1], "suf": [""]}, "serene": {"pos": [0], "suf": [""]}, "sergeant": {"pos": [0, 1], "suf": [""]}, "serious": {"pos": [0], "suf": [""]}, "serpent": {"pos": [0, 1], "suf": [""]}, "shade": {"pos": [0, 1], "suf": [""]}, "shadow": {"pos": [0], "suf": [""]}, "shame": {"pos": [0, 1], "suf": [""]}, "shameful": {"pos": [0], "suf": [""]}, "shameless": {"pos": [0], "suf": [""]}, "shard": {"pos": [0, 1], "suf": [""]}, "sharp": {"pos": [0], "suf": [""]}, "sheep": {"pos": [0, 1], "suf": [""]}, "shellfish": {"pos": [0, 1], "suf": [""]}, "sherbet": {"pos": [0, 1], "suf": [""]}, "shift": {"pos": [0, 1], "suf": [""]}, "shimmer": {"pos": [0, 1], "suf": [""]}, "shimmering": {"pos": [0], "suf": [""]}, "shining": {"pos": [0], "suf": [""]}, "shiny": {"pos": [0], "suf": [""]}, "ship": {"pos": [0, 1], "suf": [""]}, "shock": {"pos": [0, 1], "suf": [""]}, "shocking": {"pos": [0], "suf": [""]}, "short": {"pos": [0], "suf": [""]}, "show": {"pos": [0, 1], "suf": [""]}, "showy": {"pos": [0], "suf": [""]}, "shroud": {"pos": [0, 1], "suf": [""]}, "shuffle": {"pos": [0, 1], "suf": [""]}, "shy": {"pos": [0], "suf": [""]}, "silent": {"pos": [0], "suf": [""]}, "silk": {"pos": [0, 1], "suf": [""]}, "silver": {"pos": [0, 1], "suf": [""]}, "silvery": {"pos": [0], "suf": [""]}, "simple": {"pos": [0], "suf": [""]}, "singing": {"pos": [0], "suf": [""]}, "single": {"pos": [0], "suf": [""]}, "sinister": {"pos": [0], "suf": [""]}, "sir": {"pos": [0], "suf": [""]}, "skeleton": {"pos": [0, 1], "suf": [""]}, "sketch": {"pos": [0, 1], "suf": [""]}, "skunk": {"pos": [0, 1], "suf": [""]}, "sky": {"pos": [0, 1], "suf": [""]}, "slapdash": {"pos": [0], "suf": [""]}, "sleep": {"pos": [0, 1], "suf": [""]}, "sleepy": {"pos": [0], "suf": [""]}, "slipper": {"pos": [0, 1], "suf": [""]}, "slow": {"pos": [0], "suf": [""]}, "smart": {"pos": [0], "suf": [""]}, "smash": {"pos": [0, 1], "suf": [""]}, "smashing": {"pos": [0], "suf": [""]}, "smoke": {"pos": [0, 1], "suf": [""]}, "smoky": {"pos": [0], "suf": [""]}, "snack": {"pos": [0, 1], "suf": [""]}, "snail": {"pos": [0, 1], "suf": [""]}, "sniffle": {"pos": [0, 1], "suf": [""]}, "snooze": {"pos": [0, 1], "suf": [""]}, "snore": {"pos": [0, 1], "suf": [""]}, "snow": {"pos": [0, 1], "suf": [""]}, "snowball": {"pos": [0, 1], "suf": [""]}, "sock": {"pos": [0], "suf": [""]}, "solar": {"pos": [0], "suf": [""]}, "solid": {"pos": [0], "suf": [""]}, "song": {"pos": [0, 1], "suf": [""]}, "sonic": {"pos": [0], "suf": [""]}, "sorrow": {"pos": [0, 1], "suf": [""]}, "sorry": {"pos": [0], "suf": [""]}, "soul": {"pos": [0], "suf": [""]}, "sound": {"pos": [0], "suf": [""]}, "soup": {"pos": [0, 1], "suf": [""]}, "southern": {"pos": [0], "suf": [""]}, "space": {"pos": [0, 1], "suf": [""]}, "spaghetti": {"pos": [0, 1], "suf": [""]}, "spare": {"pos": [0], "suf": [""]}, "spark": {"pos": [0, 1], "suf": [""]}, "sparkle": {"pos": [0, 1], "suf": [""]}, "sparkling": {"pos": [0], "suf": [""]}, "special": {"pos": [0], "suf": [""]}, "spectacular": {"pos": [0, 1], "suf": [""]}, "speed": {"pos": [0], "suf": [""]}, "speedy": {"pos": [0], "suf": [""]}, "spell": {"pos": [0, 1], "suf": [""]}, "spice": {"pos": [0], "suf": [""]}, "spicy": {"pos": [0], "suf": [""]}, "spiral": {"pos": [0], "suf": [""]}, "spirit": {"pos": [0, 1], "suf": [""]}, "spirited": {"pos": [0], "suf": [""]}, "splash": {"pos": [0, 1], "suf": [""]}, "splashed": {"pos": [0], "suf": [""]}, "splendid": {"pos": [0], "suf": [""]}, "sponge": {"pos": [0, 1], "suf": [""]}, "spook": {"pos": [0, 1], "suf": [""]}, "spooky": {"pos": [0], "suf": [""]}, "spoon": {"pos": [0, 1], "suf": [""]}, "spreadsheet": {"pos": [0, 1], "suf": [""]}, "spring": {"pos": [0, 1], "suf": [""]}, "springy": {"pos": [0], "suf": [""]}, "square": {"pos": [0, 1], "suf": [""]}, "squeaky": {"pos": [0], "suf": [""]}, "squeamish": {"pos": [0], "suf": [""]}, "squirrel": {"pos": [0, 1], "suf": [""]}, "stable": {"pos": [0], "suf": [""]}, "staircase": {"pos": [0, 1], "suf": [""]}, "stallion": {"pos": [0], "suf": ["\'s"]}, "standard": {"pos": [0], "suf": [""]}, "standing": {"pos": [0], "suf": [""]}, "star": {"pos": [0, 1], "suf": [""]}, "starry": {"pos": [0], "suf": [""]}, "stately": {"pos": [0], "suf": [""]}, "steadfast": {"pos": [0], "suf": [""]}, "steady": {"pos": [0], "suf": [""]}, "steam": {"pos": [0, 1], "suf": [""]}, "steel": {"pos": [0, 1], "suf": [""]}, "stellar": {"pos": [0], "suf": [""]}, "sterling": {"pos": [0], "suf": [""]}, "stone": {"pos": [0, 1], "suf": [""]}, "stork": {"pos": [0, 1], "suf": [""]}, "storm": {"pos": [0, 1], "suf": [""]}, "stormy": {"pos": [0], "suf": [""]}, "story": {"pos": [0, 1], "suf": [""]}, "straight": {"pos": [0], "suf": [""]}, "strange": {"pos": [0], "suf": [""]}, "stranger": {"pos": [0, 1], "suf": [""]}, "strategic": {"pos": [0], "suf": [""]}, "strategy": {"pos": [0, 1], "suf": [""]}, "strawberry": {"pos": [0, 1], "suf": [""]}, "stretch": {"pos": [0, 1], "suf": [""]}, "strike": {"pos": [0, 1], "suf": [""]}, "string": {"pos": [0, 1], "suf": [""]}, "striped": {"pos": [0], "suf": [""]}, "strong": {"pos": [0], "suf": [""]}, "structural": {"pos": [0], "suf": [""]}, "stubborn": {"pos": [0], "suf": [""]}, "stutter": {"pos": [0, 1], "suf": [""]}, "style": {"pos": [0, 1], "suf": [""]}, "stylish": {"pos": [0], "suf": [""]}, "sublime": {"pos": [0], "suf": [""]}, "suboptimal": {"pos": [0], "suf": [""]}, "substitute": {"pos": [0], "suf": [""]}, "success": {"pos": [0, 1], "suf": [""]}, "successful": {"pos": [0], "suf": [""]}, "sudden": {"pos": [0], "suf": [""]}, "sugar": {"pos": [0, 1], "suf": [""]}, "summer": {"pos": [0, 1], "suf": [""]}, "summery": {"pos": [0], "suf": [""]}, "sun": {"pos": [0, 1], "suf": [""]}, "sunbeam": {"pos": [0, 1], "suf": [""]}, "sunlight": {"pos": [0, 1], "suf": [""]}, "sunny": {"pos": [0], "suf": [""]}, "sunrise": {"pos": [0, 1], "suf": [""]}, "sunshine": {"pos": [0], "suf": [""]}, "super": {"pos": [0], "suf": [""]}, "superb": {"pos": [0], "suf": [""]}, "superior": {"pos": [0], "suf": [""]}, "supernatural": {"pos": [0], "suf": [""]}, "supersonic": {"pos": [0], "suf": [""]}, "superstar": {"pos": [0, 1], "suf": [""]}, "surprise": {"pos": [0, 1], "suf": [""]}, "surprising": {"pos": [0], "suf": [""]}, "surreal": {"pos": [0], "suf": [""]}, "suspicious": {"pos": [0], "suf": [""]}, "sweet": {"pos": [0, 1], "suf": [""]}, "sweetheart": {"pos": [0], "suf": ["\'s"]}, "swift": {"pos": [0], "suf": [""]}, "sword": {"pos": [0, 1], "suf": [""]}, "symphony": {"pos": [0, 1], "suf": [""]}, "synthetic": {"pos": [0], "suf": [""]}, "tabloid": {"pos": [0], "suf": [""]}, "tactical": {"pos": [0], "suf": [""]}, "tall": {"pos": [0], "suf": [""]}, "tartan": {"pos": [0], "suf": [""]}, "tasteful": {"pos": [0], "suf": [""]}, "tasteless": {"pos": [0], "suf": [""]}, "tawny": {"pos": [0], "suf": [""]}, "tax": {"pos": [0, 1], "suf": [""]}, "teapot": {"pos": [0, 1], "suf": [""]}, "teardrop": {"pos": [0, 1], "suf": [""]}, "tears": {"pos": [0], "suf": [""]}, "technical": {"pos": [0], "suf": [""]}, "tectonic": {"pos": [0], "suf": [""]}, "tedious": {"pos": [0], "suf": [""]}, "telltale": {"pos": [0], "suf": [""]}, "temporary": {"pos": [0], "suf": [""]}, "tempting": {"pos": [0], "suf": [""]}, "tenacious": {"pos": [0], "suf": [""]}, "tentative": {"pos": [0], "suf": [""]}, "terrible": {"pos": [0], "suf": [""]}, "terrific": {"pos": [0], "suf": [""]}, "test": {"pos": [0, 1], "suf": [""]}, "that": {"pos": [0], "suf": [""]}, "the": {"pos": [0], "suf": [""]}, "theoretical": {"pos": [0], "suf": [""]}, "theory": {"pos": [0, 1], "suf": [""]}, "thief": {"pos": [0, 1], "suf": [""]}, "thimble": {"pos": [0, 1], "suf": [""]}, "this": {"pos": [0], "suf": [""]}, "thistle": {"pos": [0, 1], "suf": [""]}, "thought": {"pos": [0, 1], "suf": [""]}, "thoughtful": {"pos": [0], "suf": [""]}, "thumb": {"pos": [0, 1], "suf": [""]}, "thunder": {"pos": [0, 1], "suf": [""]}, "thundering": {"pos": [0], "suf": [""]}, "thursday": {"pos": [0, 1], "suf": [""]}, "ticket": {"pos": [0, 1], "suf": [""]}, "tidy": {"pos": [0], "suf": [""]}, "tiger": {"pos": [0], "suf": ["\'s"]}, "time": {"pos": [0, 1], "suf": [""]}, "timely": {"pos": [0], "suf": [""]}, "timid": {"pos": [0], "suf": [""]}, "tingling": {"pos": [0], "suf": [""]}, "tinsel": {"pos": [0], "suf": [""]}, "tinted": {"pos": [0], "suf": [""]}, "tired": {"pos": [0], "suf": [""]}, "toast": {"pos": [0, 1], "suf": [""]}, "today": {"pos": [0], "suf": ["\'s"]}, "toffee": {"pos": [0, 1], "suf": [""]}, "tomato": {"pos": [0, 1], "suf": [""]}, "tombstone": {"pos": [0, 1], "suf": [""]}, "torch": {"pos": [0, 1], "suf": [""]}, "torpedo": {"pos": [0, 1], "suf": [""]}, "tortoise": {"pos": [0, 1], "suf": [""]}, "total": {"pos": [0], "suf": [""]}, "tough": {"pos": [0], "suf": [""]}, "town": {"pos": [0, 1], "suf": [""]}, "toy": {"pos": [0, 1], "suf": [""]}, "tragedy": {"pos": [0, 1], "suf": [""]}, "train": {"pos": [0, 1], "suf": [""]}, "traitor": {"pos": [0, 1], "suf": [""]}, "tranquil": {"pos": [0], "suf": [""]}, "transparent": {"pos": [0], "suf": [""]}, "trapeze": {"pos": [0, 1], "suf": [""]}, "traveller": {"pos": [0, 1], "suf": ["\'s"]}, "treasure": {"pos": [0, 1], "suf": [""]}, "tree": {"pos": [0, 1], "suf": [""]}, "trendy": {"pos": [0], "suf": [""]}, "triangular": {"pos": [0], "suf": [""]}, "trick": {"pos": [0, 1], "suf": [""]}, "tricky": {"pos": [0], "suf": [""]}, "triple": {"pos": [0], "suf": [""]}, "triumph": {"pos": [0, 1], "suf": [""]}, "triumphant": {"pos": [0], "suf": [""]}, "trivia": {"pos": [0, 1], "suf": [""]}, "trivial": {"pos": [0], "suf": [""]}, "trombone": {"pos": [0, 1], "suf": [""]}, "trophy": {"pos": [0, 1], "suf": [""]}, "tropical": {"pos": [0], "suf": [""]}, "trouble": {"pos": [0, 1], "suf": [""]}, "troubled": {"pos": [0], "suf": [""]}, "trout": {"pos": [0, 1], "suf": [""]}, "truffle": {"pos": [0, 1], "suf": [""]}, "trumpet": {"pos": [0, 1], "suf": [""]}, "trust": {"pos": [0, 1], "suf": [""]}, "trusty": {"pos": [0], "suf": [""]}, "truth": {"pos": [0, 1], "suf": [""]}, "tsunami": {"pos": [0, 1], "suf": [""]}, "tuesday": {"pos": [0, 1], "suf": [""]}, "tulip": {"pos": [0, 1], "suf": [""]}, "turbo": {"pos": [0, 1], "suf": [""]}, "turbulent": {"pos": [0], "suf": [""]}, "turkey": {"pos": [0, 1], "suf": [""]}, "turquoise": {"pos": [0], "suf": [""]}, "twilight": {"pos": [0, 1], "suf": [""]}, "twin": {"pos": [0], "suf": [""]}, "twinkle": {"pos": [0, 1], "suf": [""]}, "twisted": {"pos": [0], "suf": [""]}, "two-faced": {"pos": [0], "suf": [""]}, "typical": {"pos": [0], "suf": [""]}, "typo": {"pos": [0, 1], "suf": [""]}, "tyrant": {"pos": [0, 1], "suf": ["\'s"]}, "ubiquitous": {"pos": [0], "suf": [""]}, "ultimate": {"pos": [0], "suf": [""]}, "ultra": {"pos": [0], "suf": [""]}, "umbrella": {"pos": [0, 1], "suf": [""]}, "undulating": {"pos": [0], "suf": [""]}, "unfading": {"pos": [0], "suf": [""]}, "unicorn": {"pos": [0, 1], "suf": [""]}, "unique": {"pos": [0], "suf": [""]}, "universal": {"pos": [0], "suf": [""]}, "unknown": {"pos": [0], "suf": [""]}, "unlikely": {"pos": [0], "suf": [""]}, "untidy": {"pos": [0], "suf": [""]}, "unusual": {"pos": [0], "suf": [""]}, "urgent": {"pos": [0], "suf": [""]}, "use": {"pos": [0, 1], "suf": [""]}, "useful": {"pos": [0], "suf": [""]}, "useless": {"pos": [0], "suf": [""]}, "utmost": {"pos": [0], "suf": [""]}, "vacation": {"pos": [0, 1], "suf": [""]}, "vacuum": {"pos": [0, 1], "suf": [""]}, "vague": {"pos": [0], "suf": [""]}, "valentine": {"pos": [0], "suf": ["\'s"]}, "valiant": {"pos": [0], "suf": [""]}, "vampire": {"pos": [0, 1], "suf": [""]}, "vanishing": {"pos": [0], "suf": [""]}, "various": {"pos": [0], "suf": [""]}, "velvet": {"pos": [0, 1], "suf": [""]}, "venture": {"pos": [0, 1], "suf": [""]}, "vertical": {"pos": [0], "suf": [""]}, "vertigo": {"pos": [0, 1], "suf": [""]}, "very": {"pos": [0], "suf": [""]}, "vibrant": {"pos": [0], "suf": [""]}, "vicar": {"pos": [0, 1], "suf": ["\'s"]}, "victory": {"pos": [0, 1], "suf": [""]}, "vintage": {"pos": [0], "suf": [""]}, "violent": {"pos": [0], "suf": [""]}, "violet": {"pos": [0, 1], "suf": [""]}, "virtual": {"pos": [0], "suf": [""]}, "visitor": {"pos": [0, 1], "suf": ["\'s"]}, "vital": {"pos": [0], "suf": [""]}, "vivacious": {"pos": [0], "suf": [""]}, "vixen": {"pos": [0, 1], "suf": ["\'s"]}, "voiceless": {"pos": [0], "suf": [""]}, "volatile": {"pos": [0], "suf": [""]}, "volcanic": {"pos": [0], "suf": [""]}, "volcano": {"pos": [0, 1], "suf": [""]}, "voyager": {"pos": [0, 1], "suf": [""]}, "waffle": {"pos": [0, 1], "suf": [""]}, "waistcoat": {"pos": [0, 1], "suf": [""]}, "walker": {"pos": [0], "suf": ["\'s"]}, "wallpaper": {"pos": [0, 1], "suf": [""]}, "wandering": {"pos": [0], "suf": [""]}, "war": {"pos": [0, 1], "suf": [""]}, "warm": {"pos": [0], "suf": [""]}, "warrior": {"pos": [0, 1], "suf": [""]}, "waste": {"pos": [0, 1], "suf": [""]}, "watch": {"pos": [0, 1], "suf": [""]}, "water": {"pos": [0, 1], "suf": [""]}, "waterproof": {"pos": [0], "suf": [""]}, "wave": {"pos": [0, 1], "suf": [""]}, "wax": {"pos": [0, 1], "suf": [""]}, "wayward": {"pos": [0], "suf": [""]}, "weasel": {"pos": [0, 1], "suf": [""]}, "wednesday": {"pos": [0, 1], "suf": [""]}, "weird": {"pos": [0], "suf": [""]}, "weirdo": {"pos": [0, 1], "suf": [""]}, "welcome": {"pos": [0], "suf": [""]}, "whelk": {"pos": [0, 1], "suf": [""]}, "whimsical": {"pos": [0], "suf": [""]}, "whisper": {"pos": [0, 1], "suf": [""]}, "wicked": {"pos": [0], "suf": [""]}, "widget": {"pos": [0, 1], "suf": [""]}, "wiggle": {"pos": [0, 1], "suf": [""]}, "wild": {"pos": [0], "suf": [""]}, "wild-eyed": {"pos": [0], "suf": [""]}, "willful": {"pos": [0], "suf": [""]}, "wind": {"pos": [0, 1], "suf": [""]}, "windmill": {"pos": [0, 1], "suf": [""]}, "wine": {"pos": [0, 1], "suf": [""]}, "winged": {"pos": [0], "suf": [""]}, "winner": {"pos": [0], "suf": ["\'s"]}, "winter": {"pos": [0, 1], "suf": [""]}, "wisdom": {"pos": [0, 1], "suf": [""]}, "wise": {"pos": [0], "suf": [""]}, "wish": {"pos": [0, 1], "suf": [""]}, "witch": {"pos": [0, 1], "suf": ["\'s"]}, "wizard": {"pos": [0, 1], "suf": ["\'s"]}, "wonderful": {"pos": [0], "suf": [""]}, "wooden": {"pos": [0], "suf": [""]}, "word": {"pos": [0, 1], "suf": [""]}, "work": {"pos": [0, 1], "suf": [""]}, "world": {"pos": [0, 1], "suf": [""]}, "worry": {"pos": [0, 1], "suf": [""]}, "wrong": {"pos": [0], "suf": [""]}, "young": {"pos": [0], "suf": [""]}, "zealous": {"pos": [0], "suf": [""]}, "zebra": {"pos": [0, 1], "suf": [""]}, "zenith": {"pos": [0, 1], "suf": [""]}, "zephyr": {"pos": [0, 1], "suf": [""]}, "zero": {"pos": [0, 1], "suf": [""]}, "zigzag": {"pos": [0, 1], "suf": [""]}, "zombie": {"pos": [0, 1], "suf": [""]}, "ability": {"pos": [1], "suf": [""]}, "achievement": {"pos": [1], "suf": [""]}, "acquaintance": {"pos": [1], "suf": [""]}, "act": {"pos": [1], "suf": [""]}, "adjective": {"pos": [1], "suf": [""]}, "advice": {"pos": [1], "suf": [""]}, "aftermath": {"pos": [1], "suf": [""]}, "aftershock": {"pos": [1], "suf": [""]}, "aim": {"pos": [1], "suf": [""]}, "alarm": {"pos": [1], "suf": [""]}, "alibi": {"pos": [1], "suf": [""]}, "allergy": {"pos": [1], "suf": [""]}, "ambition": {"pos": [1], "suf": [""]}, "amusement": {"pos": [1], "suf": [""]}, "anagram": {"pos": [1], "suf": [""]}, "anecdote": {"pos": [1], "suf": [""]}, "animals": {"pos": [1], "suf": [""]}, "answer": {"pos": [1], "suf": [""]}, "anticipation": {"pos": [1], "suf": [""]}, "antidote": {"pos": [1], "suf": [""]}, "ants": {"pos": [1], "suf": [""]}, "apology": {"pos": [1], "suf": [""]}, "applause": {"pos": [1], "suf": [""]}, "archetype": {"pos": [1], "suf": [""]}, "area": {"pos": [1], "suf": [""]}, "argument": {"pos": [1], "suf": [""]}, "armies": {"pos": [1], "suf": [""]}, "article": {"pos": [1], "suf": [""]}, "attempt": {"pos": [1], "suf": [""]}, "aurora": {"pos": [1], "suf": [""]}, "babies": {"pos": [1], "suf": [""]}, "bandit": {"pos": [1], "suf": [""]}, "banter": {"pos": [1], "suf": [""]}, "beep": {"pos": [1], "suf": [""]}, "behavior": {"pos": [1], "suf": [""]}, "betrayal": {"pos": [1], "suf": [""]}, "biscuits": {"pos": [1], "suf": [""]}, "blurb": {"pos": [1], "suf": [""]}, "bother": {"pos": [1], "suf": [""]}, "bounty": {"pos": [1], "suf": [""]}, "braid": {"pos": [1], "suf": [""]}, "brilliance": {"pos": [1], "suf": [""]}, "burn": {"pos": [1], "suf": [""]}, "business": {"pos": [1], "suf": [""]}, "canyon": {"pos": [1], "suf": [""]}, "caption": {"pos": [1], "suf": [""]}, "cascade": {"pos": [1], "suf": [""]}, "castle": {"pos": [1], "suf": [""]}, "catch": {"pos": [1], "suf": [""]}, "category": {"pos": [1], "suf": [""]}, "century": {"pos": [1], "suf": [""]}, "certainty": {"pos": [1], "suf": [""]}, "challenge": {"pos": [1], "suf": [""]}, "chapter": {"pos": [1], "suf": [""]}, "charger": {"pos": [1], "suf": [""]}, "chariot": {"pos": [1], "suf": [""]}, "chase": {"pos": [1], "suf": [""]}, "cheesecake": {"pos": [1], "suf": [""]}, "chime": {"pos": [1], "suf": [""]}, "citadel": {"pos": [1], "suf": [""]}, "cleverness": {"pos": [1], "suf": [""]}, "clubs": {"pos": [1], "suf": [""]}, "clue": {"pos": [1], "suf": [""]}, "coast": {"pos": [1], "suf": [""]}, "comfort": {"pos": [1], "suf": [""]}, "comment": {"pos": [1], "suf": [""]}, "competition": {"pos": [1], "suf": [""]}, "complication": {"pos": [1], "suf": [""]}, "compliment": {"pos": [1], "suf": [""]}, "conclusion": {"pos": [1], "suf": [""]}, "condition": {"pos": [1], "suf": [""]}, "confidence": {"pos": [1], "suf": [""]}, "constellation": {"pos": [1], "suf": [""]}, "cosmos": {"pos": [1], "suf": [""]}, "crab": {"pos": [1], "suf": [""]}, "crash": {"pos": [1], "suf": [""]}, "creation": {"pos": [1], "suf": [""]}, "creek": {"pos": [1], "suf": [""]}, "crowd": {"pos": [1], "suf": [""]}, "dancer": {"pos": [1], "suf": [""]}, "dazzler": {"pos": [1], "suf": [""]}, "deal": {"pos": [1], "suf": [""]}, "decision": {"pos": [1], "suf": [""]}, "decrease": {"pos": [1], "suf": [""]}, "dedication": {"pos": [1], "suf": [""]}, "delight": {"pos": [1], "suf": [""]}, "description": {"pos": [1], "suf": [""]}, "diamonds": {"pos": [1], "suf": [""]}, "direction": {"pos": [1], "suf": [""]}, "doze": {"pos": [1], "suf": [""]}, "dress": {"pos": [1], "suf": [""]}, "duel": {"pos": [1], "suf": [""]}, "dungeon": {"pos": [1], "suf": [""]}, "dynasty": {"pos": [1], "suf": [""]}, "earth": {"pos": [1], "suf": [""]}, "effect": {"pos": [1], "suf": [""]}, "electricity": {"pos": [1], "suf": [""]}, "elegance": {"pos": [1], "suf": [""]}, "element": {"pos": [1], "suf": [""]}, "engine": {"pos": [1], "suf": [""]}, "eruption": {"pos": [1], "suf": [""]}, "escape": {"pos": [1], "suf": [""]}, "etiquette": {"pos": [1], "suf": [""]}, "example": {"pos": [1], "suf": [""]}, "excellence": {"pos": [1], "suf": [""]}, "experience": {"pos": [1], "suf": [""]}, "expert": {"pos": [1], "suf": [""]}, "explosion": {"pos": [1], "suf": [""]}, "extravaganza": {"pos": [1], "suf": [""]}, "factor": {"pos": [1], "suf": [""]}, "faith": {"pos": [1], "suf": [""]}, "fate": {"pos": [1], "suf": [""]}, "fiction": {"pos": [1], "suf": [""]}, "figment": {"pos": [1], "suf": [""]}, "fizz": {"pos": [1], "suf": [""]}, "flourish": {"pos": [1], "suf": [""]}, "flurry": {"pos": [1], "suf": [""]}, "flute": {"pos": [1], "suf": [""]}, "forgery": {"pos": [1], "suf": [""]}, "form": {"pos": [1], "suf": [""]}, "format": {"pos": [1], "suf": [""]}, "fraction": {"pos": [1], "suf": [""]}, "fragment": {"pos": [1], "suf": [""]}, "frame": {"pos": [1], "suf": [""]}, "franchise": {"pos": [1], "suf": [""]}, "frankincense": {"pos": [1], "suf": [""]}, "freeze": {"pos": [1], "suf": [""]}, "frequency": {"pos": [1], "suf": [""]}, "friend": {"pos": [1], "suf": [""]}, "function": {"pos": [1], "suf": [""]}, "funeral": {"pos": [1], "suf": [""]}, "gesture": {"pos": [1], "suf": [""]}, "gift": {"pos": [1], "suf": [""]}, "gimmick": {"pos": [1], "suf": [""]}, "glass": {"pos": [1], "suf": [""]}, "grace": {"pos": [1], "suf": [""]}, "haven": {"pos": [1], "suf": [""]}, "headline": {"pos": [1], "suf": [""]}, "hearts": {"pos": [1], "suf": [""]}, "honor": {"pos": [1], "suf": [""]}, "hour": {"pos": [1], "suf": [""]}, "ice": {"pos": [1], "suf": [""]}, "impact": {"pos": [1], "suf": [""]}, "impulse": {"pos": [1], "suf": [""]}, "incident": {"pos": [1], "suf": [""]}, "inferno": {"pos": [1], "suf": [""]}, "infusion": {"pos": [1], "suf": [""]}, "ingredient": {"pos": [1], "suf": [""]}, "inheritance": {"pos": [1], "suf": [""]}, "insect": {"pos": [1], "suf": [""]}, "insult": {"pos": [1], "suf": [""]}, "interest": {"pos": [1], "suf": [""]}, "invention": {"pos": [1], "suf": [""]}, "invoice": {"pos": [1], "suf": [""]}, "irony": {"pos": [1], "suf": [""]}, "jinx": {"pos": [1], "suf": [""]}, "jubilee": {"pos": [1], "suf": [""]}, "judge": {"pos": [1], "suf": [""]}, "kingdom": {"pos": [1], "suf": [""]}, "kiss": {"pos": [1], "suf": [""]}, "kitchen": {"pos": [1], "suf": [""]}, "lair": {"pos": [1], "suf": [""]}, "lap": {"pos": [1], "suf": [""]}, "laugh": {"pos": [1], "suf": [""]}, "legacy": {"pos": [1], "suf": [""]}, "legend": {"pos": [1], "suf": [""]}, "limit": {"pos": [1], "suf": [""]}, "line": {"pos": [1], "suf": [""]}, "loss": {"pos": [1], "suf": [""]}, "machine": {"pos": [1], "suf": [""]}, "majesty": {"pos": [1], "suf": [""]}, "maker": {"pos": [1], "suf": [""]}, "minion": {"pos": [1], "suf": [""]}, "mirage": {"pos": [1], "suf": [""]}, "missile": {"pos": [1], "suf": [""]}, "mistake": {"pos": [1], "suf": [""]}, "motif": {"pos": [1], "suf": [""]}, "motion": {"pos": [1], "suf": [""]}, "motto": {"pos": [1], "suf": [""]}, "mount": {"pos": [1], "suf": [""]}, "name": {"pos": [1], "suf": [""]}, "nation": {"pos": [1], "suf": [""]}, "neck": {"pos": [1], "suf": [""]}, "nugget": {"pos": [1], "suf": [""]}, "number": {"pos": [1], "suf": [""]}, "object": {"pos": [1], "suf": [""]}, "obstacle": {"pos": [1], "suf": [""]}, "option": {"pos": [1], "suf": [""]}, "order": {"pos": [1], "suf": [""]}, "outfit": {"pos": [1], "suf": [""]}, "package": {"pos": [1], "suf": [""]}, "page": {"pos": [1], "suf": [""]}, "paint": {"pos": [1], "suf": [""]}, "parcel": {"pos": [1], "suf": [""]}, "peace": {"pos": [1], "suf": [""]}, "perspective": {"pos": [1], "suf": [""]}, "phobia": {"pos": [1], "suf": [""]}, "place": {"pos": [1], "suf": [""]}, "plunge": {"pos": [1], "suf": [""]}, "poetry": {"pos": [1], "suf": [""]}, "point": {"pos": [1], "suf": [""]}, "porter": {"pos": [1], "suf": [""]}, "profit": {"pos": [1], "suf": [""]}, "promise": {"pos": [1], "suf": [""]}, "prospect": {"pos": [1], "suf": [""]}, "protest": {"pos": [1], "suf": [""]}, "proverb": {"pos": [1], "suf": [""]}, "pun": {"pos": [1], "suf": [""]}, "purpose": {"pos": [1], "suf": [""]}, "quest": {"pos": [1], "suf": [""]}, "question": {"pos": [1], "suf": [""]}, "reaction": {"pos": [1], "suf": [""]}, "reason": {"pos": [1], "suf": [""]}, "rebellion": {"pos": [1], "suf": [""]}, "regret": {"pos": [1], "suf": [""]}, "rest": {"pos": [1], "suf": [""]}, "result": {"pos": [1], "suf": [""]}, "rider": {"pos": [1], "suf": [""]}, "roar": {"pos": [1], "suf": [""]}, "romp": {"pos": [1], "suf": [""]}, "rule": {"pos": [1], "suf": [""]}, "sale": {"pos": [1], "suf": [""]}, "scenario": {"pos": [1], "suf": [""]}, "score": {"pos": [1], "suf": [""]}, "seeker": {"pos": [1], "suf": [""]}, "sensation": {"pos": [1], "suf": [""]}, "sense": {"pos": [1], "suf": [""]}, "shambles": {"pos": [1], "suf": [""]}, "shirt": {"pos": [1], "suf": [""]}, "shout": {"pos": [1], "suf": [""]}, "sight": {"pos": [1], "suf": [""]}, "sign": {"pos": [1], "suf": [""]}, "silence": {"pos": [1], "suf": [""]}, "silhouette": {"pos": [1], "suf": [""]}, "similarity": {"pos": [1], "suf": [""]}, "situation": {"pos": [1], "suf": [""]}, "smell": {"pos": [1], "suf": [""]}, "smile": {"pos": [1], "suf": [""]}, "soldier": {"pos": [1], "suf": [""]}, "soldiers": {"pos": [1], "suf": [""]}, "solitaire": {"pos": [1], "suf": [""]}, "spades": {"pos": [1], "suf": [""]}, "spies": {"pos": [1], "suf": [""]}, "splendor": {"pos": [1], "suf": [""]}, "spy": {"pos": [1], "suf": [""]}, "subject": {"pos": [1], "suf": [""]}, "substance": {"pos": [1], "suf": [""]}, "subtitle": {"pos": [1], "suf": [""]}, "suspicion": {"pos": [1], "suf": [""]}, "symbol": {"pos": [1], "suf": [""]}, "system": {"pos": [1], "suf": [""]}, "tactic": {"pos": [1], "suf": [""]}, "tailor": {"pos": [1], "suf": [""]}, "talon": {"pos": [1], "suf": [""]}, "temptation": {"pos": [1], "suf": [""]}, "terror": {"pos": [1], "suf": [""]}, "thing": {"pos": [1], "suf": [""]}, "tinker": {"pos": [1], "suf": [""]}, "titan": {"pos": [1], "suf": [""]}, "touch": {"pos": [1], "suf": [""]}, "trousers": {"pos": [1], "suf": [""]}, "tune": {"pos": [1], "suf": [""]}, "twist": {"pos": [1], "suf": [""]}, "ultimatum": {"pos": [1], "suf": [""]}, "universe": {"pos": [1], "suf": [""]}, "up": {"pos": [1], "suf": [""]}, "veil": {"pos": [1], "suf": [""]}, "vision": {"pos": [1], "suf": [""]}, "voice": {"pos": [1], "suf": [""]}, "voyage": {"pos": [1], "suf": [""]}, "wall": {"pos": [1], "suf": [""]}, "wanderer": {"pos": [1], "suf": [""]}, "whatnot": {"pos": [1], "suf": [""]}, "whimsy": {"pos": [1], "suf": [""]}, "wing": {"pos": [1], "suf": [""]}, "year": {"pos": [1], "suf": [""]}}';
+		{
+	"aardvark": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"abacus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"abandoned": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"abominable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"abrasive": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"absent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"absolute": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"abstract": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"absurd": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"academic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"accident": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"accidental": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"accordion": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"accurate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ace": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"acid": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"acorn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"acoustic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"acrobatic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"acrobat": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"acrylic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"action": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"active": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"actual": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"adamant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"adaptable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"added": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"additional": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"adequate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"adjustable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"admiral": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"adorable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"advanced": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"adventure": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"adventurous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"aesthetic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"affectionate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"afternoon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"agile": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"aimless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"air": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"airbrushed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"airy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"alarming": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"albatross": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"alert": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"alias": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"alien": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"alleged": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"alligator": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"almighty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"almond": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"aloe": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"alphabet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"alpine": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"amateur": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"amazing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ambassador": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"amber": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ambient": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ambiguous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"amethyst": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ammonite": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"amnesia": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"amulet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"amused": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"amusing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ancestral": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"anchor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"anchovy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ancient": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"android": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"angel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"angelic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"anger": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"angry": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"animal": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"animated": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"annoying": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"anonymous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"anorak": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"answering": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"antarctic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"antelope": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"antique": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"antiseptic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"anxious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"apologetic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"appealing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"apple": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"apricot": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"apron": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"aquarium": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"aquatic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"arch": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"archaic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"architectural": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"arctic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"aristocratic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"aristocrat": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"armchair": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"army": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"aroma": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"arrogant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"arrow": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"art": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"artefact": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"artificial": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"artisan": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"artist": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"artistic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ash": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"aspiring": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"assassin": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"assertive": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"asterisk": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"asteroid": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"astonishing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"astronaut": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"atlas": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"atmospheric": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"atom": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"atrocious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"attack": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"aunt": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"auspicious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"austere": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"authentic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"automatic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"autumn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"available": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"avalanche": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"avenging": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"average": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"avocado": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"awesome": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"awful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"awkward": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"baby": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"backbone": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bad": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"badger": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"badminton": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"baffled": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"baffling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bagel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"baggage": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bagpipe": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"balanced": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"balancing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"balderdash": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ball": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ballerina": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"balloon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bamboo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bamboozled": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"banal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"banana": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"band": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bang": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"banjo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"banquet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"barcode": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bargain": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"baritone": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"barnacle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"barometer": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"baron": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"baroness": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"baronet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"baroque": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"barracuda": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"barrel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"barrister": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"basic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"basket": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bassoon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"battle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bauble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"beach": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"beagle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"beaming": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bear": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"beard": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bearded": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"beast": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"beastly": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"beatnik": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"beautiful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"beauty": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"beeswax": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"beetle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"begonia": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"behemoth": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"belfry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"belief": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bell": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"beloved": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bemused": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"benefit": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bequest": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"berry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bespoke": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bestseller": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bewildered": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bias": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"big": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bingo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bionic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bird": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"biscuit": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bishop": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bistro": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bitter": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bittersweet": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bivalve": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bizarre": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blackberry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blackbird": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blackmail": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blade": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blank": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blast": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blatant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blaze": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blazing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blemish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blended": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blessed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blessing": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blinding": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blistering": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blitz": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blizzard": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blog": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blood": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blooming": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"blossom": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blot": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blueberry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bluebird": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blueprint": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bluff": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blur": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blush": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"blushing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bobbin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bobble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bohemian": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"boiling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"boisterous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bold": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bonfire": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"book": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"boomerang": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"booming": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"boost": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"boot": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"boring": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"borrowed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"boss": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bosses": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bottle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"boulder": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"boutique": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bowtie": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bracken": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"brain": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"brainwave": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"brainy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bramble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"brass": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"brave": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"brawn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"break": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"breath": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"breathless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"breathtaking": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"breeze": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"breezy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"brick": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bridge": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bridle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bright": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"brilliant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"brisk": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"broccoli": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"broken": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"brontosaurus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"brooding": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"brush": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bubble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bubbly": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bucket": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"buddy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"budget": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"buffalo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bumpy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"bunny": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"bunting": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"burning": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"burrito": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"burst": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"busy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"butler": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"butter": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"button": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"buzz": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"buzzword": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cabbage": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cackle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cactus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cafe": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"caffeine": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cake": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"calamity": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"calico": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"calm": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"calorie": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"camel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"camera": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"canary": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"candle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"candy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cannon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"capable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"caper": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cappuccino": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"capsule": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"captain": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"caramel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"card": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cardboard": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cardigan": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cardinal": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"carefree": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"careful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"careless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cargo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"carnival": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"carnivorous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"case": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cash": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cassock": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"casual": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cat": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"catastrophic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"catchphrase": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"catchy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"categorical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"caterpillar": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cauliflower": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cautious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cavalier": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cavern": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"celestial": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"center": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"centipede": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"central": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ceremonial": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"certain": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"certified": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chain": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chainmail": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chameleon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"champagne": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"champion": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chance": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chancellor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chandelier": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"change": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"changing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chant": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chaos": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chaotic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"character": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"charisma": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"charismatic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"charity": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"charm": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"charming": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cheap": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cheeky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cheerful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cheese": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cheesy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cheetah": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chemical": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cherub": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chief": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chilly": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chocolate": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"choice": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"choir": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"choral": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chorus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"christmas": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chronicle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chuckle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chump": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chunk": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"chunky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"chutney": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cinder": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cinematic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cipher": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"circle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"circular": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"circus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"citrus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"city": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"clash": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"classic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"classical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"claustrophobic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"clear": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"clever": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"click": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"clock": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"close": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"closed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"closing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cloud": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cloudy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"clown": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"clueless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"clumsy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"coastal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cobble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cockney": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"code": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"coffee": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"coffin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"coin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"coin-operated": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cold": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"colonel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"colossal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"colorful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"comedy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"comet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"comfortable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"comfy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"comic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"commander": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"common": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"companion": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"company": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"competitive": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"complete": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"complex": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"complicated": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"computer": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"concrete": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"confetti": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"confident": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"confidential": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"confused": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"confusing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"conqueror": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"conspicuous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"constant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"contemporary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"continental": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"control": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"convenient": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"convincing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cookie": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cool": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"corduroy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cosmic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"countess": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"courageous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"courteous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cowboy": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"cream": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"creative": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"creature": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"crescent": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"crimson": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"crispy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"crocodile": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"crocus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cross": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"crow": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"crown": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cruel": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"crunch": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"crunchy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"crush": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"crushing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"crypt": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cryptic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"crystal": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cube": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cuddly": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cunning": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"cupboard": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cupcake": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cupid": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"curiosity": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"curious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"curse": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cursed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"curtain": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"curve": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cushion": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"custard": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"customary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"customer": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"cute": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"daffodil": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dagger": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dainty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"daisy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"damage": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"damson": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dance": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dancing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"danger": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dangerous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dapper": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"darkness": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"darling": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dart": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dash": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dashing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"data": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dawn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"day": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"daydream": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"daylight": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dazzled": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dazzling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dead": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"deadline": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dear": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"death": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"debut": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"decadence": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"decent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"decorative": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"defiant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"definite": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"deliberate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"delicate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"delicious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"delightful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"delivery": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"deluxe": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"demonic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"department": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"deputy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"descending": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"design": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"despair": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"desperate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"destiny": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"detail": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"detective": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"determined": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"devil": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"devious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"diagonal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"diagram": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"diamond": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"difference": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"different": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"difficult": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"digital": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dignified": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dilemma": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dimension": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dimple": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dinner": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dinosaur": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"diplomatic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"diplomat": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"disappointing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"disco": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"discovery": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"disguise": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"disgust": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"display": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"distant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"distinguished": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"divine": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"doctor": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dodo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dog": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dollar": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dolphin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"domino": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"donkey": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"doom": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"double": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"doubt": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"doubtless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"donut": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dove": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"down": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dozing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dragon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dragonfly": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"drama": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dramatic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dreadful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dream": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dreamer": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"dreamy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"drift": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"drifting": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"driving": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dromedary": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"drop": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dubious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"duchess": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"duck": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"duke": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"dull": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"dusk": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dust": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"duty": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"dynamic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"eager": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"eagle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"earl": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"early": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"earnest": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"earthly": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"earthquake": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"easygoing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"eccentric": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"echo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"eclair": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"eclipse": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"edge": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"eerie": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"egg": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"elaborate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"elastic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"elbow": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"electric": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"electron": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"elegant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"elephant": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"elf": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"elite": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"eloquent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"elusive": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"embarrassing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ember": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"emerald": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"emperor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"empire": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"empress": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"empty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"enchanting": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"endless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"energetic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"enigma": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"enigmatic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"enquiry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"enthusiastic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ephemeral": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"episode": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"equal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"equation": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"equine": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"erratic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"espresso": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"essence": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"estranged": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"eternal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"euphoric": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"evening": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"event": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"evergreen": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"evidence": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"evil": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"excellent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"exciting": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"exotic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"expensive": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"experimental": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"explanation": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"express": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"extinct": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"extra": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"extraordinary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"extreme": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fable": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fabulous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"face": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fact": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"faint": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fairy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"faithful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fake": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"falcon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"false": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"familiar": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"family": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"famous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fancy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fantastic": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fantasy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"far": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"faraway": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fashion": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fast": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"favorite": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fear": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fearless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"feast": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"feather": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"feature": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"feeling": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ferocious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"festival": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"festive": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fever": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fictional": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fidgeting": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fierce": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fiery": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fight": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fine": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fingerprint": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fire": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"firefly": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"first": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fixed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fizzy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fjord": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flag": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flagrant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"flamboyant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"flame": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flaming": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"flamingo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flash": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flatfish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flattery": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flatulent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"flawless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"flesh": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"flicker": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flickering": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"flight": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"floating": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"flood": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flotsam": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flounder": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flower": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fluffy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fly": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"flying": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"foam": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"foggy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"foghorn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fool": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"foolish": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"forbidden": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"forever": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"forgotten": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"formal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fortunate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fortune": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fossil": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fox": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"fragile": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"frankinsense": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"free": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"freezing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"frequent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fresh": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"friday": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"friendship": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fright": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"frivolous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"frizzy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"frog": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"frost": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"frosted": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"frothy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"frozen": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fruit": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"full": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fun": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"funny": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"furious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fury": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"fussy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"future": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"fuzzy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"gadget": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"galactic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"galaxy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gallant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"galleon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"galloping": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"gambler": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"gambling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"geeky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"general": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"genius": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gentle": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"gentleman": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"genuine": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"gherkin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ghost": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"giant": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gibberish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"giggle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gingerbread": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"giraffe": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gizmo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"glamorous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"glamour": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"glass-eyed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"glistening": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"glitter": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gloomy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"glorious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"glory": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"glowing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"goat": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"goddess": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"gold": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"golden": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"goldfish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"good": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"gooseberry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gorgeous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"gossip": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gothic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"graceful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"gracious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"grammar": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"grand": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"great": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"groovy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"grotesque": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"group": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"grumpy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"guaranteed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"guide": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gust": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"gusty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"habit": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"haggis": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hammer": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hamster": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"handkerchief": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"handsome": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"happy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"harbor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"harlequin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"harmless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"harmony": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hat": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hatbox": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hawk": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"haystack": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"healthy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"heart": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hearty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"heat": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"heavenly": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"heavy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"hectic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"hedgehog": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"heritage": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hexagon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hidden": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"high": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"hilarious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"hipster": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"historic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"holiday": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hollow": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"hollyhock": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"holy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"honors": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"hope": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"horse": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hot": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"howling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"humble": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"humor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hungry": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"hunter": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"hurricane": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"hybrid": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"hypnotic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"iceberg": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"iced": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"icicle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"iconic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"icy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"idea": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ideal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"identical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"idle": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"illusion": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"image": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"imaginary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"impatient": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"imperial": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"important": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"impossible": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"impressive": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"incredible": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"indigo": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"industry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"inevitable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"infinite": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"infinity": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"innocent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"insistent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"instant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"instrument": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"intelligent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"intense": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"interesting": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"intergalactic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"international": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"intricate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"intriguing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"invisible": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"iridescent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"iron": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ironic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"island": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ivory": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"jack": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"jagged": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"jaunty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"java": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"jazz": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"jealous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"jealousy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"jelly": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"jellyfish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"jester": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"jet": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"jewel": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"jingle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"joke": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"joker": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"jolly": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"journey": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"joyful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"joy": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"jubilant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"juice": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"jumping": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"junior": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"just": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"key": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"kick": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"kicking": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"kilt": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"kinetic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"king": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"knife": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"knight": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"knitted": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"knowledge": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"kumquat": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"labyrinth": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lady": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lake": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lament": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"land": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"language": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"languid": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"last": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"late": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"laughter": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lava": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lawsuit": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lawyer": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"lazy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"leaves": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"legendary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"legitimate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lemon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lentil": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"leopard": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"letter": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"level": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"liberty": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"light": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lighthouse": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lightning": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"likely": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lilac": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lime": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"limited": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"limpet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lion": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"liquid": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"little": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lively": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"living": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"local": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"logical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lollipop": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lonesome": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lord": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lost": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"loud": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"love": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lovely": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"low": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"luck": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"lucky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lullaby": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"luminous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lunar": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"lunch": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"luxury": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"magic": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"magical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"magician": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"magnetic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"majestic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"major": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"manifold": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"marble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"marine": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"marmalade": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"marvellous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"masquerade": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"match": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"matching": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"mathematical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"matrix": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"maximum": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"meadow": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"mechanical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"medium": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"meek": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"mega": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"melancholy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"melodic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"melody": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"memory": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"merchant": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"merry": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"metal": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"metallic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"metaphor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"meteor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"method": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"midnight": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"mighty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"military": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"millennial": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"millionaire": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"mind": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"miniature": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"minimum": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"minty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"minute": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"miracle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"mirror": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"miscellaneous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"mischief": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"missing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"mist": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"misty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"mixed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"moderate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"modern": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"modest": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"monday": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"money": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"monkey": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"monster": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"monstrous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"moon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"moonlight": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"morning": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"motionless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"mountain": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"mouse": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"mouth": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"muddy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"muffin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"murder": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"murky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"muscle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"muscular": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"music": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"musical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"musician": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"mustache": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"mysterious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"mystery": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"mystic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"myth": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"nail": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"national": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"natural": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"nautical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"near": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"nebula": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"necessary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"nectarine": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"needle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"neon": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"nerve": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"neutral": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"new": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"news": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"nice": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"night": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"nightmare": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"noble": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"nocturnal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"noise": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"noisy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"noodle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"noon": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"normal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"northern": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"nostril": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"novelty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"novice": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"nurse": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"oasis": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"oblique": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"oblivion": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"oblong": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"obscure": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"obvious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"occasional": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ocean": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"octagon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"octopus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"office": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"official": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"old": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ominous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"onion": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"open": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"opera": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"opportunity": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"opposite": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"optional": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"opulent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"orange": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ordinary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"organic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"original": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ostrich": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"otter": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"outlaw": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"outrageous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"outspoken": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"owl": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"owner": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"oyster": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pain": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"painted": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"palace": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pale": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pantomime": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"paradise": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"parallel": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"parsnip": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"particular": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"party": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"past": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"paste": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pastel": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pastoral": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"patient": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"patriot": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"pawn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"peach": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"peacock": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"peak": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"peculiar": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pedantic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pedestrian": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"penguin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"peppermint": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"perfect": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"perfection": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"perfidious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"perfume": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"peril": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"perky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"personal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"petal": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"phantom": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pharaoh": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"philosophical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"phoenix": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"physical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pickle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pickled": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"picnic": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"picture": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"picturesque": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pig": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pirate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pistol": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pixie": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"plain": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"planet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"planetary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"plant": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"plate": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"platinum": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"platypus": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"plausible": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"playful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pleasant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pleasure": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"plum": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"plump": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pocket": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"poetic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"poison": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"poisonous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"polar": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"polish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"polite": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"political": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"polka-dot": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"poltergeist": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pony": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"popcorn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"popular": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"possible": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"posterity": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"potato": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"powder": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"power": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"practical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"prancing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"prawn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"precious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"premium": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"present": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"pretend": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"priceless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pride": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"primary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"prince": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"princess": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"prize": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"probable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"problem": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"profound": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"promising": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"proud": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"public": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pump": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"pumpkin": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"purple": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"push": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"puzzle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"puzzled": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"puzzling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"quaint": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"quality": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"queen": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"questionable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"quick": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"quiet": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"quirky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"radiant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"radish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rain": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rainbow": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"raindrop": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rainy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"random": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"rare": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"raspberry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rat": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"raven": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"raw": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"real": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"realistic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"reckless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"record": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"red-hot": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"regal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"regional": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"registered": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"regular": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"reliable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"relish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"reluctant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"remaining": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"remedy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"request": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"required": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"respect": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"responsible": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"return": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"revenge": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"reverse": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"rhubarb": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rhythm": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rich": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"riddle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ridiculous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"right": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ripple": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"risk": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"risky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"rival": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"river": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"robot": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"robotic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"robust": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"rocket": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rockfish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rodeo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rogue": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"romance": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rose": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rough": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"round": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"routine": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"royal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ruby": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ruler": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"rumble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rumbling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"rush": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"rustic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"rusty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sacred": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sad": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"safe": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sailor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"salmon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"samurai": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sand": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sandwich": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sapphire": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sarcasm": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sarcastic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sardine": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"satisfactory": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"scale": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"scenic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sceptical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"science": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"scientific": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sea": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"search": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"seasonal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"second": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"secondary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"secret": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"secretary": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"self": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"semaphore": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"senior": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sensational": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sensible": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"separate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sequel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"serene": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sergeant": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"serious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"serpent": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shade": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shadow": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"shame": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shameful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"shameless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"shard": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sharp": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sheep": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shellfish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sherbet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shift": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shimmer": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shimmering": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"shining": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"shiny": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ship": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shock": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shocking": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"short": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"show": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"showy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"shroud": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shuffle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"shy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"silent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"silk": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"silver": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"silvery": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"simple": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"singing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"single": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sinister": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sir": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"skeleton": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sketch": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"skunk": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sky": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"slapdash": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sleep": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sleepy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"slipper": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"slow": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"smart": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"smash": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"smashing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"smoke": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"smoky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"snack": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"snail": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sniffle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"snooze": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"snore": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"snow": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"snowball": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sock": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"solar": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"solid": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"song": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sonic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sorrow": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sorry": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"soul": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sound": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"soup": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"southern": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"space": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"spaghetti": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"spare": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"spark": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sparkle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sparkling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"special": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"spectacular": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"speed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"speedy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"spell": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"spice": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"spicy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"spiral": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"spirit": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"spirited": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"splash": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"splashed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"splendid": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sponge": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"spook": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"spooky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"spoon": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"spreadsheet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"spring": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"springy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"square": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"squeaky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"squeamish": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"squirrel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"stable": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"staircase": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"stallion": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"standard": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"standing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"star": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"starry": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"stately": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"steadfast": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"steady": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"steam": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"steel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"stellar": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sterling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"stone": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"stork": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"storm": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"stormy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"story": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"straight": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"strange": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"stranger": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"strategic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"strategy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"strawberry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"stretch": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"strike": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"string": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"striped": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"strong": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"structural": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"stubborn": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"stutter": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"style": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"stylish": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sublime": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"suboptimal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"substitute": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"success": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"successful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sudden": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sugar": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"summer": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"summery": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sun": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sunbeam": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sunlight": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sunny": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sunrise": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sunshine": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"super": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"superb": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"superior": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"supernatural": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"supersonic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"superstar": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"surprise": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"surprising": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"surreal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"suspicious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sweet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"sweetheart": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"swift": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"sword": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"symphony": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"synthetic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tabloid": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tactical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tall": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tartan": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tasteful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tasteless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tawny": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tax": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"teapot": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"teardrop": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tears": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"technical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tectonic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tedious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"telltale": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"temporary": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tempting": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tenacious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tentative": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"terrible": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"terrific": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"test": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"that": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"the": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"theoretical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"theory": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"thief": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"thimble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"this": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"thistle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"thought": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"thoughtful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"thumb": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"thunder": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"thundering": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"thursday": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ticket": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tidy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tiger": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"time": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"timely": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"timid": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tingling": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tinsel": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tinted": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tired": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"toast": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"today": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"toffee": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tomato": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tombstone": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"torch": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"torpedo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tortoise": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"total": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"tough": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"town": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"toy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tragedy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"train": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"traitor": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tranquil": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"transparent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"trapeze": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"traveller": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"treasure": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tree": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"trendy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"triangular": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"trick": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tricky": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"triple": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"triumph": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"triumphant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"trivia": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"trivial": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"trombone": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"trophy": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tropical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"trouble": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"troubled": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"trout": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"truffle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"trumpet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"trust": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"trusty": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"truth": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tsunami": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tuesday": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tulip": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"turbo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"turbulent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"turkey": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"turquoise": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"twilight": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"twin": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"twinkle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"twisted": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"two-faced": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"typical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"typo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"tyrant": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"ubiquitous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ultimate": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"ultra": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"umbrella": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"undulating": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"unfading": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"unicorn": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"unique": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"universal": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"unknown": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"unlikely": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"untidy": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"unusual": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"urgent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"use": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"useful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"useless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"utmost": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"vacation": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"vacuum": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"vague": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"valentine": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"valiant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"vampire": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"vanishing": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"various": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"velvet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"venture": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"vertical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"vertigo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"very": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"vibrant": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"vicar": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"victory": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"vintage": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"violent": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"violet": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"virtual": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"visitor": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"vital": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"vivacious": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"vixen": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"voiceless": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"volatile": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"volcanic": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"volcano": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"voyager": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"waffle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"waistcoat": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"walker": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"wallpaper": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wandering": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"war": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"warm": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"warrior": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"waste": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"watch": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"water": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"waterproof": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"wave": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wax": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wayward": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"weasel": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wednesday": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"weird": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"weirdo": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"welcome": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"whelk": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"whimsical": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"whisper": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wicked": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"widget": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wiggle": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wild": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"wild-eyed": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"willful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"wind": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"windmill": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wine": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"winged": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"winner": {
+		"pos": [0],
+		"suf": ["\'s"]
+	},
+	"winter": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wisdom": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wise": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"wish": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"witch": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"wizard": {
+		"pos": [0, 1],
+		"suf": ["\'s"]
+	},
+	"wonderful": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"wooden": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"word": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"work": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"world": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"worry": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"wrong": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"young": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"zealous": {
+		"pos": [0],
+		"suf": [""]
+	},
+	"zebra": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"zenith": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"zephyr": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"zero": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"zigzag": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"zombie": {
+		"pos": [0, 1],
+		"suf": [""]
+	},
+	"ability": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"achievement": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"acquaintance": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"act": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"adjective": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"advice": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"aftermath": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"aftershock": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"aim": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"alarm": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"alibi": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"allergy": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"ambition": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"amusement": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"anagram": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"anecdote": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"animals": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"answer": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"anticipation": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"antidote": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"ants": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"apology": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"applause": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"archetype": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"area": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"argument": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"armies": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"article": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"attempt": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"aurora": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"babies": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"bandit": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"banter": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"beep": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"behavior": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"betrayal": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"biscuits": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"blurb": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"bother": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"bounty": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"braid": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"brilliance": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"burn": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"business": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"canyon": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"caption": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"cascade": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"castle": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"catch": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"category": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"century": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"certainty": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"challenge": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"chapter": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"charger": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"chariot": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"chase": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"cheesecake": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"chime": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"citadel": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"cleverness": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"clubs": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"clue": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"coast": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"comfort": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"comment": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"competition": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"complication": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"compliment": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"conclusion": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"condition": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"confidence": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"constellation": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"cosmos": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"crab": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"crash": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"creation": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"creek": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"crowd": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"dancer": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"dazzler": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"deal": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"decision": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"decrease": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"dedication": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"delight": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"description": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"diamonds": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"direction": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"doze": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"dress": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"duel": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"dungeon": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"dynasty": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"earth": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"effect": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"electricity": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"elegance": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"element": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"engine": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"eruption": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"escape": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"etiquette": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"example": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"excellence": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"experience": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"expert": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"explosion": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"extravaganza": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"factor": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"faith": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"fate": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"fiction": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"figment": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"fizz": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"flourish": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"flurry": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"flute": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"forgery": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"form": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"format": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"fraction": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"fragment": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"frame": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"franchise": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"frankincense": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"freeze": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"frequency": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"friend": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"function": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"funeral": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"gesture": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"gift": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"gimmick": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"glass": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"grace": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"haven": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"headline": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"hearts": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"honor": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"hour": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"ice": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"impact": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"impulse": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"incident": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"inferno": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"infusion": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"ingredient": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"inheritance": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"insect": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"insult": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"interest": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"invention": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"invoice": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"irony": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"jinx": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"jubilee": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"judge": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"kingdom": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"kiss": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"kitchen": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"lair": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"lap": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"laugh": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"legacy": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"legend": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"limit": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"line": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"loss": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"machine": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"majesty": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"maker": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"minion": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"mirage": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"missile": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"mistake": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"motif": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"motion": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"motto": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"mount": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"name": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"nation": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"neck": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"nugget": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"number": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"object": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"obstacle": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"option": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"order": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"outfit": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"package": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"page": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"paint": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"parcel": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"peace": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"perspective": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"phobia": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"place": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"plunge": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"poetry": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"point": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"porter": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"profit": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"promise": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"prospect": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"protest": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"proverb": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"pun": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"purpose": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"quest": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"question": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"reaction": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"reason": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"rebellion": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"regret": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"rest": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"result": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"rider": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"roar": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"romp": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"rule": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"sale": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"scenario": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"score": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"seeker": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"sensation": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"sense": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"shambles": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"shirt": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"shout": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"sight": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"sign": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"silence": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"silhouette": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"similarity": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"situation": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"smell": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"smile": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"soldier": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"soldiers": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"solitaire": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"spades": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"spies": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"splendor": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"spy": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"subject": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"substance": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"subtitle": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"suspicion": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"symbol": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"system": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"tactic": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"tailor": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"talon": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"temptation": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"terror": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"thing": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"tinker": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"titan": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"touch": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"trousers": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"tune": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"twist": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"ultimatum": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"universe": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"up": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"veil": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"vision": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"voice": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"voyage": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"wall": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"wanderer": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"whatnot": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"whimsy": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"wing": {
+		"pos": [1],
+		"suf": [""]
+	},
+	"year": {
+		"pos": [1],
+		"suf": [""]
+	}
+}
