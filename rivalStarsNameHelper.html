@@ -69,7 +69,7 @@
 
 		if(e.value == "") return;
 		// get relevant items
-		var names = e.value.split(" ");
+		var names = e.value.toLowerCase().trim().split(" ");
 		var first = names[0];
 		var second = names[names.length - 1];
 		var results_box = document.getElementById("results");	
