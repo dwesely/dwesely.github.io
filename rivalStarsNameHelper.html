@@ -63,11 +63,39 @@
 		}
 		return thesaurus[test_word];
 	}	
+	
+	function getRandomNames(n){
+		// Get n random names and post to results
+		//alert(n);
+		var good_names = [];
+		
+		for (i = 0; i < n; i++) {
+		 good_names.push(generate_random_name());
+		}
+		//alert(good_names);
+		
+		var htmlCode = [];
+		htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
+		for (i = 0; i < good_names.length; i++) 
+		{
+			var this_name = good_names[i];
+			//console.log(i + " " + results[i]);
+			var row = "<tr id=\"row" + this_name + "\" >" +
+				"<td>" + this_name + "</td></tr>"
+			htmlCode.push(row);
+		}
+		htmlCode.push("</table>");
+		
+		var results_box = document.getElementById("results");	
+		results_box.innerHTML = htmlCode.join('');
+	}
 
 	function onItemChanged(e){
 		// Check for valid names each time the text box changes
 
 		if(e.value == "") return;
+		//alert('Item Changed');
+		
 		// get relevant items
 		var names = e.value.toLowerCase().trim().split(" ");
 		var first = names[0];
@@ -180,8 +208,9 @@ LICENSEE agrees to preserve same.
 </pre>
 </div>
 <div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
-<form name="basis" autocomplete="off">
+<form name="basis" autocomplete="off" action="#">
 <input autocomplete="off" type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> 
+<input type="button" id="random" onclick="getRandomNames(10)" value="Just generate 10 random names">
 <hr />
 </form>
 </div>
