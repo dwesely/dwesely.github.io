@@ -153,10 +153,10 @@
 			random_first = Object.keys(rival_stars_map)[Math.floor(Object.keys(rival_stars_map).length * Math.random())];
 			random_second = Object.keys(rival_stars_map)[Math.floor(Object.keys(rival_stars_map).length * Math.random())];
 		}
-		while (!rival_stars_map[random_first]['pos'].includes(0) && !rival_stars_map[random_second]['pos'].includes(1));
+		while (!check_valid_name(random_first, random_second));
 		
 		var suffix = 0;
-		if (Math.random() > 0.5) {
+		if (Math.random() > 0.25) {
 			//alert(random_first);
 			//alert(rival_stars_map[random_first]['suf']);
 			suffix = rival_stars_map[random_first]['suf'].length - 1
