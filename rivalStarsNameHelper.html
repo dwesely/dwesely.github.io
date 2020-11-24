@@ -36,6 +36,8 @@
 		var check_second;
 		var first_length = first.length;
 		var second_length = second.length;
+		var half_first = Math.ceil(first_length/2);
+		var half_second = Math.ceil(second_length/2);
 		var close_names = [];
 		
 		if ((first_length < 4) || (second_length < 4) || (first === second)){
@@ -72,20 +74,24 @@
 			check_second = rival_stars_map[test_word]['pos'].includes(1);		
 			//console.log([check_first, check_second]);
 			
-			for (let j = 0; j < Math.min(test_word.length, Math.max(first_length, second_length)); j++) {
-				if ((check_first) && (j < first_length)) {
-					if ((test_word.charAt(j) === first.charAt(j)) || 
-					    (test_word.charAt(test_word.length - j - 1) == first.charAt(first_length - j - 1))) {
+			for (let j = 0; j < Math.min(test_word.length, Math.max(half_first, half_second)); j++) {
+				if ((check_first) && (j <= half_first)) {
+					if (test_word.charAt(j) === first.charAt(j)) {
 						first_score = first_score + 1;
 					}
+					if (test_word.charAt(test_word.length - j - 1) === first.charAt(first_length - j - 1)) {
+						first_score = first_score + 1;
+					}
+					//console.log(j + '/' + half_first + ', ' + test_word.charAt(j) + ' : ' + first.charAt(j) + ' | ' + test_word.charAt(test_word.length - j - 1) + ' : ' + first.charAt(first_length - j - 1));
 				}
-				if ((check_second) && (j < second_length)) {
+				if ((check_second) && (j <= half_second)) {
 					if ((test_word.charAt(j) === second.charAt(j)) || 
-					    (test_word.charAt(test_word.length - j - 1) == second.charAt(second_length - j - 1))) {
+					    (test_word.charAt(test_word.length - j - 1) === second.charAt(second_length - j - 1))) {
 						second_score = second_score + 1;
 					}
 				}
 			}
+			//console.log(test_word + ' 1: ' + first_score + ' 2: ' + second_score);
 			scored_first_words.push([first_score, test_word])
 			scored_second_words.push([second_score, test_word])			
 		}
@@ -290,9 +296,9 @@
 			}
 
 			// pick a few "closeish" names as well and regenerate the list
-			var close_names = get_closest_variations(first, second, 5);
+			var close_names = get_closest_variations(first, second, 10);
 			if (close_names.length > 0) {
-				good_names.push('=== <b>5 character matched names</b> ===');
+				good_names.push('=== <b>10 character matched names</b> ===');
 				good_names = good_names.concat(close_names);
 				
 				htmlCode = [];
