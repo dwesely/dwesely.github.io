@@ -8,30 +8,158 @@
 <script type="text/javascript" src="thesaurus.json"></script>
 <script type="text/javascript">
 
+	var special_cases = ['ace', 'heart', "heart", 'king', 'queen', 'lord', 'jack', 'tears'];
+	var test_word_lengths = [];
+	
+	function twoDimensionalSort(a, b) {
+		return b[0]-a[0];
+	}
+	
+	function get_closest_variations(first, second, n) {
+		// get the closest names to the provided names
+		//alert([first, second, n]); 
+		var test_word;
+		var first_score = 0;
+		var second_score = 0;
+		var scored_first_words = [];
+		var scored_second_words = [];
+		var check_first;
+		var check_second;
+		var first_length = first.length;
+		var second_length = second.length;
+		var close_names = [];
+		
+		if ((first_length < 3) || (second_length < 3) || (first === second)){
+			// skip if these are short words
+			return close_names;
+		}
+		
+		var first_letters = first.charAt(0) + second.charAt(0);
+		var last_letters = first.charAt(first_length-1) + second.charAt(second_length-1);
+
+		
+		
+		for (i in Object.keys(rival_stars_map)) {
+			test_word = Object.keys(rival_stars_map)[i];			
+			first_score = 0;
+			second_score = 0;
+			/*
+			if (!(first_letters.includes(test_word.charAt(0)))) {
+				// result should start with same letter
+				continue;
+			}
+			*/
+			
+			if ( (test_word.length < Math.min(first_length, second_length)) ||
+				!(first_letters.includes(test_word.charAt(0)) || last_letters.includes(test_word.charAt(test_word.length - 1)))) {
+				continue;
+				}
+
+			//console.log('Test word ' + test_word);
+			//console.log('Max name length ' + (Math.max(first.length, second.length)));			
+			//console.log('Max word length ' + Math.min(test_word.length, Math.max(first.length, second.length)));	
+			
+			check_first = rival_stars_map[test_word]['pos'].includes(0);
+			check_second = rival_stars_map[test_word]['pos'].includes(1);		
+			//console.log([check_first, check_second]);
+			
+			for (let j = 0; j < Math.min(test_word.length, Math.max(first_length, second_length)); j++) {
+				if ((check_first) && (j < first.length)) {
+					if ((test_word.charAt(j) === first.charAt(j)) || 
+					    (test_word.charAt(test_word.length - j - 1) == first.charAt(first_length - j - 1))) {
+						first_score = first_score + 1;
+					}
+				}
+				if ((check_second) && (j < second_length)) {
+					if ((test_word.charAt(j) === second.charAt(j)) || 
+					    (test_word.charAt(test_word.length - j - 1) == second.charAt(second_length - j - 1))) {
+						second_score = second_score + 1;
+					}
+				}
+			}
+			scored_first_words.push([first_score, test_word])
+			scored_second_words.push([second_score, test_word])			
+		}
+		scored_first_words.sort(twoDimensionalSort);
+		scored_second_words.sort(twoDimensionalSort);
+		
+		
+		var close_first;
+		var close_second;
+		var suffix = 0;
+		var special_case = '';
+		
+		for (i = 0; i < n; i++) {
+			close_first = scored_first_words[i][1];
+			close_second = scored_second_words[i][1];
+			if (Math.random() > 0.25) {
+				suffix = rival_stars_map[close_first]['suf'].length - 1;
+			}
+			if (special_cases.includes(close_first)) {
+				special_case = '*';
+			} else {
+				special_case = '';
+			}
+			
+
+			close_names.push(close_first + rival_stars_map[close_first]['suf'][suffix] + special_case + ' ' + close_second);
+		}
+		return close_names;
+	}
+
 	function get_good_combinations(good_words){
 		// Get all valid permutations of the given array of words
 		var good_names = [];
 		var partial_names = [];
+		var special_case = '';
+		var generated_name = '';
+		var first_name = '';
+		var second_name = '';
+		var first_name_okay = false;
+		var second_name_okay = false;
+		
 		if (good_words.length > 0) {
 			//alert(good_words);
 			for (first_idx in good_words){
-				var first_name = good_words[first_idx];
+				first_name = good_words[first_idx];
+				if (special_cases.includes(first_name)) {
+					special_case = '*';
+				} else {
+					special_case = '';
+				}
+				first_name_okay = rival_stars_map[first_name]['pos'].includes(0);
 				//alert(first_name);
 				for (suffix in rival_stars_map[first_name]['suf']){			
 					for (second_idx in good_words){
-						var second_name = good_words[second_idx];
-						var first_name_okay = rival_stars_map[first_name]['pos'].includes(0);
-						var second_name_okay = rival_stars_map[second_name]['pos'].includes(1);
-						if (first_name_okay && second_name_okay && first_name != second_name){
-							good_names.push(first_name + rival_stars_map[first_name]['suf'][suffix] + ' ' + second_name);								
-							//alert(good_names);
-						} else if (first_name_okay && !second_name_okay){
-							if (!partial_names.includes(first_name + rival_stars_map[first_name]['suf'][suffix] + ' ?')) {
-								partial_names.push(first_name + rival_stars_map[first_name]['suf'][suffix] + ' ?')
+						second_name = good_words[second_idx];
+						second_name_okay = rival_stars_map[second_name]['pos'].includes(1);
+						//console.log(first_name + ' ' + second_name);
+						if ((first_name_okay) && (second_name_okay) && (first_name != second_name)){
+							//console.log('both okay');
+							generated_name = first_name + rival_stars_map[first_name]['suf'][suffix] + special_case + ' ' + second_name;
+							if (!(good_names.includes(generated_name))) {
+								good_names.push(generated_name);								
 							}
-						} else if (!first_name_okay && second_name_okay) {
-							if (!partial_names.includes('? ' + second_name)) {
-								partial_names.push('? ' + second_name)
+						} else if ((first_name_okay) && (!second_name_okay)){
+							//console.log('first okay');
+							generated_name = first_name + rival_stars_map[first_name]['suf'][suffix] + special_case + ' ?';
+							if (!(partial_names.includes(generated_name))) {
+								partial_names.push(generated_name);								
+							}
+						} else if ((!first_name_okay) && (second_name_okay)) {
+							//console.log('second okay');
+							generated_name = '? ' + second_name;
+							if (!(partial_names.includes(generated_name))) {
+								partial_names.push(generated_name);								
+							}
+						} else if (first_name_okay && second_name_okay) {
+							generated_name = '? ' + second_name;	
+							if (!(partial_names.includes(generated_name))) {
+								partial_names.push(generated_name);								
+							}
+							generated_name = first_name + rival_stars_map[first_name]['suf'][suffix] + special_case + ' ?';	
+							if (!(partial_names.includes(generated_name))) {
+								partial_names.push(generated_name);								
 							}
 						}
 							
@@ -105,7 +233,12 @@
 		if (check_valid_name(first, second)) {
 			// good, don't change
 			//alert('valid name');
-			results_box.innerHTML = ("<b>Entered name appears valid:</b></br>" + first + ' ' + second);
+			
+			var special_case = ''
+			if (special_cases.includes(first.replace("'s", ""))) {
+				special_case = '*'
+			}
+			results_box.innerHTML = ("<b>Entered name appears valid:</b></br>" + first + special_case + ' ' + second);
 		}
 		else {
 			// look for synonyms and compile a list of "good" words
@@ -122,6 +255,34 @@
 			
 			// compile a list of all permutations with these words
 			var good_names = get_good_combinations(good_words);
+			//console.log(close_names);
+			
+			if (good_names.length > 0){
+				//alert(good_names);
+
+				var htmlCode = [];
+
+				htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
+				for (i = 0; i < good_names.length; i++) 
+				{
+					var this_name = good_names[i];
+					//console.log(i + " " + results[i]);
+					var row = "<tr id=\"row" + this_name + "\" >" +
+						"<td>" + this_name + "</td></tr>"
+					htmlCode.push(row);
+				}
+				htmlCode.push("</table>");
+				results_box.innerHTML = htmlCode.join('');
+			}
+			else {
+				results_box.innerHTML = '';
+			}
+
+			// pick a few "closeish" names as well and regenerate the list
+			var close_names = get_closest_variations(first, second, 5);
+			good_names.push('=== 5 character matched names ===');
+			good_names = good_names.concat(close_names);
+			
 			if (good_names.length > 0){
 				//alert(good_names);
 
@@ -159,9 +320,13 @@
 		if (Math.random() > 0.25) {
 			//alert(random_first);
 			//alert(rival_stars_map[random_first]['suf']);
-			suffix = rival_stars_map[random_first]['suf'].length - 1
+			suffix = rival_stars_map[random_first]['suf'].length - 1;
 		}
-		return (random_first + rival_stars_map[random_first]['suf'][suffix] + ' ' + random_second)
+		var special_case = ''
+		if (special_cases.includes(random_first)) {
+			special_case = '*'
+		}
+		return (random_first + rival_stars_map[random_first]['suf'][suffix] + special_case + ' ' + random_second)
 	}
 	
 	//alert("start");
@@ -208,8 +373,8 @@ LICENSEE agrees to preserve same.
 </pre>
 </div>
 <div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
-<form name="basis" autocomplete="off" action="#">
-<input autocomplete="off" type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> 
+<form name="basis" autocomplete="off" action="#" onsubmit="return false">
+Check your name:<input autocomplete="off" type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> 
 <input type="button" id="random" onclick="getRandomNames(10)" value="Just generate 10 random names">
 <hr />
 </form>
@@ -219,15 +384,15 @@ LICENSEE agrees to preserve same.
 <div id="special" style="float:right;padding:10px;display: block;width:30em"><b>Please note</b>: The following options are special cases allowed in Rival Stars that are not handled properly yet in this tool:
 <div style="float:left;padding:10px;display: block;width:12em;">
 <ul>
-	<li>ace of</li>
-	<li>heart of</li>
+	<li>ace / ace of</li>
+	<li>heart / heart of / heart's</li>
 	<li>her majesty's / his majesty's</li>
 	<li>jack of</li>
 </ul></div><div style="float:left;padding:10px;display: block;width:12em;">
 <ul>
-	<li>king of / king of the</li>
-	<li>lord of / lord of the</li>
-	<li>queen of / queen of the</li>
+	<li>king / king of / king of the / king's</li>
+	<li>lord / lord of / lord of the</li>
+	<li>queen / queen of / queen of the / queen's</li>
 	<li>tears of</li>
 </ul></div>
 </div>
