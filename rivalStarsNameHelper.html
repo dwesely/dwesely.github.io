@@ -1,4 +1,9 @@
 <html>
+<!--
+
+
+-->
+
 <head>
 	<title>Rival Stars Name Helper</title>
 	<link href="rival_style.css" rel="stylesheet">
@@ -60,10 +65,15 @@
 		var threshold_character_count = Math.max(half_first, half_second);
 		var close_names = [];
 		
+		if (first === second) {
+			return close_names;
+		}
+		/*
 		if ((first_length < 4) || (second_length < 4) || (first === second)){
 			// skip if these are short words
 			return close_names;
 		}
+		*/
 		
 		var first_letters = first.charAt(0) + second.charAt(0);
 		var last_letters = first.charAt(first_length-1) + second.charAt(second_length-1);
@@ -129,10 +139,10 @@
 			//console.log(test_word + ' 1: ' + first_score + ' 2: ' + second_score);
 			
 			// only keep likely words for sorting
-			if (first_score > 2) {
+			if (first_score > 0) {
 				scored_first_words.push([first_score, test_word])
 			}
-			if (second_score > 2) {
+			if (second_score > 0) {
 				scored_second_words.push([second_score, test_word])
 			}
 		}
@@ -232,7 +242,7 @@
 				}
 			}
 		}
-		return good_names.concat(partial_names);
+		return good_names.concat(partial_names.sort());
 	}
 
 	function check_valid_name(first, second) {
@@ -268,13 +278,16 @@
 		//alert(good_names);
 		
 		var htmlCode = [];
-		htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
+		var row = '';
+		var this_name = '';
+		htmlCode.push("Click on a name to copy to clipboard.<table><tr><th>=== Random Names: ===</th></tr>");
 		for (i = 0; i < good_names.length; i++) 
 		{
-			var this_name = good_names[i];
+			this_name = good_names[i];
 			//console.log(i + " " + results[i]);
-			var row = "<tr id=\"row" + this_name + "\" >" +
-				"<td>" + this_name + "</td></tr>"
+			//var row = "<tr id=\"row" + this_name + "\" ><td onclick=\"this.select(); this.setSelectionRange(0, 99999); document.execCommand(\'copy\');\">" + this_name + "</td></tr>"
+			row = "<tr><td><input type=\"text\" id=\"" + this_name + "\" name=\"" + this_name + "\" value=\"" + this_name + "\" onclick=\"this.select(); this.setSelectionRange(0, 99999); document.execCommand(\'copy\');\"></td></tr>"
+
 			htmlCode.push(row);
 		}
 		htmlCode.push("</table>");
@@ -294,6 +307,11 @@
 		var first = names[0];
 		var second = names[names.length - 1];
 		var results_box = document.getElementById("results");	
+		
+		var htmlCode = [];
+		var row = '';
+		var this_name = '';
+		htmlCode.push("Click on a name to copy to clipboard.<table>");
 
 		if (check_valid_name(first, second)) {
 			// good, don't change
@@ -303,63 +321,113 @@
 			if (special_cases.includes(first.replace("'s", ""))) {
 				special_case = '*'
 			}
-			results_box.innerHTML = ("<b>Entered name appears valid:</b></br>" + toTitleCase(first) + special_case + ' ' + toTitleCase(second));
+			this_name =  toTitleCase(first) + special_case + ' ' + toTitleCase(second);
+			htmlCode.push("<tr><th>Entered name appears valid</th></tr>");
+			//<tr><td>" + toTitleCase(first) + special_case + ' ' + toTitleCase(second) + '</td></tr>');
+			row = "<tr><td><input type=\"text\" id=\"" + this_name + "\" name=\"" + this_name + "\" value=\"" + this_name + "\" onclick=\"this.select(); this.setSelectionRange(0, 99999); document.execCommand(\'copy\');\"></td></tr>"
+			htmlCode.push(row);
+
 		}
-		else {
-			// look for synonyms and compile a list of "good" words
-			first_synonyms = get_synonyms(first);
-			second_synonyms = get_synonyms(second);
-			var good_words = first_synonyms.concat(second_synonyms);
-			if (Object.keys(rival_stars_map).includes(first)){
-				good_words.push(first);
-			}
-			if (Object.keys(rival_stars_map).includes(second)){
-				good_words.push(second);
+
+		// look for synonyms and compile a list of "good" words
+		first_synonyms = get_synonyms(first);
+		second_synonyms = get_synonyms(second);
+		var first_pass_good_words = first_synonyms.concat(second_synonyms);
+		//alert(first_pass_good_words);
+		var good_words = [];
+		
+		var recursive = document.getElementById('recursive');
+		
+		if (recursive.checked) {
+			
+			for (i in first_pass_good_words) {
+				var second_synonyms = get_synonyms(first_pass_good_words[i])
+				if (!(good_words.includes(first_pass_good_words[i]))) {
+					good_words.push(first_pass_good_words[i]);
+				}
+				//console.log(first_pass_good_words[i]);
+				//console.log(second_synonyms);
+				for (j in second_synonyms) {
+					if (!(good_words.includes(second_synonyms[j]))) {
+						good_words.push(second_synonyms[j]);
+					}
+				}
 			}
 			//alert(good_words);
-			
-			// compile a list of all permutations with these words
-			var good_names = get_good_combinations(good_words);
-			var this_name = '';
-			var row = '';
-			//console.log(close_names);
-			
-			var htmlCode = [];
-			htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
-			
-			if (good_names.length > 0){
-				//alert(good_names);
-
-				for (i = 0; i < good_names.length; i++) 
-				{
-					this_name = good_names[i];
-					//console.log(i + " " + results[i]);
-					row = "<tr id=\"row" + this_name + "\" >" +
-						"<td>" + toTitleCase(this_name) + "</td></tr>"
-					htmlCode.push(row);
-				}
-			}
-
-			// pick a few "closeish" names as well and regenerate the list
-			var close_names = get_closest_variations(first, second, 10);
-			if (close_names.length > 0) {
-				htmlCode.push('<tr><th>=== <b>10 character matched names</b> ===</th></tr>');
-				//good_names = good_names.concat(close_names);
-				
-				//htmlCode = [];
-				//htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
-				for (i = 0; i < close_names.length; i++) 
-				{
-					this_name = close_names[i];
-					//console.log(i + " " + results[i]);
-					row = "<tr id=\"row" + this_name + "\" >" +
-						"<td>" + toTitleCase(this_name) + "</td></tr>"
-					htmlCode.push(row);
-				}
-			}
-			htmlCode.push("</table>");
-			results_box.innerHTML = htmlCode.join('');
+		} else {
+			good_words = first_pass_good_words;
 		}
+		
+		if (Object.keys(rival_stars_map).includes(first)){
+			good_words.push(first);
+		}
+		if (Object.keys(rival_stars_map).includes(second)){
+			good_words.push(second);
+		}
+		//alert(good_words);
+		
+		// compile a list of all permutations with these words
+		var good_names = get_good_combinations(good_words);
+		//console.log(close_names);
+		
+		if (good_names.length > 0){
+			//alert(good_names);
+			var synonym_header = '';
+			
+			// if too many results, shuffle and pick ten
+			var unlimited = document.getElementById('unlimited');
+			if (!(unlimited.checked) && (good_names.length > 10)) {
+				const shuffled = good_names.sort(() => 0.5 - Math.random());
+				// give priority to transposed names like "Luck Doctor" -> "Doctor Luck"
+				for (g = 10; g < good_names.length; g++) {
+					if (good_names[g] === second + ' ' + first) {
+						shuffled.unshift(good_names[g]);
+						break
+					}
+				}
+				good_names = shuffled.slice(0, 10);
+				synonym_header = "<tr><th>=== Synonym Permutations (sample): ===</th></tr>"
+			} else {
+				synonym_header = "<tr><th>=== Synonym Permutations: ===</th></tr>";
+			}
+			
+			var good_names_rows = [];
+			
+			for (i = 0; i < good_names.length; i++) 
+			{
+				this_name = toTitleCase(good_names[i]);
+				//console.log(i + " " + results[i]);
+				//row = "<tr id=\"row" + this_name + "\" ><td>" + toTitleCase(this_name) + "</td></tr>"
+				row = "<tr><td><input type=\"text\" id=\"" + this_name + "\" name=\"" + this_name + "\" value=\"" + this_name + "\" onclick=\"this.select(); this.setSelectionRange(0, 99999); document.execCommand(\'copy\');\"></td></tr>"
+				if (this_name === second + ' ' + first) {
+						good_names_rows.unshift(row);
+				} else {
+					good_names_rows.push(row);
+				}
+			}
+			good_names_rows.unshift(synonym_header);
+			htmlCode.push(...good_names_rows);
+		}
+
+		// pick a few "closeish" names as well and regenerate the list
+		var close_names = get_closest_variations(first, second, 10);
+		if (close_names.length > 0) {
+			htmlCode.push('<tr><th>=== <b>10 character matched names</b> ===</th></tr>');
+			//good_names = good_names.concat(close_names);
+			
+			//htmlCode = [];
+			//htmlCode.push("<table><tr><th>Synonym Permutations:</th></tr>");
+			for (i = 0; i < close_names.length; i++) 
+			{
+				this_name = toTitleCase(close_names[i]);
+				//console.log(i + " " + results[i]);
+				//row = "<tr id=\"row" + this_name + "\" ><td>" + toTitleCase(this_name) + "</td></tr>"
+				row = "<tr><td><input type=\"text\" id=\"" + this_name + "\" name=\"" + this_name + "\" value=\"" + this_name + "\" onclick=\"this.select(); this.setSelectionRange(0, 99999); document.execCommand(\'copy\');\"></td></tr>"
+				htmlCode.push(row);
+			}
+		}
+		htmlCode.push("</table>");
+		results_box.innerHTML = htmlCode.join('');
 
 	}
 
@@ -372,17 +440,13 @@
 		}
 		while (!check_valid_name(random_first, random_second));
 		
-		var suffix = 0;
-		if (Math.random() > 0.25) {
-			//alert(random_first);
-			//alert(rival_stars_map[random_first]['suf']);
-			suffix = rival_stars_map[random_first]['suf'].length - 1;
-		}
+		var suffix = rival_stars_map[random_first]['suf'][Math.floor(Math.random() * rival_stars_map[random_first]['suf'].length)];
+
 		var special_case = ''
 		if (special_cases.includes(random_first)) {
 			special_case = '*'
 		}
-		return (random_first + rival_stars_map[random_first]['suf'][suffix] + special_case + ' ' + random_second)
+		return (random_first + suffix + special_case + ' ' + random_second)
 	}
 	
 	//alert("start");
@@ -392,8 +456,13 @@
 	//alert(generate_random_name());
 </script>
 <div id="header"><h1>Rival Stars Name Helper</h1></div>
-<div><span style="float:right; border:3px solid black;  padding:2px; margin:-2px; cursor: pointer;" onclick="this.parentElement.style.display='none'">X (hide text)</span>
+<div><span style="border-top: 3px solid #CCC;border-right: 3px solid #333;border-bottom: 3px solid #333;border-left: 3px solid #CCC;  padding:2px; margin:-2px; cursor: pointer; width: 90%;" onclick="this.parentElement.style.display='none'"><b>X (hide text)</b></span>
 <p>Rival Stars Horse Racing is a horse racing game. The announcer will call out the player's horse if it is an acceptable name. Enter your desired name in the text field below, and this tool uses the Princeton University WordNet dataset to suggest synonyms that exist in Rival Stars.</p>
+
+<p>Do you have questions or suggestions about this list? Send them <a href="mailto:skyphydeaux@yahoo.com" subject="Rival Stars Name Helper">directly to me</a>, or join us on the Rival Stars channel at <a href="https://discord.gg/6v96y2f" title="The Mane Quest Discord server">The Mane Quest Discord!</a></p>
+
+<p>This website references but is not associated with Rival Stars, which is a registered trademark of Prodigy Design Limited, you can visit their website here: <a href="https://pikpok.com/games/rival-stars-horse-racing/" title="Rival Stars Horse Racing"> https://pikpok.com/games/rival-stars-horse-racing/</a>.</p>
+
 <p>The thesaurus is trimmed from the version at <a href="https://github.com/zaibacu/thesaurus">https://github.com/zaibacu/thesaurus</a>, which lists the following license:
 <pre>License and Commercial Use of WordNet
 
@@ -431,6 +500,11 @@ LICENSEE agrees to preserve same.
 <div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
 <form name="basis" autocomplete="off" action="#" onsubmit="return false">
 Check your name:<input autocomplete="off" type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> 
+<br />
+<label><input type="checkbox" id="recursive" name="recursive" value="recursive" onclick="onItemChanged(document.getElementById('name_input'))">Recursive search for synonyms (more results, but slower)</label>
+<br />
+<label><input type="checkbox" id="unlimited" name="unlimited" value="unlimited" onclick="onItemChanged(document.getElementById('name_input'))">Show all permutations (more results, but slower)</label>
+<br />
 <input type="button" id="random" onclick="getRandomNames(10)" value="Just generate 10 random names">
 <hr />
 </form>
@@ -453,7 +527,6 @@ Check your name:<input autocomplete="off" type="text" name="name_input" id="name
 </ul></div>
 </div>
 
-<hr>
 </body>
 </html>
 
