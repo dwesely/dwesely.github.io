@@ -11,6 +11,15 @@
 	var special_cases = ['ace', 'heart', "heart", 'king', 'queen', 'lord', 'jack', 'tears'];
 	var test_word_lengths = [];
 	
+	function toTitleCase(str){
+		// return capitalized name
+		var names = str.split(" ");
+		for (var i = 0; i < names.length; i++) {
+			names[i] = names[i].charAt(0).toUpperCase() + names[i].slice(1);
+		}
+		return names.join(' ');
+	}
+	
 	function twoDimensionalSort(a, b) {
 		return b[0]-a[0];
 	}
@@ -29,7 +38,7 @@
 		var second_length = second.length;
 		var close_names = [];
 		
-		if ((first_length < 3) || (second_length < 3) || (first === second)){
+		if ((first_length < 4) || (second_length < 4) || (first === second)){
 			// skip if these are short words
 			return close_names;
 		}
@@ -64,7 +73,7 @@
 			//console.log([check_first, check_second]);
 			
 			for (let j = 0; j < Math.min(test_word.length, Math.max(first_length, second_length)); j++) {
-				if ((check_first) && (j < first.length)) {
+				if ((check_first) && (j < first_length)) {
 					if ((test_word.charAt(j) === first.charAt(j)) || 
 					    (test_word.charAt(test_word.length - j - 1) == first.charAt(first_length - j - 1))) {
 						first_score = first_score + 1;
@@ -198,7 +207,7 @@
 		var good_names = [];
 		
 		for (i = 0; i < n; i++) {
-		 good_names.push(generate_random_name());
+		 good_names.push(toTitleCase(generate_random_name()));
 		}
 		//alert(good_names);
 		
@@ -238,7 +247,7 @@
 			if (special_cases.includes(first.replace("'s", ""))) {
 				special_case = '*'
 			}
-			results_box.innerHTML = ("<b>Entered name appears valid:</b></br>" + first + special_case + ' ' + second);
+			results_box.innerHTML = ("<b>Entered name appears valid:</b></br>" + toTitleCase(first) + special_case + ' ' + toTitleCase(second));
 		}
 		else {
 			// look for synonyms and compile a list of "good" words
@@ -255,6 +264,8 @@
 			
 			// compile a list of all permutations with these words
 			var good_names = get_good_combinations(good_words);
+			var this_name = '';
+			var row = '';
 			//console.log(close_names);
 			
 			if (good_names.length > 0){
@@ -265,10 +276,10 @@
 				htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
 				for (i = 0; i < good_names.length; i++) 
 				{
-					var this_name = good_names[i];
+					this_name = good_names[i];
 					//console.log(i + " " + results[i]);
-					var row = "<tr id=\"row" + this_name + "\" >" +
-						"<td>" + this_name + "</td></tr>"
+					row = "<tr id=\"row" + this_name + "\" >" +
+						"<td>" + toTitleCase(this_name) + "</td></tr>"
 					htmlCode.push(row);
 				}
 				htmlCode.push("</table>");
@@ -288,10 +299,10 @@
 				htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
 				for (i = 0; i < good_names.length; i++) 
 				{
-					var this_name = good_names[i];
+					this_name = good_names[i];
 					//console.log(i + " " + results[i]);
-					var row = "<tr id=\"row" + this_name + "\" >" +
-						"<td>" + this_name + "</td></tr>"
+					row = "<tr id=\"row" + this_name + "\" >" +
+						"<td>" + toTitleCase(this_name) + "</td></tr>"
 					htmlCode.push(row);
 				}
 				htmlCode.push("</table>");
