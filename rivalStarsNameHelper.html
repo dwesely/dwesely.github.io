@@ -280,14 +280,11 @@
 
 			// pick a few "closeish" names as well and regenerate the list
 			var close_names = get_closest_variations(first, second, 5);
-			good_names.push('=== 5 character matched names ===');
-			good_names = good_names.concat(close_names);
-			
-			if (good_names.length > 0){
-				//alert(good_names);
-
-				var htmlCode = [];
-
+			if (close_names.length > 0) {
+				good_names.push('=== <b>5 character matched names</b> ===');
+				good_names = good_names.concat(close_names);
+				
+				htmlCode = [];
 				htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
 				for (i = 0; i < good_names.length; i++) 
 				{
@@ -299,9 +296,6 @@
 				}
 				htmlCode.push("</table>");
 				results_box.innerHTML = htmlCode.join('');
-			}
-			else {
-				results_box.innerHTML = '';
 			}
 		}
 
