@@ -3,13 +3,31 @@
 	<title>Rival Stars Name Helper</title>
 	<link href="rival_style.css" rel="stylesheet">
 </head>
-<body onload="">
+<body onload="memoize();">
 <script type="text/javascript" src="rival_stars_map.json"></script>
 <script type="text/javascript" src="thesaurus.json"></script>
 <script type="text/javascript">
 
 	var special_cases = ['ace', 'heart', "heart", 'king', 'queen', 'lord', 'jack', 'tears'];
 	var test_word_lengths = [];
+	var alphabetical_index = {};
+	function memoize(){
+		var first_letter = '';
+		var last_letter = '';
+		for (i in Object.keys(rival_stars_map)) {
+			test_word_lengths[i] = Object.keys(rival_stars_map)[i].length;
+			first_letter = Object.keys(rival_stars_map)[i].charAt(0);
+			last_letter = Object.keys(rival_stars_map)[i].charAt(test_word_lengths[i] - 1);
+			if (!(first_letter in alphabetical_index)) {
+				alphabetical_index[first_letter] = new Set([]);
+			}
+			if (!(last_letter in alphabetical_index)) {
+				alphabetical_index[last_letter] = new Set([]);
+			}
+			alphabetical_index[first_letter].add(i);
+			alphabetical_index[last_letter].add(i);			
+		}
+	}
 	
 	function toTitleCase(str){
 		// return capitalized name
@@ -36,8 +54,10 @@
 		var check_second;
 		var first_length = first.length;
 		var second_length = second.length;
+		var threshold_word_length = Math.min(first_length, second_length);
 		var half_first = Math.ceil(first_length/2);
 		var half_second = Math.ceil(second_length/2);
+		var threshold_character_count = Math.max(half_first, half_second);
 		var close_names = [];
 		
 		if ((first_length < 4) || (second_length < 4) || (first === second)){
@@ -47,10 +67,20 @@
 		
 		var first_letters = first.charAt(0) + second.charAt(0);
 		var last_letters = first.charAt(first_length-1) + second.charAt(second_length-1);
+		var edge_letters = new Set((first_letters + last_letters).split(''));
+		//var biggest_letter = (first_letters + last_letters).split('').sort().reverse()[0];
+		
+		var word_idxs_to_check = new Set([])
+		for (const edge_letter of edge_letters) {
+			for  (const idx of alphabetical_index[edge_letter]) {
+				word_idxs_to_check.add(idx);
+			}
+		}
 
 		
 		
-		for (i in Object.keys(rival_stars_map)) {
+		//for (i in Object.keys(rival_stars_map)) {
+		for (const i of word_idxs_to_check) {
 			test_word = Object.keys(rival_stars_map)[i];			
 			first_score = 0;
 			second_score = 0;
@@ -61,10 +91,13 @@
 			}
 			*/
 			
-			if ( (test_word.length < Math.min(first_length, second_length)) ||
-				!(first_letters.includes(test_word.charAt(0)) || last_letters.includes(test_word.charAt(test_word.length - 1)))) {
+			// skip some cases to improve performance
+			if (test_word_lengths[i] < threshold_word_length) {
 				continue;
-				}
+			} 
+			//else if (!(first_letters.includes(test_word.charAt(0)) || last_letters.includes(test_word.charAt(test_word_lengths[i] - 1)))) {
+			//	continue;
+			//} 
 
 			//console.log('Test word ' + test_word);
 			//console.log('Max name length ' + (Math.max(first.length, second.length)));			
@@ -74,12 +107,12 @@
 			check_second = rival_stars_map[test_word]['pos'].includes(1);		
 			//console.log([check_first, check_second]);
 			
-			for (let j = 0; j < Math.min(test_word.length, Math.max(half_first, half_second)); j++) {
+			for (let j = 0; j < Math.min(test_word_lengths[i], threshold_character_count); j++) {
 				if ((check_first) && (j <= half_first)) {
 					if (test_word.charAt(j) === first.charAt(j)) {
 						first_score = first_score + 1;
 					}
-					if (test_word.charAt(test_word.length - j - 1) === first.charAt(first_length - j - 1)) {
+					if (test_word.charAt(test_word_lengths[i] - j - 1) === first.charAt(first_length - j - 1)) {
 						first_score = first_score + 1;
 					}
 					//console.log(j + '/' + half_first + ', ' + test_word.charAt(j) + ' : ' + first.charAt(j) + ' | ' + test_word.charAt(test_word.length - j - 1) + ' : ' + first.charAt(first_length - j - 1));
@@ -88,14 +121,24 @@
 					if (test_word.charAt(j) === second.charAt(j)) {
 						second_score = second_score + 1;
 					}
-					if (test_word.charAt(test_word.length - j - 1) === second.charAt(second_length - j - 1)) {
+					if (test_word.charAt(test_word_lengths[i] - j - 1) === second.charAt(second_length - j - 1)) {
 						second_score = second_score + 1;
 					}
 				}
 			}
 			//console.log(test_word + ' 1: ' + first_score + ' 2: ' + second_score);
-			scored_first_words.push([first_score, test_word])
-			scored_second_words.push([second_score, test_word])			
+			
+			// only keep likely words for sorting
+			if (first_score > 2) {
+				scored_first_words.push([first_score, test_word])
+			}
+			if (second_score > 2) {
+				scored_second_words.push([second_score, test_word])
+			}
+		}
+		
+		if ((scored_first_words.length < n) || (scored_second_words.length < n)) {
+			return close_names;
 		}
 		scored_first_words.sort(twoDimensionalSort);
 		scored_second_words.sort(twoDimensionalSort);
@@ -103,23 +146,25 @@
 		
 		var close_first;
 		var close_second;
-		var suffix = 0;
+		//var s = 0;
 		var special_case = '';
+		var suffix = '';
 		
 		for (i = 0; i < n; i++) {
 			close_first = scored_first_words[i][1];
 			close_second = scored_second_words[i][1];
-			if (Math.random() > 0.25) {
-				suffix = rival_stars_map[close_first]['suf'].length - 1;
-			}
+			suffix = rival_stars_map[close_first]['suf'][Math.floor(Math.random() * rival_stars_map[close_first]['suf'].length)];
+			//if (Math.random() > 0.25) {
+			//	s = rival_stars_map[close_first]['suf'].length - 1;
+			//}
 			if (special_cases.includes(close_first)) {
 				special_case = '*';
 			} else {
 				special_case = '';
 			}
 			
-
-			close_names.push(close_first + rival_stars_map[close_first]['suf'][suffix] + special_case + ' ' + close_second);
+			//suffix = rival_stars_map[close_first]['suf'][s];
+			close_names.push(close_first + suffix + special_case + ' ' + close_second);
 		}
 		return close_names;
 	}
@@ -279,12 +324,12 @@
 			var row = '';
 			//console.log(close_names);
 			
+			var htmlCode = [];
+			htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
+			
 			if (good_names.length > 0){
 				//alert(good_names);
 
-				var htmlCode = [];
-
-				htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
 				for (i = 0; i < good_names.length; i++) 
 				{
 					this_name = good_names[i];
@@ -293,32 +338,27 @@
 						"<td>" + toTitleCase(this_name) + "</td></tr>"
 					htmlCode.push(row);
 				}
-				htmlCode.push("</table>");
-				results_box.innerHTML = htmlCode.join('');
-			}
-			else {
-				results_box.innerHTML = '';
 			}
 
 			// pick a few "closeish" names as well and regenerate the list
 			var close_names = get_closest_variations(first, second, 10);
 			if (close_names.length > 0) {
-				good_names.push('=== <b>10 character matched names</b> ===');
-				good_names = good_names.concat(close_names);
+				htmlCode.push('<tr><th>=== <b>10 character matched names</b> ===</th></tr>');
+				//good_names = good_names.concat(close_names);
 				
-				htmlCode = [];
-				htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
-				for (i = 0; i < good_names.length; i++) 
+				//htmlCode = [];
+				//htmlCode.push("<table><tr><th>Suggested Names:</th></tr>");
+				for (i = 0; i < close_names.length; i++) 
 				{
-					this_name = good_names[i];
+					this_name = close_names[i];
 					//console.log(i + " " + results[i]);
 					row = "<tr id=\"row" + this_name + "\" >" +
 						"<td>" + toTitleCase(this_name) + "</td></tr>"
 					htmlCode.push(row);
 				}
-				htmlCode.push("</table>");
-				results_box.innerHTML = htmlCode.join('');
 			}
+			htmlCode.push("</table>");
+			results_box.innerHTML = htmlCode.join('');
 		}
 
 	}
