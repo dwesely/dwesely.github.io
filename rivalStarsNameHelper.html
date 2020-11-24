@@ -85,8 +85,10 @@
 					//console.log(j + '/' + half_first + ', ' + test_word.charAt(j) + ' : ' + first.charAt(j) + ' | ' + test_word.charAt(test_word.length - j - 1) + ' : ' + first.charAt(first_length - j - 1));
 				}
 				if ((check_second) && (j <= half_second)) {
-					if ((test_word.charAt(j) === second.charAt(j)) || 
-					    (test_word.charAt(test_word.length - j - 1) === second.charAt(second_length - j - 1))) {
+					if (test_word.charAt(j) === second.charAt(j)) {
+						second_score = second_score + 1;
+					}
+					if (test_word.charAt(test_word.length - j - 1) === second.charAt(second_length - j - 1)) {
 						second_score = second_score + 1;
 					}
 				}
@@ -132,6 +134,7 @@
 		var second_name = '';
 		var first_name_okay = false;
 		var second_name_okay = false;
+		var suffix = '';
 		
 		if (good_words.length > 0) {
 			//alert(good_words);
@@ -144,20 +147,21 @@
 				}
 				first_name_okay = rival_stars_map[first_name]['pos'].includes(0);
 				//alert(first_name);
-				for (suffix in rival_stars_map[first_name]['suf']){			
+				for (s in rival_stars_map[first_name]['suf']){	
+					suffix = rival_stars_map[first_name]['suf'][s];
 					for (second_idx in good_words){
 						second_name = good_words[second_idx];
 						second_name_okay = rival_stars_map[second_name]['pos'].includes(1);
-						//console.log(first_name + ' ' + second_name);
+						//console.log(s + ' ' + first_name + suffix + ' ' + second_name);
 						if ((first_name_okay) && (second_name_okay) && (first_name != second_name)){
 							//console.log('both okay');
-							generated_name = first_name + rival_stars_map[first_name]['suf'][suffix] + special_case + ' ' + second_name;
+							generated_name = first_name + suffix + special_case + ' ' + second_name;
 							if (!(good_names.includes(generated_name))) {
 								good_names.push(generated_name);								
 							}
 						} else if ((first_name_okay) && (!second_name_okay)){
 							//console.log('first okay');
-							generated_name = first_name + rival_stars_map[first_name]['suf'][suffix] + special_case + ' ?';
+							generated_name = first_name + suffix + special_case + ' ?';
 							if (!(partial_names.includes(generated_name))) {
 								partial_names.push(generated_name);								
 							}
@@ -172,7 +176,7 @@
 							if (!(partial_names.includes(generated_name))) {
 								partial_names.push(generated_name);								
 							}
-							generated_name = first_name + rival_stars_map[first_name]['suf'][suffix] + special_case + ' ?';	
+							generated_name = first_name + suffix + special_case + ' ?';	
 							if (!(partial_names.includes(generated_name))) {
 								partial_names.push(generated_name);								
 							}
