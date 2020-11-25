@@ -376,12 +376,21 @@
 			
 			// if too many results, shuffle and pick ten
 			var unlimited = document.getElementById('unlimited');
+			var test_name = '';
 			if (!(unlimited.checked) && (good_names.length > 10)) {
 				const shuffled = good_names.sort(() => 0.5 - Math.random());
 				// give priority to transposed names like "Luck Doctor" -> "Doctor Luck"
-				for (g = 10; g < good_names.length; g++) {
-					if (good_names[g] === second + ' ' + first) {
-						shuffled.unshift(good_names[g]);
+				for (g = 0; g < good_names.length; g++) {
+					test_name = good_names[g]; 
+					if (test_name === second + ' ' + first) {
+						var index = shuffled.indexOf(good_names[g]);
+						//console.log(shuffled[index]);
+						//console.log(shuffled);
+						if (index !== -1) {
+						  shuffled.splice(index, 1);
+						}
+						shuffled.unshift(test_name);
+						//console.log(shuffled);
 						break
 					}
 				}
