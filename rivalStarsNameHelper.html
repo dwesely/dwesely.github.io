@@ -12,11 +12,21 @@
 <script type="text/javascript" src="rival_stars_map.json"></script>
 <script type="text/javascript" src="thesaurus.json"></script>
 <script type="text/javascript">
+	//alert("start");
+	// parse json files
+	var thesaurus = JSON.parse(thesaurus_data);
+	var rival_stars_map = JSON.parse(rival_stars_map_data);
+	//alert(thesaurus['zippy']);
 
+	// TODO: words with suffixes should be checked specially for validity
 	var special_cases = ['ace', 'heart', "heart", 'king', 'queen', 'lord', 'jack', 'tears'];
+	
+	// memoized data for performance
 	var test_word_lengths = [];
-	var alphabetical_index = {};
+	var alphabetical_index = {};	
+
 	function memoize(){
+		// store word lengths and index to improve search speed
 		var first_letter = '';
 		var last_letter = '';
 		for (i in Object.keys(rival_stars_map)) {
@@ -44,7 +54,20 @@
 	}
 	
 	function twoDimensionalSort(a, b) {
+		// sort annotated list by the first column
 		return b[0]-a[0];
+	}
+	
+	function permutationSort(a, b) {
+		// prefer completed names, otherwise randomize
+		var result = 0.5;
+		if (a.includes('?')) {
+			result = result + 1;
+		}
+		if (b.includes('?')) {
+			result = result - 1;
+		}
+		return result - Math.random()
 	}
 	
 	function get_closest_variations(first, second, n) {
@@ -384,7 +407,8 @@
 			var unlimited = document.getElementById('unlimited');
 			var test_name = '';
 			if (!(unlimited.checked) && (good_names.length > 10)) {
-				const shuffled = good_names.sort(() => 0.5 - Math.random());
+				//const shuffled = good_names.sort(() => 0.5 - Math.random());
+				const shuffled = good_names.sort(permutationSort);
 				// give priority to transposed names like "Luck Doctor" -> "Doctor Luck"
 				for (g = 0; g < good_names.length; g++) {
 					test_name = good_names[g]; 
@@ -447,6 +471,7 @@
 	}
 
 	function generate_random_name(){
+		// return a random valid name
 		var random_first = '';
 		var random_second = '';
 		do {
@@ -463,12 +488,7 @@
 		}
 		return (random_first + suffix + special_case + ' ' + random_second)
 	}
-	
-	//alert("start");
-	var thesaurus = JSON.parse(thesaurus_data);
-	var rival_stars_map = JSON.parse(rival_stars_map_data);
-	//alert(thesaurus['zippy']);
-	//alert(generate_random_name());
+
 </script>
 <div id="header"><h1>Rival Stars Name Helper</h1></div>
 <div><span style="border-top: 3px solid #CCC;border-right: 3px solid #333;border-bottom: 3px solid #333;border-left: 3px solid #CCC;  padding:2px; margin:-2px; cursor: pointer; width: 90%;" onclick="this.parentElement.style.display='none'"><b>X (hide text)</b></span>
