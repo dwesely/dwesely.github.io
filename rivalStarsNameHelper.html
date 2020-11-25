@@ -328,9 +328,11 @@
 			htmlCode.push(row);
 			// indicate validity next to input
 			valid.checked = true;
+			valid.title = "Valid";
 		} else {
 			// indicate validity next to input
 			valid.checked = false;
+			valid.title = "Not Valid";
 		}
 
 		// look for synonyms and compile a list of "good" words
@@ -512,7 +514,7 @@ LICENSEE agrees to preserve same.
 </div>
 <div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
 <form name="basis" autocomplete="off" action="#" onsubmit="return false">
-Check your name:<input autocomplete="off" type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> <input type="checkbox" id="valid" name="valid" value="valid" onclick="return false;">
+Check your name:<input autocomplete="off" type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> <input type="checkbox" id="valid" name="valid" value="valid" onclick="return false;" title="Not Valid">
 <br />
 <label><input type="checkbox" id="recursive" name="recursive" value="recursive" onclick="onItemChanged(document.getElementById('name_input'))">Recursive search for synonyms (more results, but slower)</label>
 <br />
