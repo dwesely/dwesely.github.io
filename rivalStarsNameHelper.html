@@ -312,7 +312,7 @@
 		var row = '';
 		var this_name = '';
 		htmlCode.push("Click on a name to copy to clipboard.<table>");
-
+		var valid = document.getElementById('valid');
 		if (check_valid_name(first, second)) {
 			// good, don't change
 			//alert('valid name');
@@ -322,11 +322,15 @@
 				special_case = '*'
 			}
 			this_name =  toTitleCase(first) + special_case + ' ' + toTitleCase(second);
-			htmlCode.push("<tr><th>Entered name appears valid</th></tr>");
+			htmlCode.push("<tr><th>=== Entered name appears valid ===</th></tr>");
 			//<tr><td>" + toTitleCase(first) + special_case + ' ' + toTitleCase(second) + '</td></tr>');
 			row = "<tr><td><input type=\"text\" id=\"" + this_name + "\" name=\"" + this_name + "\" value=\"" + this_name + "\" onclick=\"this.select(); this.setSelectionRange(0, 99999); document.execCommand(\'copy\');\"></td></tr>"
 			htmlCode.push(row);
-
+			// indicate validity next to input
+			valid.checked = true;
+		} else {
+			// indicate validity next to input
+			valid.checked = false;
 		}
 
 		// look for synonyms and compile a list of "good" words
@@ -508,7 +512,7 @@ LICENSEE agrees to preserve same.
 </div>
 <div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
 <form name="basis" autocomplete="off" action="#" onsubmit="return false">
-Check your name:<input autocomplete="off" type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> 
+Check your name:<input autocomplete="off" type="text" name="name_input" id="name_input" onkeyup="onItemChanged(this)" onfocus="this.select()" value="name" title="Enter your desired name here"> <input type="checkbox" id="valid" name="valid" value="valid" onclick="return false;">
 <br />
 <label><input type="checkbox" id="recursive" name="recursive" value="recursive" onclick="onItemChanged(document.getElementById('name_input'))">Recursive search for synonyms (more results, but slower)</label>
 <br />
