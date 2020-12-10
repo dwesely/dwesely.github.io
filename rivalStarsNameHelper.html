@@ -326,7 +326,7 @@
 		//alert('Item Changed');
 		
 		// get relevant items
-		var names = e.value.toLowerCase().trim().split(" ");
+		var names = e.value.toLowerCase().replace(/[^\w\s']/g, '').trim().split(" ");
 		var first = names[0];
 		var second = names[names.length - 1];
 		var results_box = document.getElementById("results");	
