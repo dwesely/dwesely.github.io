@@ -39,15 +39,21 @@ var selectedCards = {};
 function displaySelected() {
 	
 	var htmlCode = [];
+	var totalCount = 0;
 	htmlCode.push("<b>Selected cards:</b><hr /><ul>");
 	for (const [titleOfCard, value] of Object.entries(selectedCards)) {
 		cardLine = "<li class=\"cardName\" title=\"" + titleOfCard + "\" onclick=\"removeCard(this)\">" + titleOfCard + " (" + value['count'] + ")</li>";
 		htmlCode.push(cardLine);
+		totalCount = totalCount + value['count'];
 	}
 	htmlCode.push("</ul>");
 	var mySelections = document.getElementById("selected_list");
 	mySelections.innerHTML = htmlCode.join('');
 	console.log(htmlCode);
+	
+	// update download link
+	var downloadLink = document.getElementById("cardDownload");
+	downloadLink.innerHTML = "Download (" + totalCount + ") selected cards as a json file.";
 }
 
 // remove selected card from user's list
@@ -71,6 +77,15 @@ function pushSelectedCard(cardTitle, cardIndex) {
 	selectedCards[cardTitle]['count'] = selectedCards[cardTitle]['count'] + 1;
 }
 
+// add one of each card
+function addAll() {
+	for (const [titleOfCard, value] of Object.entries(itemsByTitle)) {
+		pushSelectedCard(titleOfCard, value);
+	}
+	displaySelected();	
+}
+
+// add a single card
 function addCard(item){
 	console.log(item.innerHTML);
 	if (item.innerHTML == "Add all") {
@@ -116,7 +131,7 @@ function createAccordion(json){
 	console.log(JSON.stringify(itemsByTag));
 	
 	var htmlCode = [];
-	htmlCode.push("<b>Available cards:</b><hr />");
+	htmlCode.push("<b>Available cards:</b><br><a onclick=\"addAll();\" style=\"cursor: pointer;\">(click here to add one of each)</a><hr />");
 
 	for (const [key, value] of Object.entries(itemsByTag)) {
 		var tagButton = "<button class=\"accordion\">" + key + "</button><div class=\"panel\"><ul>";
@@ -183,7 +198,7 @@ function downloadCards() {
 <p></p>
 </div>
 <div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
-<span id="cardDownload" style="display: block;" onclick="downloadCards();">Download selected cards as a json file.</span>
+<span id="cardDownload" style="display: block;" onclick="downloadCards();">Download (0) selected cards as a json file.</span>
 <span><a href="https://rpg-cards.vercel.app/" title="RPG Cards tool" class="cardLink" style="display: block;">Visit RPG Cards to render and print the cards</a>
 <a href="http://kotohi.com/ryuutama/" title="Visit official Ryuutama RPG product page for rules and additional resources" class="cardLink" style="display: block;">Visit Ryuutama RPG product page</a></span>
 <a id="downloadAnchor" style="display:none"></a>
