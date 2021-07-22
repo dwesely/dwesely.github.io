@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>Ryuutama Card Chooser</title>
+<link href="ryuutama_card_chooser.css?v010" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="createAccordion(json_data);">
+<script type="text/javascript" src="ryuutama_card_chooser.js"></script>
+<script type="text/javascript">
+
+//testing
+//https://chrisbitting.com/2014/06/16/local-web-server-for-testing-development-using-node-js-and-http-server/
+
+
+
+// load the json data
+//https://stackoverflow.com/questions/2177548/load-json-into-variable
+
+var json_data = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "./ryuutama_cards.json?v001",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})(); 
+
+var itemsByTag = {};
+var itemsByTitle = {};
+var selectedCards = {};
+
+
+// display the title and counts of all saved cards
+function displaySelected() {
+	
+	var htmlCode = [];
+	htmlCode.push("<b>Selected cards:</b><hr /><ul>");
+	for (const [titleOfCard, value] of Object.entries(selectedCards)) {
+		cardLine = "<li class=\"cardName\" title=\"" + titleOfCard + "\" onclick=\"removeCard(this)\">" + titleOfCard + " (" + value['count'] + ")</li>";
+		htmlCode.push(cardLine);
+	}
+	htmlCode.push("</ul>");
+	var mySelections = document.getElementById("selected_list");
+	mySelections.innerHTML = htmlCode.join('');
+	console.log(htmlCode);
+}
+
+// remove selected card from user's list
+function removeCard(item){
+	var cardTitle = item.title;
+	console.log(cardTitle);
+	
+	if (selectedCards[cardTitle]['count'] === 1) {
+		delete selectedCards[item.title];
+	} else {
+		selectedCards[cardTitle]['count'] = selectedCards[cardTitle]['count'] - 1;
+	}
+	displaySelected();
+}
+
+// add selected card(s) to user's list
+function pushSelectedCard(cardTitle, cardIndex) {
+	if (!(cardTitle in selectedCards)) {
+		selectedCards[cardTitle] = {'count': 0, 'index': cardIndex, 'title': cardTitle};
+	}
+	selectedCards[cardTitle]['count'] = selectedCards[cardTitle]['count'] + 1;
+}
+
+function addCard(item){
+	console.log(item.innerHTML);
+	if (item.innerHTML == "Add all") {
+		console.log(item.title);
+		var result = itemsByTag[item.title];
+		console.log(result);
+		for (const [cardTitle, cardIndex] of Object.entries(result)) {
+			//console.log(json_data[value]);
+			pushSelectedCard(cardTitle, cardIndex);
+		}
+	
+	} else {
+		var cardTitle = item.innerHTML;
+		//console.log(item.innerHTML);
+		var cardIndex = itemsByTitle[item.innerHTML];
+		//console.log(cardIndex);		
+		pushSelectedCard(cardTitle, cardIndex);
+		//console.log(json_data[cardIndex]);
+		//console.log(selectedCards[item.innerHTML]['count']);
+	}
+	displaySelected();
+}
+
+// create a list of tags
+function createAccordion(json){
+	for(var i = 0; i < json.length; i++) {
+		var tagName = json[i]["tags"].slice(0,2).toString();
+		var cardTitle = json[i]["title"].toString();
+		var dict = {};
+		//alert(tagName + ': ' + cardTitle);
+		if (!(tagName in itemsByTag)) {
+			itemsByTag[tagName] = {};
+		}
+		itemsByTag[tagName][cardTitle] = i;
+		if ((cardTitle in itemsByTitle)){
+			console.error("Duplicate card title, this shouldn't happen.");
+			throw 'Duplicate card titles!';
+			raise
+		}
+		itemsByTitle[cardTitle] = i;
+		//break;
+	}
+	console.log(JSON.stringify(itemsByTag));
+	
+	var htmlCode = [];
+	htmlCode.push("<b>Available cards:</b><hr />");
+
+	for (const [key, value] of Object.entries(itemsByTag)) {
+		var tagButton = "<button class=\"accordion\">" + key + "</button><div class=\"panel\"><ul>";
+		htmlCode.push(tagButton);
+		var divPanel = "<li class=\"cardName\" title=\"" + key + "\" onclick=\"addCard(this)\">Add all</li>";
+		htmlCode.push(divPanel);
+		//console.log(value);
+		for (const [titleOfCard, indexOfCard] of Object.entries(value)) {
+			divPanel = "<li class=\"cardName\" title=\"" + titleOfCard + "\" onclick=\"addCard(this)\">" + titleOfCard + "</li>";
+			htmlCode.push(divPanel);
+		}
+		htmlCode.push("</ul></div>");
+	}	
+	//alert(htmlCode);
+	
+	var myOptions = document.getElementById("options_list");
+	myOptions.innerHTML = htmlCode.join('');
+
+	
+	// for each tag, add entry in itemsByTag
+	// https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs
+	
+	// https://www.w3schools.com/howto/howto_js_accordion.asp
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.display === "block") {
+		  panel.style.display = "none";
+		} else {
+		  panel.style.display = "block";
+		}
+	  });
+	}
+
+}
+
+// download result 
+// https://stackoverflow.com/questions/19721439/download-json-object-as-a-file-from-browser
+
+function downloadCards() {
+
+	var data = [];
+	for (const [titleOfCard, value] of Object.entries(selectedCards)) {
+		console.log(value);
+		var thisCard = json_data[value['index']];
+		thisCard['count'] = value['count'];
+		data.push(thisCard);
+	}
+	var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
+	console.log(dataStr);
+	var downloadAnchor = document.getElementById('downloadAnchor');
+	downloadAnchor.setAttribute("href", dataStr);
+	downloadAnchor.setAttribute("download", "ryuutama-cards.json");
+	downloadAnchor.click();
+}
+
+</script>
+<div id="header"><h1>Ryuutama Card Selection</h1></div>
+<div><span style="float:right; border:1px solid white;  padding:2px; margin:-2px; cursor: pointer;" onclick="this.parentElement.style.display='none'">X</span>
+<p></p>
+</div>
+<div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
+<span id="cardDownload" style="display: block;" onclick="downloadCards();">Click here to download the selected cards as a json file.</span><span class="cardLink" style="display: block;"><a href="https://rpg-cards.vercel.app/" title="RPG Cards tool">Visit RPG Cards to render and print the cards</a></span>
+<a id="downloadAnchor" style="display:none"></a>
+<hr />
+</div>
+<div id="options_list" style="float:left; border:1px solid black; padding:10px;display: block;width: 40%;">
+</div>
+<div id="selected_list" style="float:left; border:1px solid black;padding:10px;display: block;width: 40%;">
+</div>
+</body>
+</html>

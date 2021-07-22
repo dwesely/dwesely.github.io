@@ -1,0 +1,3220 @@
+[
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Insect Repellant Candle",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (10g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Smelly candle that repels vermin and insects.",
+      "text | Lasts for 12 hours.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Stuffed Animal",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (100g)",
+      "rule",
+      "property | Size | 1-5",
+      "rule",
+      "fill | 2",
+      "text | Stuffed doll in various shapes and sizes.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Pillow",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (10g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Soft sleeping aid for those who can’t sleep without one.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Portable Bath",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (450g)",
+      "rule",
+      "property | Size | 5",
+      "rule",
+      "fill | 2",
+      "text | A bathtub that can be taken anywhere.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Flow Stone",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (20g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Single use item that is used to warm bathwater up to 40°C (104°F).",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Large Tent",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (500g)",
+      "rule",
+      "property | Size | 5",
+      "rule",
+      "fill | 2",
+      "text | A tent large enough for 10 people.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Arctic Tent",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (300g)",
+      "rule",
+      "property | Size | 5",
+      "rule",
+      "fill | 2",
+      "text | A 3-man tent that gives shelter from the cold.",
+      "description | Warm | +2 bonus to camping checks in cold weather.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Tent",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (120g)",
+      "rule",
+      "property | Size | 3",
+      "rule",
+      "fill | 2",
+      "text | A tent large enough for 3 people.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Sleeping Bag",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (50g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | A small portable bed suitable for a single person.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Bedding",
+    "icon": "camping-tent",
+    "contents": [
+      "subtitle | Camping Equipment (40g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Fleece, blankets, etc. to make bedding down more comfortable.",
+      "fill | 2",
+	  "section | Camping Equipment",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "camping-equipment"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Grandfather Clock",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (1000g)",
+      "rule",
+      "property | Size | 5",
+      "rule",
+      "fill | 2",
+      "text | A well-crafted ornate luxury item, heavy but sturdy.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Instrument",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (300g)",
+      "rule",
+      "property | Size | 3",
+      "rule",
+      "fill | 2",
+      "text | Tambourine, guitar, lyre, trumpet, etc.",
+      "text | Larger instruments may be more expensive.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Hand Mirror",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (300g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Handy mirror, sized to fit in the palm of a hand.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Rope",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (50g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | 10 meter-long rope.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Repair Kit",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (100g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Handy tools to make repairs with.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Utensils",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (10g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Forks, spoons, etc. of various materials.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Firestarter Set",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (20g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Flint and steel to make firestarting easy.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Lantern",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (80g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Comes with windshield; light is hard to blow out.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Torch",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (5G)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Makes dark places brighter.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Compass",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (1500g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | +1 to Direction Checks.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Umbrella",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (50g)",
+      "rule",
+      "property | Size | 3",
+      "property | Equip | 1 hand",
+      "rule",
+      "fill | 2",
+      "text | Held in a single hand.",
+      "description | Cover | +1 bonus to Travel Checks on hot/rainy days.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Washing Set",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (15G)",
+      "rule",
+      "property | Size | 3",
+      "rule",
+      "fill | 2",
+      "text | Used to wash clothes.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Soap",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (5G)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Just add water!",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Leather Notebook",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (100g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | A notebook made of animal skin.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Leather Page",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (2G)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Durable, single page for writing.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Glass Pen",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (120g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Fancy pen with a nice grip.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Quill Pen",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (2G)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | A feather cut to be used as a writing utensil.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Perfume",
+    "icon": "lantern-flame",
+    "contents": [
+      "subtitle | Sundry (500g)",
+      "rule",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | Can get rid of the “Smelly” item attribute for 12 hours.",
+      "fill | 2",
+	  "section | Sundry",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "sundry"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Herb Bottle",
+    "icon": "swap-bag",
+    "contents": [
+      "subtitle | Small Container (100g)",
+      "rule",
+      "property | Capacity | 10 herbs",
+      "property | Size | 3",
+      "rule",
+      "fill | 2",
+      "text | Magically keeps up to ten herbs fresh.",
+      "text | Once opened for the first time, the bottle is good for seven days before it no longer works.",
+      "fill | 2",
+	  "section | Small Container",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "small-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Belt Pouch",
+    "icon": "swap-bag",
+    "contents": [
+      "subtitle | Small Container (30g)",
+      "rule",
+      "property | Capacity | 2 total size",
+      "property | Size | 1",
+      "property | Equip | belt",
+      "rule",
+      "fill | 2",
+      "text | Only one can be equipped. Good when you want to be able to grab something quickly.",
+      "fill | 2",
+	  "section | Small Container",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "small-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Travel Bag",
+    "icon": "swap-bag",
+    "contents": [
+      "subtitle | Small Container (10g)",
+      "rule",
+      "property | Capacity | 3 total size",
+      "property | Size | 1",
+      "property | Equip | 1 hand",
+      "rule",
+      "fill | 2",
+      "text | A bag held in 1 hand.",
+      "fill | 2",
+	  "section | Small Container",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "small-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Magic Jar",
+    "icon": "swap-bag",
+    "contents": [
+      "subtitle | Small Container (2000g)",
+      "rule",
+      "property | Capacity | (none)",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | A magical jar that keeps cold liquids cold or hot liquids hot.",
+      "text | +1 Travel Check while in hot/cold weather.",
+      "fill | 2",	  
+	  "section | Small Container",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "small-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Waterskin",
+    "icon": "swap-bag",
+    "contents": [
+      "subtitle | Small Container (30g)",
+      "rule",
+      "property | Capacity | 1 day of water rations",
+      "property | Size | 1",
+      "rule",
+      "fill | 2",
+      "text | A pouch of leather that can hold a day’s ration of water.",
+      "fill | 2",	  
+	  "section | Small Container",
+      "text |  "
+    ],
+    "tags": [
+      "item",
+      "small-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Wooden Chest",
+    "icon": "chest",
+    "contents": [
+      "subtitle | Big Container (10g)",
+      "rule",
+      "property | Capacity | 15 total size",
+      "property | Size | 5",
+      "rule",
+      "fill | 2",
+      "description | Cumbersome | If carried by a human, they take a -1 penalty to Travel Checks.",
+      "fill | 2",	  
+	  "section | Big Container",
+      "text | A person may only carry one big container at a time, pack animals may carry more."
+    ],
+    "tags": [
+      "item",
+      "big-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Large Backpack",
+    "icon": "chest",
+    "contents": [
+      "subtitle | Big Container (40g)",
+      "rule",
+      "property | Capacity | 10 total size",
+      "property | Size | 5",
+      "rule",
+      "fill | 2",
+      "text | Large rucksack that holds many items.",
+      "fill | 2",	  
+	  "section | Big Container",
+      "text | A person may only carry one big container at a time, pack animals may carry more."
+    ],
+    "tags": [
+      "item",
+      "big-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Backpack",
+    "icon": "chest",
+    "contents": [
+      "subtitle | Big Container (20g)",
+      "rule",
+      "property | Capacity | 5 total size",
+      "property | Size | 3",
+      "rule",
+      "fill | 2",
+      "text | A rucksack used by many travelers.",
+      "fill | 2",	  
+	  "section | Big Container",
+      "text | A person may only carry one big container at a time, pack animals may carry more."
+    ],
+    "tags": [
+      "item",
+      "big-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Barrel",
+    "icon": "chest",
+    "contents": [
+      "subtitle | Big Container (10g)",
+      "rule",
+      "property | Capacity | 10 total size (or 15 days of water)",
+      "property | Size | 5",
+      "rule",
+      "fill | 2",
+      "text | Holds 15 days worth of water, or holds 10 size worth of other items.",
+      "fill | 2",	  
+	  "section | Big Container",
+      "text | A person may only carry one big container at a time, pack animals may carry more."
+    ],
+    "tags": [
+      "item",
+      "big-container"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "GoldenRod",
+    "title": "Baby",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.3)",
+      "rule",
+      "property | Cost Modifier | x0.3",
+      "rule",
+      "fill | 2",
+      "text | Not more than 6 months old.",
+      "text | Has no abilities and counts as Pet animal.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "GoldenRod",
+    "title": "Loud",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.7)",
+      "rule",
+      "property | Cost Modifier | x0.7",
+      "rule",
+      "fill | 2",
+      "text | Calls/brays/footsteps are loud and annoying.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "GoldenRod",
+    "title": "Bad Attitude",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.7)",
+      "rule",
+      "property | Cost Modifier | x0.7",
+      "rule",
+      "fill | 2",
+      "text | Sometimes does not follow its owner’s commands.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "GoldenRod",
+    "title": "Well-Traveled",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (+5000g)",
+      "rule",
+      "property | Cost Modifier | +5000g",
+      "rule",
+      "fill | 2",
+      "text | Grants a +1 bonus to all travel checks.",
+      "text | May only be applied to riding animals.",
+      "text | Pay 5000g to add this to any animal you have with you.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "animal-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "GoldenRod",
+    "title": "Loyal",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (+1000g)",
+      "rule",
+      "property | Cost Modifier | +1000g",
+      "rule",
+      "fill | 2",
+      "text | Never leaves its owner’s side. You may pay 1000g to add this to any animal you have with you.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "animal-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "GoldenRod",
+    "title": "Clever",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (x3)",
+      "rule",
+      "property | Cost Modifier | x3",
+      "rule",
+      "fill | 2",
+      "text | Understands and tries to follow its owner’s commands.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "animal-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "GoldenRod",
+    "title": "Tough",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (x2)",
+      "rule",
+      "property | Cost Modifier | x2",
+      "rule",
+      "fill | 2",
+      "text | Needs no food, even in desert or alpine environments.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "animal-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "saddlebrown",
+    "title": "Pet Animal",
+    "icon": "horse-head-2",
+    "contents": [
+      "subtitle | Animal (300g)",
+      "rule",
+      "property | Capacity | (none)",
+      "rule",
+      "fill | 2",
+      "text | A pet; must be no larger than one meter. i.e.: cat, turtle, rabbit, etc",
+      "fill | 2",	  
+	  "section | Animal (Feeding)",
+      "description | Farmer & Merchant | Feed 5 animals free.",
+      "description | Farmer or Merchant | Feed 3 animals free.",
+      "description | Other classes | Feed 1 animal free."
+    ],
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "saddlebrown",
+    "title": "Large Pack Animal",
+    "icon": "horse-head-2",
+    "contents": [
+      "subtitle | Animal (2000g)",
+      "rule",
+      "property | Capacity | 30 total size",
+      "rule",
+      "fill | 2",
+      "text | This animal has a carrying capacity of 30.",
+      "fill | 2",	  
+	  "section | Animal (Feeding)",
+      "description | Farmer & Merchant | Feed 5 animals free.",
+      "description | Farmer or Merchant | Feed 3 animals free.",
+      "description | Other classes | Feed 1 animal free."
+    ],
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "saddlebrown",
+    "title": "Pack Animal",
+    "icon": "horse-head-2",
+    "contents": [
+      "subtitle | Animal (500g)",
+      "rule",
+      "property | Capacity | 15 total size",
+      "rule",
+      "fill | 2",
+      "text | This animal has a carrying capacity of 15.",
+      "fill | 2",	  
+	  "section | Animal (Feeding)",
+      "description | Farmer & Merchant | Feed 5 animals free.",
+      "description | Farmer or Merchant | Feed 3 animals free.",
+      "description | Other classes | Feed 1 animal free."
+    ],
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "saddlebrown",
+    "title": "Large Riding Animal",
+    "icon": "horse-head-2",
+    "contents": [
+      "subtitle | Animal (3800g)",
+      "rule",
+      "property | Capacity | 4 riders",
+      "rule",
+      "fill | 2",
+      "text | +1 bonus to travel checks on topographies of Level 2 or less.",
+      "fill | 2",	  
+	  "section | Animal (Feeding)",
+      "description | Farmer & Merchant | Feed 5 animals free.",
+      "description | Farmer or Merchant | Feed 3 animals free.",
+      "description | Other classes | Feed 1 animal free."
+    ],
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "saddlebrown",
+    "title": "Riding Animal",
+    "icon": "horse-head-2",
+    "contents": [
+      "subtitle | Animal (900g)",
+      "rule",
+      "property | Capacity | 1 rider",
+      "rule",
+      "fill | 2",
+      "text | +1 bonus to travel checks on topographies of Level 2 or less.",
+      "fill | 2",	  
+	  "section | Animal (Feeding)",
+      "description | Farmer & Merchant | Feed 5 animals free.",
+      "description | Farmer or Merchant | Feed 3 animals free.",
+      "description | Other classes | Feed 1 animal free."
+    ],
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Accessory",
+    "icon": "steampunk-goggles",
+    "contents": [
+      "subtitle | Traveling Gear: Accessory (100g)",
+      "rule",
+      "property | Bonus (+1) | All Rain, Wind and Snow and related conditions",
+      "property | Size | 1",
+      "property | Equip | accessory",
+      "rule",
+      "fill | 2",
+      "text | Rings, earrings, bracelets, or any other decorative accessory. These can be created from metal, clam shells, seeds, or any other element that shows off the special colors of the land where it was created.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "accessory"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Goggles",
+    "icon": "steampunk-goggles",
+    "contents": [
+      "subtitle | Traveling Gear: Accessory (4000g)",
+      "rule",
+      "property | Bonus (+1) | All Rain, Wind and Snow and related conditions",
+      "property | Size | 1",
+      "property | Equip | accessory",
+      "rule",
+      "fill | 2",
+      "text | A tool used to protect your eyes during rain, wind, snow, or other extreme weather. Since numerous techniques are required to create a single pair, the cost can be prohibitive.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "accessory"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Sand Hood",
+    "icon": "outback-hat",
+    "contents": [
+      "subtitle | Traveling Gear: Hat (340g)",
+      "rule",
+      "property | Bonus (+1) | Desert",
+      "property | Size | 1",
+      "property | Equip | hat",
+      "rule",
+      "fill | 2",
+      "text | A hood that keeps wind and sandstorms from obscuring your vision. The material is thick and heavy but does not let direct sunlight through.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "hat"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Woolen Hat",
+    "icon": "outback-hat",
+    "contents": [
+      "subtitle | Traveling Gear: Hat (200g)",
+      "rule",
+      "property | Bonus (+1) | Cold",
+      "property | Size | 1",
+      "property | Equip | hat",
+      "rule",
+      "fill | 2",
+      "text | A hat made from the pelt of a thickly-furred animal. It has ear covers to protect from frostbite.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "hat"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Sun Hat",
+    "icon": "outback-hat",
+    "contents": [
+      "subtitle | Traveling Gear: Hat (180g)",
+      "rule",
+      "property | Bonus (+1) | Hot",
+      "property | Size | 1",
+      "property | Equip | hat",
+      "rule",
+      "fill | 2",
+      "text | A hat with a large brim to block sunlight. It is made from linen and thread for extra breathability.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "hat"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Cap",
+    "icon": "outback-hat",
+    "contents": [
+      "subtitle | Traveling Gear: Hat (120g)",
+      "rule",
+      "property | Bonus (+1) | (no bonus)",
+      "property | Size | 1",
+      "property | Equip | hat",
+      "rule",
+      "fill | 2",
+      "text | A normal hat. Hats and caps are believed to offer protection from evil. There are a variety of colors and shapes.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "hat"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Snow Staff",
+    "icon": "wizard-staff",
+    "contents": [
+      "subtitle | Traveling Gear: Staff (280g)",
+      "rule",
+      "property | Bonus (+1) | Snow",
+      "property | Size | 3",
+      "property | Equip | staff",
+      "rule",
+      "fill | 2",
+      "text | A staff used to dig through snow. The tip is reinforced with metal to help break through ice.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "staff"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Hiking Staff",
+    "icon": "wizard-staff",
+    "contents": [
+      "subtitle | Traveling Gear: Staff (100g)",
+      "rule",
+      "property | Bonus (+1) | Rocky terrain/Mountain",
+      "property | Size | 3",
+      "property | Equip | staff",
+      "rule",
+      "fill | 2",
+      "text | A staff that helps you keep your footing when climbing in high places. You can adjust the length.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "staff"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Walking Stick",
+    "icon": "wizard-staff",
+    "contents": [
+      "subtitle | Traveling Gear: Staff (50g)",
+      "rule",
+      "property | Bonus (+1) | Level 3 or lower Terrain",
+      "property | Size | 3",
+      "property | Equip | staff",
+      "rule",
+      "fill | 2",
+      "text | A staff that is used by frail travelers. It is also useful when you have heavy bags. Its bonus only applies to weaker characters with STR of 4.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "staff"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Sun Cape",
+    "icon": "cape",
+    "contents": [
+      "subtitle | Traveling Gear: Cape (400g)",
+      "rule",
+      "property | Bonus (+1) | Hot",
+      "property | Size | 3",
+      "property | Equip | cape",
+      "rule",
+      "fill | 2",
+      "text | A cape made from a light, very breathable material that keeps heat from reaching inside.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "cape"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Fire Cape",
+    "icon": "cape",
+    "contents": [
+      "subtitle | Traveling Gear: Cape (700g)",
+      "rule",
+      "property | Bonus (+1) | Prevents 1 fire damage",
+      "property | Size | 3",
+      "property | Equip | cape",
+      "rule",
+      "fill | 2",
+      "text | A cape made from the fur of a fire-resistant monster.",
+	  "description | Weak to water | If it gets wet, it will be ruined.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "cape"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Camo Cape",
+    "icon": "cape",
+    "contents": [
+      "subtitle | Traveling Gear: Cape (400g)",
+      "rule",
+      "property | Bonus (+1) | Hide check +1 for chosen Terrain",
+      "property | Size | 3",
+      "property | Equip | cape",
+      "rule",
+      "fill | 2",
+      "text | Choose a terrain when purchasing this item. This cape allows you to conceal your entire body by blending into the surrounding topography.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "cape"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Raincoat",
+    "icon": "cape",
+    "contents": [
+      "subtitle | Traveling Gear: Cape (400g)",
+      "rule",
+      "property | Bonus (+1) | Rain/Hard rain/Snow",
+      "property | Size | 3",
+      "property | Equip | cape",
+      "rule",
+      "fill | 2",
+      "text | A leather cape that has been finished with a water-resistant coating. It requires constant upkeep.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "cape"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Warm Cape",
+    "icon": "cape",
+    "contents": [
+      "subtitle | Traveling Gear: Cape (160g)",
+      "rule",
+      "property | Bonus (+1) | Cold",
+      "property | Size | 3",
+      "property | Equip | cape",
+      "rule",
+      "fill | 2",
+      "text | A cape made from the pelt of a thickly-furred animal. It can also be used as bedding or a blanket.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "cape"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Windbreaker",
+    "icon": "cape",
+    "contents": [
+      "subtitle | Traveling Gear: Cape (120g)",
+      "rule",
+      "property | Bonus (+1) | Strong wind",
+      "property | Size | 3",
+      "property | Equip | cape",
+      "rule",
+      "fill | 2",
+      "text | A cape with a hood that covers the entire body. Weights are stitched into the cape to keep it from flapping around in the wind.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "cape"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Jungle Boots",
+    "icon": "boots",
+    "contents": [
+      "subtitle | Traveling Gear: Shoes (600g)",
+      "rule",
+      "property | Bonus (+1) | Woods/Deep Forest/Jungle",
+      "property | Size | 1",
+      "property | Equip | shoes",
+      "rule",
+      "fill | 2",
+      "text | These boots are made to help you traverse overgrown jungles. They offer complete protection for your feet and are extremely sturdy.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "shoes"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Mud Boots",
+    "icon": "boots",
+    "contents": [
+      "subtitle | Traveling Gear: Shoes (500g)",
+      "rule",
+      "property | Bonus (+1) | Swamp",
+      "property | Size | 1",
+      "property | Equip | shoes",
+      "rule",
+      "fill | 2",
+      "text | These boots have wide soles that keep your feet from sinking into mud. They allow you to glide across the surface of the mud.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "shoes"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Snow Boots",
+    "icon": "boots",
+    "contents": [
+      "subtitle | Traveling Gear: Shoes (500g)",
+      "rule",
+      "property | Bonus (+1) | Snow/Blizzard",
+      "property | Size | 1",
+      "property | Equip | shoes",
+      "rule",
+      "fill | 2",
+      "text | These shoes are specially finished to protect toes from frostbite.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "shoes"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Climbing Shoes",
+    "icon": "boots",
+    "contents": [
+      "subtitle | Traveling Gear: Shoes (450g)",
+      "rule",
+      "property | Bonus (+1) | Wasteland/Rocky Terrain/ Mountain/Alpine",
+      "property | Size | 1",
+      "property | Equip | shoes",
+      "rule",
+      "fill | 2",
+      "text | These shoes have thick soles that allow walking across rocky terrain without hurting your feet. The soles also help to keep your feet from slipping.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "shoes"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Walking Shoes",
+    "icon": "boots",
+    "contents": [
+      "subtitle | Traveling Gear: Shoes (350g)",
+      "rule",
+      "property | Bonus (+1) | On a road",
+      "property | Size | 1",
+      "property | Equip | shoes",
+      "rule",
+      "fill | 2",
+      "text | These shoes are made from soft leather that make it easy to walk on paved surfaces. They are very lightweight and do not impede the movement of your feet.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "shoes"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Rain Boots",
+    "icon": "boots",
+    "contents": [
+      "subtitle | Traveling Gear: Shoes (300g)",
+      "rule",
+      "property | Bonus (+1) | Rain/Hard Rain/Storm",
+      "property | Size | 1",
+      "property | Equip | shoes",
+      "rule",
+      "fill | 2",
+      "text | These boots have been finished with a coating that makes them resistant to water. They do a good job of keeping your feet dry.",
+      "fill | 2",	  
+	  "section | Traveling Gear",
+      "text | Character may equip one each of hat, cape, staff, and shoes."
+    ],
+    "tags": [
+      "item",
+      "shoes"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Heavy Shield",
+    "icon": "shield",
+    "contents": [
+      "subtitle | Armor: Shield (1200g)",
+      "rule",
+      "property | Defense Points | 2",
+      "property | Travel & Initiative Penalty | -1",
+      "property | Size | 3 (not counted when in hand)",
+      "property | Equip | 1 hand",
+      "property | Shield Dodge Value | 9",
+      "rule",
+      "fill | 2",
+      "text | A shield large enough to cast half of the body in shadow. Made from metal; its heavy weight makes it hard to carry.",
+	  "description | Dodge | When equipped, target value for Attack Check is greater of (Initiative value, Shield Dodge Value).",
+      "fill | 2",	  
+	  "section | Armor",
+      "text | May not equip weapons and armor exceeding Carrying Capacity. If slept in, Penalty applies to next Condition check."
+    ],
+    "tags": [
+      "item",
+      "shield"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Light Shield",
+    "icon": "shield",
+    "contents": [
+      "subtitle | Armor: Shield (400g)",
+      "rule",
+      "property | Defense Points | 1",
+      "property | Travel & Initiative Penalty | 0",
+      "property | Size | 3 (not counted when in hand)",
+      "property | Equip | 1 hand",
+      "property | Shield Dodge Value | 7",
+      "rule",
+      "fill | 2",
+      "text | A shield that can be held in one hand. Made from wood and grass, its light weight keeps it from being a nuisance in battle.",
+	  "description | Dodge | When equipped, target value for Attack Check is greater of (Initiative value, Shield Dodge Value).",
+      "fill | 2",	  
+	  "section | Armor",
+      "text | May not equip weapons and armor exceeding Carrying Capacity. If slept in, Penalty applies to next Condition check."
+    ],
+    "tags": [
+      "item",
+      "shield"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Heavy Armor",
+    "icon": "armor-vest",
+    "contents": [
+      "subtitle | Armor (10000g)",
+      "rule",
+      "property | Defense Points | 3",
+      "property | Travel & Initiative Penalty | -3",
+      "property | Size | 5 (not counted when worn)",
+      "property | Equip | Chest",
+      "rule",
+      "fill | 2",
+      "text | Heavy armor constructed from metal plates that completely covers the entire body. The body’s movement is restricted, so movement is hampered with the armor equipped.",
+      "fill | 2",	  
+	  "section | Armor",
+      "text | May not equip weapons and armor exceeding Carrying Capacity. If slept in, Penalty applies to next Condition check."
+    ],
+    "tags": [
+      "item",
+      "armor"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Medium Armor",
+    "icon": "armor-vest",
+    "contents": [
+      "subtitle | Armor (2000g)",
+      "rule",
+      "property | Defense Points | 2",
+      "property | Travel & Initiative Penalty | -1",
+      "property | Size | 5 (not counted when worn)",
+      "property | Equip | Chest",
+      "rule",
+      "fill | 2",
+      "text | Armor constructed from metal plates. The arms and legs are protected in addition to the chest area, but the weight increases proportionally.",
+      "fill | 2",	  
+	  "section | Armor",
+      "text | May not equip weapons and armor exceeding Carrying Capacity. If slept in, Penalty applies to next Condition check."
+    ],
+    "tags": [
+      "item",
+      "armor"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Light Armor",
+    "icon": "armor-vest",
+    "contents": [
+      "subtitle | Armor (900g)",
+      "rule",
+      "property | Defense Points | 1",
+      "property | Travel & Initiative Penalty | 0",
+      "property | Size | 3 (not counted when worn)",
+      "property | Equip | Chest",
+      "rule",
+      "fill | 2",
+      "text | Armor constructed from the hide of animals, with metal plates covering vital points. Only the chest is protected, but because of its light weight it is easily worn.",
+      "fill | 2",	  
+	  "section | Armor",
+      "text | May not equip weapons and armor exceeding Carrying Capacity. If slept in, Penalty applies to next Condition check."
+    ],
+    "tags": [
+      "item",
+      "armor"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Clothes",
+    "icon": "armor-vest",
+    "contents": [
+      "subtitle | Armor (50g)",
+      "rule",
+      "property | Defense Points | 0",
+      "property | Travel & Initiative Penalty | 0",
+      "property | Size | 3 (not counted when worn)",
+      "property | Equip | Chest",
+      "rule",
+      "fill | 2",
+      "text | Normal clothes. Thick, tough clothing is preferred by travelers. Generally they are made from wool and thread.",
+      "fill | 2",	  
+	  "section | Armor",
+      "text | May not equip weapons and armor exceeding Carrying Capacity. If slept in, Penalty applies to next Condition check."
+    ],
+    "tags": [
+      "item",
+      "armor"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Unarmed",
+    "icon": "mixed-swords",
+    "contents": [
+      "subtitle | Weapon (Not sold)",
+      "rule",
+      "property | Accuracy | [DEX] + [STR]",
+      "property | Damage | [STR] - 2 (or -1 with weapon)",
+      "property | Size | 0",
+      "property | Equip | 2 hands",
+      "rule",
+      "fill | 2",
+      "text | Attempting to fight without a weapon. Uses both hands.",
+	  "text | Using an improvised weapon (like a stick) reduces the damage penalty.",
+      "fill | 2",	  
+	  "section | Weapon",
+      "text | Reduces user's HP by 1 each attack unless Mastered. May not equip weapons and armor exceeding Carrying Capacity."
+    ],
+    "tags": [
+      "item",
+      "weapon"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Bow",
+    "icon": "mixed-swords",
+    "contents": [
+      "subtitle | Weapon (750g)",
+      "rule",
+      "property | Accuracy | [INT] + [DEX] - 2",
+      "property | Damage | [DEX]",
+      "property | Size | 3 (not counted when in hand)",
+      "property | Equip | 2 hands",
+      "rule",
+      "fill | 2",
+      "text | A projectile tool used by hunters and the like. Since it can attack from afar, it is popular with nobles and soldiers.",
+	  "text | Bow users can attack from the Back Area of the Battlefield.",
+	  "description | Arrows |  No need to keep track of arrows.",
+      "fill | 2",	  
+	  "section | Weapon",
+      "text | Reduces user's HP by 1 each attack unless Mastered. May not equip weapons and armor exceeding Carrying Capacity."
+    ],
+    "tags": [
+      "item",
+      "weapon"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Axe",
+    "icon": "mixed-swords",
+    "contents": [
+      "subtitle | Weapon (500g)",
+      "rule",
+      "property | Accuracy | [STR] + [STR] - 1",
+      "property | Damage | [STR]",
+      "property | Size | 3 (not counted when in hand)",
+      "property | Equip | 2 hands",
+      "rule",
+      "fill | 2",
+      "text | A tool used to cut down trees.",
+	  "text | Due to its weight, it is powered with brute strength, and not effective with small swings.",
+      "fill | 2",	  
+	  "section | Weapon",
+      "text | Reduces user's HP by 1 each attack unless Mastered. May not equip weapons and armor exceeding Carrying Capacity."
+    ],
+    "tags": [
+      "item",
+      "weapon"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Polearm",
+    "icon": "mixed-swords",
+    "contents": [
+      "subtitle | Weapon (350g)",
+      "rule",
+      "property | Accuracy | [DEX] + [STR]",
+      "property | Damage | [STR] + 1",
+      "property | Size | 3 (not counted when in hand)",
+      "property | Equip | 2 hands",
+      "rule",
+      "fill | 2",
+      "text | A weapon consisting of a long pole with a sharp point fastened at the end.",
+	  "text | As it can be used to stab with the tip or bash with the handle, it has a wide breadth of usefulness. Its price also makes it easy to obtain.",
+      "fill | 2",	  
+	  "section | Weapon",
+      "text | Reduces user's HP by 1 each attack unless Mastered. May not equip weapons and armor exceeding Carrying Capacity."
+    ],
+    "tags": [
+      "item",
+      "weapon"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Blade",
+    "icon": "mixed-swords",
+    "contents": [
+      "subtitle | Weapon (700g)",
+      "rule",
+      "property | Accuracy | [DEX] + [STR]",
+      "property | Damage | [STR]",
+      "property | Size | 3 (not counted when in hand)",
+      "property | Equip | 1 hand",
+      "rule",
+      "fill | 2",
+      "text | A weapon with a long, flat blade.",
+	  "text | Beloved around the world, a single-edged blade is called a “saber” while double-edged blade is called a “sword.”",
+      "fill | 2",	  
+	  "section | Weapon",
+      "text | Reduces user's HP by 1 each attack unless Mastered. May not equip weapons and armor exceeding Carrying Capacity."
+    ],
+    "tags": [
+      "item",
+      "weapon"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "dimgray",
+    "title": "Light Blade",
+    "icon": "mixed-swords",
+    "contents": [
+      "subtitle | Weapon (400g)",
+      "rule",
+      "property | Accuracy | [DEX] + [INT] + 1",
+      "property | Damage | [INT] - 1",
+      "property | Size | 1 (not counted when in hand)",
+      "property | Equip | 1 hand",
+      "rule",
+      "fill | 2",
+      "text | A blade that can be held in the hand.",
+	  "text | It can be useful outside of combat in the preparation of food, harvesting herbs, and various other situations.",
+      "fill | 2",	  
+	  "section | Weapon",
+      "text | Reduces user's HP by 1 each attack unless Mastered. May not equip weapons and armor exceeding Carrying Capacity."
+    ],
+    "tags": [
+      "item",
+      "weapon"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Broken",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.5)",
+      "rule",
+      "property | Cost Modifier | x0.5",
+      "rule",
+      "fill | 2",
+      "text | Unusable until fixed.",
+      "text | Broken items cannot be sold.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Cursed",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.5)",
+      "rule",
+      "property | Cost Modifier | x0.5",
+      "rule",
+      "fill | 2",
+      "text | The user suffers a -1 penalty to Condition checks every day.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Smelly",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.7)",
+      "rule",
+      "property | Cost Modifier | x0.7",
+      "rule",
+      "fill | 2",
+      "text | Has a horrible smell that doesn’t come off, even after washing.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Uncool",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.8)",
+      "rule",
+      "property | Cost Modifier | x0.8",
+      "rule",
+      "fill | 2",
+      "text | Old, or made with poor style sense.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Gross",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.8)",
+      "rule",
+      "property | Cost Modifier | x0.8",
+      "rule",
+      "fill | 2",
+      "text | The sight of it makes you uncomfortable.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Used",
+    "icon": "cursed-star",
+    "contents": [
+      "subtitle | Modifier (x0.8)",
+      "rule",
+      "property | Cost Modifier | x0.8",
+      "rule",
+      "fill | 2",
+      "text | The item’s durability is 0.8 x its original value.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Orichalcum",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (x50)",
+      "rule",
+      "property | Cost Modifier | x50",
+      "rule",
+      "fill | 2",
+      "description | Invigorating | If worn, Max HP and MP +2",
+	  "description | Durable | Will never break.",
+	  "text | If it is somehow broken, it cannot be repaired.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Mythril",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (x10)",
+      "rule",
+      "property | Cost Modifier | x10",
+      "rule",
+      "fill | 2",
+      "description | Flexible | Reduce armor penalties by 1.",
+	  "description | Light | Size value is -2 due to lightness.",
+	  "description | Durable | Durability automatically starts at 5",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "High Quality",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (x5)",
+      "rule",
+      "property | Cost Modifier | x5",
+      "rule",
+      "description | On a weapon | Accuracy +1",
+      "description | On armor | Defense +1",
+      "description | On other item | +1 to item bonus",
+      "fill | 2",
+      "text | The item’s durability is doubled.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Sturdy",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (x3)",
+      "rule",
+      "property | Cost Modifier | x3",
+      "rule",
+      "fill | 2",
+      "text | The item’s durability is doubled.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Beautiful",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (x2)",
+      "rule",
+      "property | Cost Modifier | x2",
+      "rule",
+      "fill | 2",
+      "text | The shape or color is beautiful.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Plus One",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Magical Modifier (+8000)",
+      "rule",
+      "property | Cost Modifier | +8000",
+      "rule",
+      "description | On a weapon | Damage +1",
+      "description | On armor | Defense +1",
+      "description | On other item | +1 to item bonus",
+      "fill | 2",
+      "text | Provides bonus to item, depending on the type of item.",
+      "description | Magical | Object was imbued by an Enchanter.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier",
+      "magical"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Speaking",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Magical Modifier (+2000)",
+      "rule",
+      "property | Cost Modifier | +2000",
+      "rule",
+      "fill | 2",
+      "text | Loves to talk.",
+      "description | Magical | Object was imbued by an Enchanter.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier",
+      "magical"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Shining",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Magical Modifier (+1200)",
+      "rule",
+      "property | Cost Modifier | +1200",
+      "rule",
+      "fill | 2",
+      "text | Object shines with a light of its own. Emits light about equal to a torch.",
+      "description | Magical | Object was imbued by an Enchanter.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier",
+      "magical"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Walking",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Magical Modifier (+5000)",
+      "rule",
+      "property | Cost Modifier | +5000",
+      "rule",
+      "fill | 2",
+      "text | During travel, this item will walk on its own so you don’t need to carry it.",
+      "description | Magical | Object was imbued by an Enchanter.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier",
+      "magical"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "Gold",
+    "title": "Cute",
+    "icon": "star-formation",
+    "contents": [
+      "subtitle | Modifier (x2)",
+      "rule",
+      "property | Cost Modifier | x2",
+      "rule",
+      "fill | 2",
+      "text | The shape or color is cute.",
+      "fill | 2",	  
+	  "section | Modifier",
+      "text | Apply multiplying modifiers before additive modifiers. An item may have multiple modifiers, but may not have the same characteristic twice."
+    ],
+    "tags": [
+      "item-modifier"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Barrierwood Stalk",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Enhance Type (not sold)",
+      "rule",
+      "property | Level | 5",
+      "property | Terrain | Alpine",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Change “normal” incantation to “ritual”. Target is now “all nearby companions”, duration 12 hours. No effect on spells with “instant” duration, and only affects spells with “single” targets.",
+      "description | Branch | A subspecies of Barrierwood, AKA “Guardsman of the Woods”. Thrives on alpine heights, as hard as orichalcum.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Enhance Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Black Temple Melon",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Enhance Type (Not sold)",
+      "rule",
+      "property | Level | 4",
+      "property | Terrain | Desert",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | May cast one “1 area” or “all area” spell without harming allies in the area.",
+      "description | Fruit | A type of melon that thrives in the shelter of deadfalls. Well known for the fact that every part of the plant, from leaves, to roots and even the fruit, is jet black. Has the distinct odor of cheese. Really stinky cheese.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Enhance Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Windcrying Tulip",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Enhance Type (Not sold)",
+      "rule",
+      "property | Level | 4",
+      "property | Terrain | Jungle, Only during strong winds",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | When casting a single target spell, you may select one additional target.",
+      "description | Flower | A type of tulip that only takes root in areas with strong winds. The jade-hued petals of its flowers are carried by the wind to disperse its pollen.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Enhance Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Kingmilk Salve",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Enhance Type (Not sold)",
+      "rule",
+      "property | Level | 4",
+      "property | Terrain | Jungle",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Duration of the next magic spell cast is doubled; Has no effect on “instant” duration spells.",
+      "description | Hive | Honeycomb from a type of jungle bee; Their nests can be over two meters tall, resembling ant hives made of rock-hard mud and dirt.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Enhance Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Firefly Darkpouch",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Enhance Type (800g)",
+      "rule",
+      "property | Level | 3",
+      "property | Terrain | 3rd level, Night only",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Magical effects that deal damage or recover HP receive a bonus equal to the Caster’s Level.",
+      "description | Pollen | An annual that blooms only at night. The light-purple flower resembles a pouch, and glows in total darkness.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Enhance Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "White Night Chrysanthemum",
+	"title_size": 11,
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Mental Type (800g)",
+      "rule",
+      "property | Level | 3",
+      "property | Terrain | Mountain",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | May be used to reroll a Condition Check in order to cure a mental status ailment. Reroll once with a +1 bonus.",
+      "description | Leaf | A chrysanthemum with a deep violet hue. It only grows in frigid climes and blooms only during the shortest winter nights. Locals use it to brew a kind of tea.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Mental Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Moonlight Snowgrass",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Mental Type (800g)",
+      "rule",
+      "property | Level | 3",
+      "property | Terrain | Forest",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Helps focus the mind: For one full day, when MP is used, 1 less MP is spent. Has no effect when spending 1 MP.",
+      "description | Leaf | A diminutive species of grass that only grows in the moonlight, it is said that it takes an entire year to grow even a single centimeter. Juice squeezed from this grass is used to rouse one’s spirit.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Mental Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Churchbell Dayflower",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Mental Type (300g)",
+      "rule",
+      "property | Level | 2",
+      "property | Terrain | Hill",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Next check using [SPI] gets a +1 bonus.",
+      "description | Flower | Cousin to the ordinary dayflower, the Churchbell Dayflower produces blooms of up to three feet in size. They prefer to grow on hills and bloom only in the brightest sun.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Mental Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Daybreak Crimsonflower",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Physical Type (800g)",
+      "rule",
+      "property | Level | 3",
+      "property | Terrain | Swamp",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Use after making a Condition Check to remove a physical status ailment; Reroll the check with a +1 bonus.",
+      "description | Stalk | A thistle where blood red flowers bloom. The stalk is a powerful narcotic, so care must be taken in handling it.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Physical Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Demon Lacquer",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Physical Type (300g)",
+      "rule",
+      "property | Level | 2",
+      "property | Terrain | Woods",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Enough for 1 poison arrow: add 2 damage to 1 bow attack.",
+      "description | Sap | A deciduous tree that grows to about 12 feet tall with ash-white bark. A dark sap oozes when cuts are made in its bark.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Physical Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Giant's Palm",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Physical Type (300g)",
+      "rule",
+      "property | Level | 2",
+      "property | Terrain | Rocky",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Used to help ease foot pain. Used after taking damage from a Travel Check: recover that damage.",
+      "description | Leaf | An annual that produces light green leaves covered in mucus. It prefers wet climates.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Physical Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Crowned Morning Glory",
+	"title_size": 11,
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Physical Type (100g)",
+      "rule",
+      "property | Level | 1",
+      "property | Terrain | Wasteland",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Used to help ease sleep. Next day’s Condition will be 6.",
+      "description | Flower | An annual that blooms into several gorgeous flowers. The colors of the flowers vary between white, violet, crimson, and indigo, depending on the weather.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Physical Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "ForestGreen",
+    "title": "Sunset Hime Apple",
+    "icon": "linden-leaf",
+    "contents": [
+      "subtitle | Physical Type (100g)",
+      "rule",
+      "property | Level | 1",
+      "property | Terrain | Grassland",
+      "property | Size| 1 (when not in bottle)",
+      "rule",
+      "fill | 2",
+      "description | Use | Recover 2 HP",
+      "description | Fruit | A fruit that resembles an apple. Hime Apples become rich and nourishing as their colors deepen like the sunset.",
+      "fill | 2",
+	  "section | Healing Herb",
+      "text | Effects do not stack with other Physical Type herbs. Must be used within 24 hours. May be used during battle as single action."
+    ],
+    "tags": [
+      "item",
+      "herb"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkblue",
+    "title": "Candy Ice Cube",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Winter Magic: Low Level",
+      "rule",
+      "property | MP | 2",
+      "property | Duration | 10 minutes",
+      "property | Target | Open space",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | Creates a large, translucent, frozen block 50cm on each side. This block may be used as an object in battle.",
+	  "text | Once it melts, it disappears so it cannot be used for water.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "winter-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkblue",
+    "title": "Cool Masquerade",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Winter Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 6 rounds",
+      "property | Target | 1 person",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | The target’s countenance is frozen in place like a mask. The target does not suffer any mind-based status effects while the spell is in effect. ",
+      "text | Once the spell expires, any previous status effects return.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "winter-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkblue",
+    "title": "Snowball Storm",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Winter Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | Instant",
+      "property | Target | 1 area",
+      "property | Range | Close Area",
+      "rule",
+      "fill | 2",
+      "text | A barrage of snowballs is hurled at the area, inflicting [SPI] (1 die) damage to enemies.",
+      "text | Allies in the area receive half damage.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "winter-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkblue",
+    "title": "Winter Sleep",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Winter Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | Instant",
+      "property | Target | 1 area",
+      "property | Range | All Areas",
+      "rule",
+      "fill | 2",
+      "text | The targets feel the lethargy of winter overcome them, and they fall asleep. On the targets’ next action and every action thereafter, they may attempt to wake up by rolling a [STR + SPI] check with a target number of 6. If they succeed, they awaken, but their turn is over. ",
+      "text | If a sleeping creature takes any damage, they immediately wake up.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "winter-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Fallen Leaves",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Fall Magic: Low Level",
+      "rule",
+      "property | MP | 2",
+      "property | Duration | Permanent",
+      "property | Target | Ground",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | A cubic meter of dead leaves appears.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "fall-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Harvest Moon",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Fall Magic: Low Level",
+      "rule",
+      "property | MP | 2",
+      "property | Duration | 6 rounds",
+      "property | Target | All areas",
+      "property | Range | All Areas",
+      "rule",
+      "fill | 2",
+      "text | A beautiful full moon appears in the night sky. This magic may only be used at night, in an area where the sky is visible.",
+      "text | During the spell, the weather becomes “clear” and moonlight illuminates the area.",
+      "text | The Spring Magic “Kaguya’s Leylance” may use this moon as a real moon.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "fall-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Otome Tears",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Fall Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 6 rounds",
+      "property | Target | 1 person",
+      "property | Range | All Areas",
+      "rule",
+      "fill | 2",
+      "text | The target’s eyes are filled with tears, blurring their vision and giving them a -2 penalty to Accuracy Checks.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "fall-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Jam Bottle",
+    "icon": "sparkles",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Ritual Fall Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 7 days",
+      "property | Target | Food",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | Any edible item can be made into a long-lasting jam, keeping all its flavor, but preserved for one week.  ",
+      "text | The amount of rations created is determined by a roll of [SPI] (1 die).",
+      "text | Healing Herbs are unaffected.",
+      "fill | 2",
+      "section | Ritual Magic",
+      "text | 1 hour ritual before successful cast, start over if interrupted (lose no MP)."
+    ],
+    "tags": [
+      "spell",
+      "fall-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "ritual-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "crimson",
+    "title": "Min-Min Cicada Chorus",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Summer Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 6 rounds",
+      "property | Target | All areas",
+      "property | Range | Caster",
+      "rule",
+      "fill | 2",
+      "text | The loud cries of cicadas fill the area, disrupting concentration.",
+	  "text | Other spell casters must first beat the caster in a contested [SPI + SPI] check.",
+	  "text | The caster may not cast any other spells while this spell is active.",
+      "text | Plugging one’s ears does not help.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "summer-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "crimson",
+    "title": "Vacation Vitality",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Summer Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 6 rounds",
+      "property | Target | 1 person",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | The target’s health and cheer rise, as if they had just returned from a long, refreshing vacation.",
+      "text | Target receives a +2 bonus to Condition.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "summer-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "crimson",
+    "title": "Briar Nonno",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Summer Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 6 rounds",
+      "property | Target | 1 area",
+      "property | Range | All Areas",
+      "rule",
+      "fill | 2",
+      "text | Thorny briars rise from the ground, entangling all in the area.",
+      "text | Everyone in the target area receives a -2 penalty to Initiative, starting the next round.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "summer-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "crimson",
+    "title": "Koro-pok-kuru Cute Leaf",
+	"title_size": 11,
+    "icon": "sparkles",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Ritual Summer Magic: Low Level",
+      "rule",
+      "property | MP | 2",
+      "property | Duration | 12 hours",
+      "property | Target | Up to 7 people",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | Huge leaves appear that can be used as umbrellas for up to 7 people.",
+      "text | The leaves may be used for a +1 bonus to rolls involving “rainy” weather.",
+      "text | The leaves cannot be used in conjunction with actual umbrellas.",
+      "fill | 2",
+      "section | Ritual Magic",
+      "text | 1 hour ritual before successful cast, start over if interrupted (lose no MP)."
+    ],
+    "tags": [
+      "spell",
+      "summer-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "ritual-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkgreen",
+    "title": "A Little Beauty",
+    "icon": "sparkles",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Ritual Spring Magic: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 1 day",
+      "property | Target | 1 person",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | The target’s hairstyle and hair color are changed, and makeup is applied to fit a desired image. This hairstyle and makeup will not change until the end of the spell’s duration.",
+      "text | This spell cannot actually change a person’s features.",
+      "fill | 2",
+      "section | Ritual Magic",
+      "text | 1 hour ritual before successful cast, start over if interrupted (lose no MP)."
+    ],
+    "tags": [
+      "spell",
+      "spring-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "ritual-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkgreen",
+    "title": "Cure Plus Plus",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Spring Magic: Low Level",
+      "rule",
+      "property | MP | 2",
+      "property | Duration | Instant",
+      "property | Target | 1 person",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | This is cast at the same time as Cure Touch (only one Magic Check required) and makes that magic stronger.",
+      "text | Add 1d6 to the effect of Cure Touch. This spell may not be cast separately.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "spring-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkgreen",
+    "title": "Emina Nonno",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Spring Magic: Low Level",
+      "rule",
+      "property | MP | 2",
+      "property | Duration | 1 day",
+      "property | Target | Touched area",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | The area touched will be covered with lots of tiny flowers. The caster decides the variety of flower.",
+      "text | If the flower chosen is appropriate for the area touched, and is cared for, the flowers may last longer than the normal duration.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "spring-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "darkgreen",
+    "title": "Wake up and Stand Up",
+    "icon": "lightning-branches",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Spring Magic: Low Level",
+      "rule",
+      "property | MP | 2",
+      "property | Duration | Instant",
+      "property | Target | 1 area",
+      "property | Range | Close Area",
+      "rule",
+      "fill | 2",
+      "text | Anyone sleeping in the area immediately awakens and stands up. Anyone awake but lying down will immediately stand up.",
+      "text | This only affects living things with 2 legs.",
+      "fill | 2",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "spring-magic",
+	  "low-level",
+	  "seasonal-magic",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Tastegood Taste",
+    "icon": "white-book",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Ritual Incantation: Low Level",
+      "rule",
+      "property | MP | 10",
+      "property | Duration | 1 hour",
+      "property | Target | Ration",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | Caster rolls [SPI] (1 die): that many rations are now “Delicious.” The caster decides exactly what flavor.",
+      "text | Any affected rations not eaten within an hour rot and are destroyed.",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Ritual Magic",
+      "text | 1 hour ritual before successful cast, start over if interrupted (lose no MP)."
+	  
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "ritual-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Round Reflection",
+    "icon": "white-book",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Ritual Incantation: Low Level",
+      "rule",
+      "property | MP | 10",
+      "property | Duration | 12 hours",
+      "property | Target | 1 person",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | A round pale barrier appears and protects the target.",
+      "text | The target receives the benefit of 3 defense points (-3 damage from enemy attacks).",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Ritual Magic",
+      "text | 1 hour ritual before successful cast, start over if interrupted (lose no MP)."
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "ritual-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Shooting Star",
+    "icon": "book-storm",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Incantation: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | Instant",
+      "property | Target | 1 person",
+      "property | Range | All Areas",
+      "rule",
+      "fill | 2",
+      "text | Shoots a blast of heat from the caster’s palm that slams into the target.",
+      "text | Caster rolls [SPI] (1 die) and deals damage to target equal to that amount.",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Cure Touch",
+    "icon": "book-storm",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Incantation: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | Instant",
+      "property | Target | 1 person",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | Heals a wound in an instant.",
+      "text | Caster rolls [INT] (1 die) and heals a target’s HP for that amount.",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Enhanced Red Hand",
+    "icon": "book-storm",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Incantation: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 6 rounds",
+      "property | Target | 1 person",
+      "property | Range | Close Area",
+      "rule",
+      "fill | 2",
+      "text | The target’s main weapon hand glows red. It confers strength and skill and guides the weapon to its target.",
+      "text | Grants +1 on Accuracy Checks",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Arrow Compass",
+    "icon": "book-storm",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Incantation: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 12 hours",
+      "property | Target | -",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | Causes a magical compass to appear.",
+      "text | Grants +1 on Direction Checks",
+      "fill | 2",
+      "text | Recommended for new players.",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Alert Bell Alarm",
+    "icon": "book-storm",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Incantation: Low Level",
+      "rule",
+      "property | MP | 4",
+      "property | Duration | 12 hours",
+      "property | Target | 10 sqm area",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | Causes a magical bell to appear. The bell will sound an alarm if a monster comes within 10 m. The bell cannot be moved.",
+      "text | Grants +1 on Camp Checks.",
+      "fill | 2",
+	  "text | Recommended for new players.",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "normal-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Animal Tamer",
+    "icon": "white-book",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Ritual Incantation: Low Level",
+      "rule",
+      "property | MP | 10",
+      "property | Duration | 12 hours",
+      "property | Target | Up to 7 animals",
+      "property | Range | All",
+      "rule",
+      "fill | 2",
+      "text | For the duration, caster may tame [SPI] (1 die roll) wild animals that are within sight at the end of the ritual. They may be used as either riding or pack animals.",
+      "text | Caster must capture or detain the target animals first. No effect on monsters.",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Ritual Magic",
+      "text | 1 hour ritual before successful cast, start over if interrupted (lose no MP)."
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "ritual-magic"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Pure Crystalight",
+    "icon": "book-storm",
+    "icon_back": "robe",
+    "contents": [
+      "subtitle | Normal Incantation: Low Level",
+      "rule",
+      "property | MP | 2",
+      "property | Duration | 12 hours",
+      "property | Target | 1 Tool",
+      "property | Range | Touch",
+      "rule",
+      "fill | 2",
+      "text | Crystallizes the part of the tool touched.",
+      "text | The crystallized part gives off a white light similar in intensity to the glow of a lantern. It may be turned off and on by tapping it.",
+      "fill | 2",
+	  "description | Incantation | If spell book is lost, magic user is unable to cast this until it is replaced.",
+      "section | Normal Magic",
+      "text | Can be cast instantaneously. If during combat, takes effect once successfully cast."
+    ],
+    "tags": [
+      "spell",
+      "incantation-magic",
+	  "low-level",
+	  "normal-magic"
+    ]
+  }
+]
