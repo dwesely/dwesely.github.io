@@ -54,6 +54,11 @@ function displaySelected() {
 	// update download link
 	var downloadLink = document.getElementById("cardDownload");
 	downloadLink.innerHTML = "Download (" + totalCount + ") selected cards as a json file.";
+	var today = new Date().toISOString().slice(0, 10);
+	var outputFilename = "ryuutama_" + totalCount + "_cards_" + today + ".json";
+	downloadLink.title = outputFilename;
+	var downloadAnchor = document.getElementById("downloadAnchor");
+	downloadAnchor.title = outputFilename;
 }
 
 // remove selected card from user's list
@@ -188,7 +193,8 @@ function downloadCards() {
 	console.log(dataStr);
 	var downloadAnchor = document.getElementById('downloadAnchor');
 	downloadAnchor.setAttribute("href", dataStr);
-	downloadAnchor.setAttribute("download", "ryuutama-cards.json");
+	
+	downloadAnchor.setAttribute("download", downloadAnchor.title);
 	downloadAnchor.click();
 }
 
