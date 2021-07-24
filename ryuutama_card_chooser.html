@@ -2,6 +2,9 @@
 <head>
 <title>Ryuutama Card Chooser</title>
 <link href="ryuutama_card_chooser.css?v010" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="48x48" href="ryuutama_favicon_48.png">
+<link rel="icon" type="image/png" sizes="32x32" href="ryuutama_favicon_32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="ryuutama_favicon_16.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body onload="createAccordion(json_data);">
@@ -200,8 +203,7 @@ function downloadCards() {
 
 </script>
 <div id="header"><h1>Ryuutama Card Selection</h1></div>
-<div><span style="float:right; border:1px solid white;  padding:2px; margin:-2px; cursor: pointer;" onclick="this.parentElement.style.display='none'">X</span>
-<p></p>
+<div><p><span style="float:right; border:1px solid black;  padding:2px; margin:-2px; cursor: pointer;" onclick="this.parentElement.style.display='none'">X</span>This tool allows Ryuutama GMs to select helpful cards which can be downloaded, then printed using the RPG Cards tool linked below, and given to players to help them remember items and rules. Ryuutama is an RPG by <a href="https://kotohi.com/" title="kotohi home page">Kotodama Heavy Industries</a>. The rule book is available through <a href="https://www.drivethrurpg.com/product/151366/Ryuutama--Natural-Fantasy-Roleplay" title="Ryuutama on DriveThruRPG">DriveThruRPG</a>, and a physical book/PDF combo are availble through <a href="https://www.indiepressrevolution.com/xcart/Ryuutama-Print-PDF.html" title="Ryuutama on Indie Press Revolution">Indie Press Revolution</a>.</p>
 </div>
 <div id="input" style="display: block;width:100%;margin-top:50px;"><hr />
 <span id="cardDownload" style="display: block;" onclick="downloadCards();">Download (0) selected cards as a json file.</span>
