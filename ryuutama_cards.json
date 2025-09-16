@@ -3,7 +3,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Insect Repellant Candle",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (10g)",
       "rule",
@@ -25,7 +25,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Stuffed Animal",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (100g)",
       "rule",
@@ -46,7 +46,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Pillow",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (10g)",
       "rule",
@@ -67,7 +67,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Portable Bath",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (450g)",
       "rule",
@@ -88,7 +88,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Flow Stone",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (20g)",
       "rule",
@@ -109,7 +109,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Large Tent",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (500g)",
       "rule",
@@ -130,7 +130,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Arctic Tent",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (300g)",
       "rule",
@@ -152,7 +152,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Tent",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (120g)",
       "rule",
@@ -173,7 +173,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Sleeping Bag",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (50g)",
       "rule",
@@ -194,7 +194,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Bedding",
-    "icon": "camping-tent",
+    "icon_front": "camping-tent",
     "contents": [
       "subtitle | Camping Equipment (40g)",
       "rule",
@@ -215,7 +215,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Grandfather Clock",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (1000g)",
       "rule",
@@ -236,7 +236,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Instrument",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (300g)",
       "rule",
@@ -258,7 +258,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Hand Mirror",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (300g)",
       "rule",
@@ -279,7 +279,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Rope",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (50g)",
       "rule",
@@ -300,7 +300,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Repair Kit",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (100g)",
       "rule",
@@ -321,7 +321,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Utensils",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (10g)",
       "rule",
@@ -342,7 +342,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Firestarter Set",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (20g)",
       "rule",
@@ -363,7 +363,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Lantern",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (80g)",
       "rule",
@@ -384,7 +384,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Torch",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (5G)",
       "rule",
@@ -405,7 +405,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Compass",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (1500g)",
       "rule",
@@ -426,7 +426,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Umbrella",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (50g)",
       "rule",
@@ -449,7 +449,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Washing Set",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (15G)",
       "rule",
@@ -470,7 +470,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Soap",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (5G)",
       "rule",
@@ -491,7 +491,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Leather Notebook",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (100g)",
       "rule",
@@ -512,7 +512,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Leather Page",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (2G)",
       "rule",
@@ -533,7 +533,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Glass Pen",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (120g)",
       "rule",
@@ -554,7 +554,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Quill Pen",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (2G)",
       "rule",
@@ -575,7 +575,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Perfume",
-    "icon": "lantern-flame",
+    "icon_front": "lantern-flame",
     "contents": [
       "subtitle | Sundry (500g)",
       "rule",
@@ -596,7 +596,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Herb Bottle",
-    "icon": "swap-bag",
+    "icon_front": "swap-bag",
     "contents": [
       "subtitle | Small Container (100g)",
       "rule",
@@ -619,7 +619,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Belt Pouch",
-    "icon": "swap-bag",
+    "icon_front": "swap-bag",
     "contents": [
       "subtitle | Small Container (30g)",
       "rule",
@@ -642,7 +642,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Travel Bag",
-    "icon": "swap-bag",
+    "icon_front": "swap-bag",
     "contents": [
       "subtitle | Small Container (10g)",
       "rule",
@@ -665,7 +665,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Magic Jar",
-    "icon": "swap-bag",
+    "icon_front": "swap-bag",
     "contents": [
       "subtitle | Small Container (2000g)",
       "rule",
@@ -688,7 +688,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Waterskin",
-    "icon": "swap-bag",
+    "icon_front": "swap-bag",
     "contents": [
       "subtitle | Small Container (30g)",
       "rule",
@@ -710,7 +710,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Wooden Chest",
-    "icon": "chest",
+    "icon_front": "chest",
     "contents": [
       "subtitle | Big Container (10g)",
       "rule",
@@ -732,7 +732,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Large Backpack",
-    "icon": "chest",
+    "icon_front": "chest",
     "contents": [
       "subtitle | Big Container (40g)",
       "rule",
@@ -754,7 +754,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Backpack",
-    "icon": "chest",
+    "icon_front": "chest",
     "contents": [
       "subtitle | Big Container (20g)",
       "rule",
@@ -776,7 +776,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Barrel",
-    "icon": "chest",
+    "icon_front": "chest",
     "contents": [
       "subtitle | Big Container (10g)",
       "rule",
@@ -798,7 +798,7 @@
     "count": 1,
     "color": "GoldenRod",
     "title": "Baby",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.3)",
       "rule",
@@ -819,7 +819,7 @@
     "count": 1,
     "color": "GoldenRod",
     "title": "Loud",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.7)",
       "rule",
@@ -839,7 +839,7 @@
     "count": 1,
     "color": "GoldenRod",
     "title": "Bad Attitude",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.7)",
       "rule",
@@ -859,7 +859,7 @@
     "count": 1,
     "color": "GoldenRod",
     "title": "Well-Traveled",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (+5000g)",
       "rule",
@@ -881,7 +881,7 @@
     "count": 1,
     "color": "GoldenRod",
     "title": "Loyal",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (+1000g)",
       "rule",
@@ -901,7 +901,7 @@
     "count": 1,
     "color": "GoldenRod",
     "title": "Clever",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (x3)",
       "rule",
@@ -921,7 +921,7 @@
     "count": 1,
     "color": "GoldenRod",
     "title": "Tough",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (x2)",
       "rule",
@@ -941,7 +941,7 @@
     "count": 1,
     "color": "saddlebrown",
     "title": "Pet Animal",
-    "icon": "horse-head-2",
+    "icon_front": "horse-head-2",
     "contents": [
       "subtitle | Animal (300g)",
       "rule",
@@ -963,7 +963,7 @@
     "count": 1,
     "color": "saddlebrown",
     "title": "Large Pack Animal",
-    "icon": "horse-head-2",
+    "icon_front": "horse-head-2",
     "contents": [
       "subtitle | Animal (2000g)",
       "rule",
@@ -985,7 +985,7 @@
     "count": 1,
     "color": "saddlebrown",
     "title": "Pack Animal",
-    "icon": "horse-head-2",
+    "icon_front": "horse-head-2",
     "contents": [
       "subtitle | Animal (500g)",
       "rule",
@@ -1007,7 +1007,7 @@
     "count": 1,
     "color": "saddlebrown",
     "title": "Large Riding Animal",
-    "icon": "horse-head-2",
+    "icon_front": "horse-head-2",
     "contents": [
       "subtitle | Animal (3800g)",
       "rule",
@@ -1029,7 +1029,7 @@
     "count": 1,
     "color": "saddlebrown",
     "title": "Riding Animal",
-    "icon": "horse-head-2",
+    "icon_front": "horse-head-2",
     "contents": [
       "subtitle | Animal (900g)",
       "rule",
@@ -1051,7 +1051,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Accessory",
-    "icon": "steampunk-goggles",
+    "icon_front": "steampunk-goggles",
     "contents": [
       "subtitle | Traveling Gear: Accessory (100g)",
       "rule",
@@ -1074,7 +1074,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Goggles",
-    "icon": "steampunk-goggles",
+    "icon_front": "steampunk-goggles",
     "contents": [
       "subtitle | Traveling Gear: Accessory (4000g)",
       "rule",
@@ -1097,7 +1097,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Sand Hood",
-    "icon": "outback-hat",
+    "icon_front": "outback-hat",
     "contents": [
       "subtitle | Traveling Gear: Hat (340g)",
       "rule",
@@ -1120,7 +1120,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Woolen Hat",
-    "icon": "outback-hat",
+    "icon_front": "outback-hat",
     "contents": [
       "subtitle | Traveling Gear: Hat (200g)",
       "rule",
@@ -1143,7 +1143,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Sun Hat",
-    "icon": "outback-hat",
+    "icon_front": "outback-hat",
     "contents": [
       "subtitle | Traveling Gear: Hat (180g)",
       "rule",
@@ -1166,7 +1166,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Cap",
-    "icon": "outback-hat",
+    "icon_front": "outback-hat",
     "contents": [
       "subtitle | Traveling Gear: Hat (120g)",
       "rule",
@@ -1189,7 +1189,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Snow Staff",
-    "icon": "wizard-staff",
+    "icon_front": "wizard-staff",
     "contents": [
       "subtitle | Traveling Gear: Staff (280g)",
       "rule",
@@ -1212,7 +1212,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Hiking Staff",
-    "icon": "wizard-staff",
+    "icon_front": "wizard-staff",
     "contents": [
       "subtitle | Traveling Gear: Staff (100g)",
       "rule",
@@ -1235,7 +1235,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Walking Stick",
-    "icon": "wizard-staff",
+    "icon_front": "wizard-staff",
     "contents": [
       "subtitle | Traveling Gear: Staff (50g)",
       "rule",
@@ -1258,7 +1258,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Sun Cape",
-    "icon": "cape",
+    "icon_front": "cape",
     "contents": [
       "subtitle | Traveling Gear: Cape (400g)",
       "rule",
@@ -1281,7 +1281,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Fire Cape",
-    "icon": "cape",
+    "icon_front": "cape",
     "contents": [
       "subtitle | Traveling Gear: Cape (700g)",
       "rule",
@@ -1305,7 +1305,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Camo Cape",
-    "icon": "cape",
+    "icon_front": "cape",
     "contents": [
       "subtitle | Traveling Gear: Cape (400g)",
       "rule",
@@ -1328,7 +1328,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Raincoat",
-    "icon": "cape",
+    "icon_front": "cape",
     "contents": [
       "subtitle | Traveling Gear: Cape (400g)",
       "rule",
@@ -1351,7 +1351,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Warm Cape",
-    "icon": "cape",
+    "icon_front": "cape",
     "contents": [
       "subtitle | Traveling Gear: Cape (160g)",
       "rule",
@@ -1374,7 +1374,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Windbreaker",
-    "icon": "cape",
+    "icon_front": "cape",
     "contents": [
       "subtitle | Traveling Gear: Cape (120g)",
       "rule",
@@ -1397,7 +1397,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Jungle Boots",
-    "icon": "boots",
+    "icon_front": "boots",
     "contents": [
       "subtitle | Traveling Gear: Shoes (600g)",
       "rule",
@@ -1420,7 +1420,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Mud Boots",
-    "icon": "boots",
+    "icon_front": "boots",
     "contents": [
       "subtitle | Traveling Gear: Shoes (500g)",
       "rule",
@@ -1443,7 +1443,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Snow Boots",
-    "icon": "boots",
+    "icon_front": "boots",
     "contents": [
       "subtitle | Traveling Gear: Shoes (500g)",
       "rule",
@@ -1466,7 +1466,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Climbing Shoes",
-    "icon": "boots",
+    "icon_front": "boots",
     "contents": [
       "subtitle | Traveling Gear: Shoes (450g)",
       "rule",
@@ -1489,7 +1489,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Walking Shoes",
-    "icon": "boots",
+    "icon_front": "boots",
     "contents": [
       "subtitle | Traveling Gear: Shoes (350g)",
       "rule",
@@ -1512,7 +1512,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Rain Boots",
-    "icon": "boots",
+    "icon_front": "boots",
     "contents": [
       "subtitle | Traveling Gear: Shoes (300g)",
       "rule",
@@ -1535,7 +1535,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Heavy Shield",
-    "icon": "shield",
+    "icon_front": "shield",
     "contents": [
       "subtitle | Armor: Shield (1200g)",
       "rule",
@@ -1561,7 +1561,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Light Shield",
-    "icon": "shield",
+    "icon_front": "shield",
     "contents": [
       "subtitle | Armor: Shield (400g)",
       "rule",
@@ -1587,7 +1587,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Heavy Armor",
-    "icon": "armor-vest",
+    "icon_front": "armor-vest",
     "contents": [
       "subtitle | Armor (10000g)",
       "rule",
@@ -1611,7 +1611,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Medium Armor",
-    "icon": "armor-vest",
+    "icon_front": "armor-vest",
     "contents": [
       "subtitle | Armor (2000g)",
       "rule",
@@ -1635,7 +1635,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Light Armor",
-    "icon": "armor-vest",
+    "icon_front": "armor-vest",
     "contents": [
       "subtitle | Armor (900g)",
       "rule",
@@ -1659,7 +1659,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Clothes",
-    "icon": "armor-vest",
+    "icon_front": "armor-vest",
     "contents": [
       "subtitle | Armor (50g)",
       "rule",
@@ -1683,7 +1683,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Unarmed",
-    "icon": "mixed-swords",
+    "icon_front": "mixed-swords",
     "contents": [
       "subtitle | Weapon (Not sold)",
       "rule",
@@ -1708,7 +1708,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Bow",
-    "icon": "mixed-swords",
+    "icon_front": "mixed-swords",
     "contents": [
       "subtitle | Weapon (750g)",
       "rule",
@@ -1734,7 +1734,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Axe",
-    "icon": "mixed-swords",
+    "icon_front": "mixed-swords",
     "contents": [
       "subtitle | Weapon (500g)",
       "rule",
@@ -1759,7 +1759,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Polearm",
-    "icon": "mixed-swords",
+    "icon_front": "mixed-swords",
     "contents": [
       "subtitle | Weapon (350g)",
       "rule",
@@ -1784,7 +1784,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Blade",
-    "icon": "mixed-swords",
+    "icon_front": "mixed-swords",
     "contents": [
       "subtitle | Weapon (700g)",
       "rule",
@@ -1809,7 +1809,7 @@
     "count": 1,
     "color": "dimgray",
     "title": "Light Blade",
-    "icon": "mixed-swords",
+    "icon_front": "mixed-swords",
     "contents": [
       "subtitle | Weapon (400g)",
       "rule",
@@ -1834,7 +1834,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Broken",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.5)",
       "rule",
@@ -1855,7 +1855,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Cursed",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.5)",
       "rule",
@@ -1875,7 +1875,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Smelly",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.7)",
       "rule",
@@ -1895,7 +1895,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Uncool",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.8)",
       "rule",
@@ -1915,7 +1915,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Gross",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.8)",
       "rule",
@@ -1935,7 +1935,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Used",
-    "icon": "cursed-star",
+    "icon_front": "cursed-star",
     "contents": [
       "subtitle | Modifier (x0.8)",
       "rule",
@@ -1955,7 +1955,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Orichalcum",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (x50)",
       "rule",
@@ -1977,7 +1977,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Mythril",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (x10)",
       "rule",
@@ -1999,7 +1999,7 @@
     "count": 1,
     "color": "Gold",
     "title": "High Quality",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (x5)",
       "rule",
@@ -2022,7 +2022,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Sturdy",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (x3)",
       "rule",
@@ -2042,7 +2042,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Beautiful",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (x2)",
       "rule",
@@ -2062,7 +2062,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Plus One",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Magical Modifier (+8000)",
       "rule",
@@ -2087,7 +2087,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Speaking",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Magical Modifier (+2000)",
       "rule",
@@ -2109,7 +2109,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Shining",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Magical Modifier (+1200)",
       "rule",
@@ -2131,7 +2131,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Walking",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Magical Modifier (+5000)",
       "rule",
@@ -2153,7 +2153,7 @@
     "count": 1,
     "color": "Gold",
     "title": "Cute",
-    "icon": "star-formation",
+    "icon_front": "star-formation",
     "contents": [
       "subtitle | Modifier (x2)",
       "rule",
@@ -2173,7 +2173,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Barrierwood Stalk",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Enhance Type (not sold)",
       "rule",
@@ -2197,7 +2197,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Black Temple Melon",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Enhance Type (Not sold)",
       "rule",
@@ -2221,7 +2221,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Windcrying Tulip",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Enhance Type (Not sold)",
       "rule",
@@ -2245,7 +2245,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Kingmilk Salve",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Enhance Type (Not sold)",
       "rule",
@@ -2269,7 +2269,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Firefly Darkpouch",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Enhance Type (800g)",
       "rule",
@@ -2294,7 +2294,7 @@
     "color": "ForestGreen",
     "title": "White Night Chrysanthemum",
 	"title_size": 11,
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Mental Type (800g)",
       "rule",
@@ -2318,7 +2318,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Moonlight Snowgrass",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Mental Type (800g)",
       "rule",
@@ -2342,7 +2342,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Churchbell Dayflower",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Mental Type (300g)",
       "rule",
@@ -2366,7 +2366,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Daybreak Crimsonflower",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Physical Type (800g)",
       "rule",
@@ -2390,7 +2390,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Demon Lacquer",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Physical Type (300g)",
       "rule",
@@ -2414,7 +2414,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Giant's Palm",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Physical Type (300g)",
       "rule",
@@ -2439,7 +2439,7 @@
     "color": "ForestGreen",
     "title": "Crowned Morning Glory",
 	"title_size": 11,
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Physical Type (100g)",
       "rule",
@@ -2463,7 +2463,7 @@
     "count": 1,
     "color": "ForestGreen",
     "title": "Sunset Hime Apple",
-    "icon": "linden-leaf",
+    "icon_front": "linden-leaf",
     "contents": [
       "subtitle | Physical Type (100g)",
       "rule",
@@ -2487,7 +2487,7 @@
     "count": 1,
     "color": "darkblue",
     "title": "Candy Ice Cube",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Winter Magic: Low Level",
@@ -2516,7 +2516,7 @@
     "count": 1,
     "color": "darkblue",
     "title": "Cool Masquerade",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Winter Magic: Low Level",
@@ -2545,7 +2545,7 @@
     "count": 1,
     "color": "darkblue",
     "title": "Snowball Storm",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Winter Magic: Low Level",
@@ -2574,7 +2574,7 @@
     "count": 1,
     "color": "darkblue",
     "title": "Winter Sleep",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Winter Magic: Low Level",
@@ -2603,7 +2603,7 @@
     "count": 1,
     "color": "darkorange",
     "title": "Fallen Leaves",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Fall Magic: Low Level",
@@ -2631,7 +2631,7 @@
     "count": 1,
     "color": "darkorange",
     "title": "Harvest Moon",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Fall Magic: Low Level",
@@ -2661,7 +2661,7 @@
     "count": 1,
     "color": "darkorange",
     "title": "Otome Tears",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Fall Magic: Low Level",
@@ -2689,7 +2689,7 @@
     "count": 1,
     "color": "darkorange",
     "title": "Magic Jam Bottle",
-    "icon": "sparkles",
+    "icon_front": "sparkles",
     "icon_back": "robe",
     "contents": [
       "subtitle | Ritual Fall Magic: Low Level",
@@ -2719,7 +2719,7 @@
     "count": 1,
     "color": "crimson",
     "title": "Min-Min Cicada Chorus",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Summer Magic: Low Level",
@@ -2750,7 +2750,7 @@
     "count": 1,
     "color": "crimson",
     "title": "Vacation Vitality",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Summer Magic: Low Level",
@@ -2779,7 +2779,7 @@
     "count": 1,
     "color": "crimson",
     "title": "Briar Nonno",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Summer Magic: Low Level",
@@ -2809,7 +2809,7 @@
     "color": "crimson",
     "title": "Koro-pok-kuru Cute Leaf",
 	"title_size": 11,
-    "icon": "sparkles",
+    "icon_front": "sparkles",
     "icon_back": "robe",
     "contents": [
       "subtitle | Ritual Summer Magic: Low Level",
@@ -2839,7 +2839,7 @@
     "count": 1,
     "color": "darkgreen",
     "title": "A Little Beauty",
-    "icon": "sparkles",
+    "icon_front": "sparkles",
     "icon_back": "robe",
     "contents": [
       "subtitle | Ritual Spring Magic: Low Level",
@@ -2868,7 +2868,7 @@
     "count": 1,
     "color": "darkgreen",
     "title": "Cure Plus Plus",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Spring Magic: Low Level",
@@ -2897,7 +2897,7 @@
     "count": 1,
     "color": "darkgreen",
     "title": "Emina Nonno",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Spring Magic: Low Level",
@@ -2926,7 +2926,7 @@
     "count": 1,
     "color": "darkgreen",
     "title": "Wake up and Stand Up",
-    "icon": "lightning-branches",
+    "icon_front": "lightning-branches",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Spring Magic: Low Level",
@@ -2955,7 +2955,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Tastegood Taste",
-    "icon": "white-book",
+    "icon_front": "white-book",
     "icon_back": "robe",
     "contents": [
       "subtitle | Ritual Incantation: Low Level",
@@ -2985,7 +2985,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Round Reflection",
-    "icon": "white-book",
+    "icon_front": "white-book",
     "icon_back": "robe",
     "contents": [
       "subtitle | Ritual Incantation: Low Level",
@@ -3014,7 +3014,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Shooting Star",
-    "icon": "book-storm",
+    "icon_front": "book-storm",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Incantation: Low Level",
@@ -3043,7 +3043,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Cure Touch",
-    "icon": "book-storm",
+    "icon_front": "book-storm",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Incantation: Low Level",
@@ -3072,7 +3072,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Enhanced Red Hand",
-    "icon": "book-storm",
+    "icon_front": "book-storm",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Incantation: Low Level",
@@ -3101,7 +3101,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Arrow Compass",
-    "icon": "book-storm",
+    "icon_front": "book-storm",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Incantation: Low Level",
@@ -3132,7 +3132,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Alert Bell Alarm",
-    "icon": "book-storm",
+    "icon_front": "book-storm",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Incantation: Low Level",
@@ -3163,7 +3163,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Animal Tamer",
-    "icon": "white-book",
+    "icon_front": "white-book",
     "icon_back": "robe",
     "contents": [
       "subtitle | Ritual Incantation: Low Level",
@@ -3192,7 +3192,7 @@
     "count": 1,
     "color": "maroon",
     "title": "Pure Crystalight",
-    "icon": "book-storm",
+    "icon_front": "book-storm",
     "icon_back": "robe",
     "contents": [
       "subtitle | Normal Incantation: Low Level",
@@ -3217,4 +3217,5 @@
 	  "normal-magic"
     ]
   }
+
 ]
